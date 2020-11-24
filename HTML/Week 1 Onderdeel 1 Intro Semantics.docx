@@ -1,27 +1,148 @@
-Onderdeel 1: 
-Er zijn regels hoe HTML toegepast wordt. De opdrachten zijn gemaakt om meer inzicht te krijgen hoe deze regels zijn opgesteld. Maak de opdrachten hieronder. 
-Om mee te beginnen, lees hier wat HTML inhoudt. 
+Onderdeel 1: Intro
 
-Intro 
+---Zie HTML document voor alle coding Week 1 Onderdeel 1 opdrachten.
+
+
 1. Wat is het verschil tussen het internet en het world wide web? 
+World Wide Web, is een stukje van het internet. Het internet is een wereldwijde netwerk die miljoenen computers met elkaar verbindt, denk aan hardware, routers, kabels, computers enz. De WWW is een grote verzameling van pagina's van informatie die je met een simpele muisklik kan bekijken.
+
 2. Wat is het verschil tussen HTML, CSS en JavaScript? 
+HTML geeft structuur aan de website
+CSS geeft opmaak aan de website 
+Javascript gaat om de functionaliteit van de website (interactief maken van de website)
+
 3. Wat is een HTML tag en een HTML element? Hoe open je een HTML tag en hoe sluit je een HTML tag. Maak hiervoor voorbeelden en leg uit. 
+<html> <head></head></html> - Geeft begin en eind van een HTML pagina weer, dit wordt de HTML-element genoemd. <HTML> en </HTML> zijn de tags
+
 4. HTML gebruikt basis tags om structuur op te bouwen. De <html>, <head> en <body>. Geef voor elke element aan waarvoor het dient. 
-5. Op HTML elementen kun je attributen gebruiken. Wat zijn HTML attributen ? Geef minimaal 5 attributen en maak voorbeelden waar je de attributen in toepast. 
+Zie hieronder uitgeschreven html code uitgeschreven.
+Het <head> -element is een container voor metadata (data over data) en wordt tussen de <html> -tag en de <body> -tag geplaatst. Metadata zijn gegevens over het HTML-document. Metagegevens worden niet weergegeven. Metadata definiëren doorgaans de documenttitel, tekenset, stijlen, scripts en andere metagegevens.
+      	
+    <html> (tag daarin staat de structuur van je HTML document.)
+        <head> (tag waarin metadata in staat en is niet zichtbaar op de pagina. De title tag is wel zichtbaar op de pagina)
+        Title (Titel van je website)
+        Styles (css)
+        Scripts (javascript)
+         Metadata (kernwoorden die van belang zijn voor je website, deze worden door de zoekmachine gebruikt)
+    </head>
+        <body> (tag bevat alle tags, elementen die zichtbaar zijn op de pagina)
+    (je website)
+        </body> 
+    </html>
+
+5. Op HTML elementen kun je attributen gebruiken. Wat zijn HTML attributen? Geef minimaal 5 attributen en maak voorbeelden waar je de attributen in toepast. 
+
+Een attribuut geeft extra informatie over een element. Attributen worden altijd geschreven in de start-tag en worden gevolgd door een gelijk teken.
+
+- Style attribute 
+<h2 style="background-color: #ff0000;">Mijn eerste HTML pagina.</h2>
+- class attribute
+<p class="important">Let op dit is belangrijk</p>
+- id attribute ID="id-waarde"
+<h1 id="myHeader">My Header</h1>
+- Title attribute TITLE="waarde”
+<p title="Free Web tutorials">W3Schools.com</p>
+- href attribute 
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
 6. Waarom is een goede HTML Structuur belangrijk? Is deze code een goede structuur? Leg uit. 
-7. Wat is het verschil tussen inline en block elementen? 
+Belangrijk, zodat je een goed overzicht kan houden over wat je in HTML hebt gedaan en kan aanpassen waar nodig. Je ziet welke tag, element, paragrafen etc. hebt geschreven.
+HTML-structuur geeft betekenis aan wat er wordt weergegeven en de browser weet hoe (of) het anders gestyled moet worden.
+HTML code voorbeeld, de structuur is niet goed. De basis van de HTML is neergezet, maar de daadwerkelijke tekst die de pagina maken is niet gestructureerd. Er staat alleen een stuk tekst tussen de “body tag”.  Niks is gedefinieerd in tags of elements. Het resultaat is dat je een lege pagina krijgt met enkel een stuk zwarte tekst op witte achtergrond.
+
+7. Wat is het verschil tussen inline en block elementen? 	
+Een block-level element begint altijd op een nieuwe regel en neemt de volle breedte van het browservenster in. Het strekt zich uit naar links en rechts uit zo ver als het kan. Een inline element start niet op een nieuwe regel en beslaat slechts zo veel breedte als het nodig heeft om wat erin staat weer te geven
+https://www.w3schools.com/html/html_blocks.asp
+Inline: <span> <img> <a>
+The following span is an <span>inline element</span>; its background has been colored to display both the beginning and end of the inline element's influence.
+
+Block: <div> <section> <p>
+The following paragraph is a <div>
+    block-level element;
+its background has been colored to display both the beginning and end of the block-level element's influence.
+
 8. Wat betekent nesting? Codeer een voorbeeld met nesting erin. 
+Nesting betekent elementen die binnen elementen worden geplaatst
+It is a common practice to place multiple <div> inside another <div>. This is usually referred to as "nesting" elements and allows for further dividing elements into subsections or aid developers with CSS styling.
+The <div class="outer-div"> is used to group together two <div class="inner-div"> elements; each containing a <p> element.
+        <div class="outer-div">
+            <div class="inner-div">
+                    <p>This is a paragraph</p>
+            </div>
+            <div class="inner-div">
+                <p>This is another paragraph</p>
+            </div>
+        </div>
 
 
 Semantics  
-9. Sinds de komst van HTML5 zijn er elementen die betekenissen hebben. Wat  wordt er bedoeld met HTML semantics? Waarom is het gebruik van  semantics belangrijk?  
+9. Sinds de komst van HTML5 zijn er elementen die betekenissen hebben. Wat  wordt er bedoeld met HTML semantics? 
+HTML elementen gebruiken met betekenis, wat er precies gebeurd binnen het element.
+           Waarom is het gebruik van semantics belangrijk?  
+           Semantics is belangrijk om: vindbaarheid, structuur van de inhoud 
+
 Lees meer over semantics markup  
+FreeCodeCamp - https://www.freecodecamp.org/news/semantic-html5-elements/
+Read more: https://html.com/semantic-markup/#ixzz6ehwV3JAD
+
 10.Wat voor content zou je in de volgende elementen gebruiken?  Geef in je antwoord voor elk element een toelichting.  
-● <header>  
-● <footer>  
-● <main>  
-● <nav>  
-● <section>  
-● <aside>  
-● <article>  
+    <header>  (bijvoorbeeld, logo, menu, top navbar)
+    <footer>  (bijvoorbeeld, staat meestal onderaan, contact, telefoon, adres. copyright)
+    <main>  (Inhoud van de website, tekst/paragrafen)
+    <nav>  (Een verzameling van navigatielinks voor de website)
+    <section>  (Scheiding van het inhoud, bijvoorbeeld hoofdthema “sport”)
+    <aside>  (Extra content dat gerelateerd is aan het hoofd content/thema)
+    <article>  (Een losstaand stukje in een website/ widget/ nieuwsbericht, of een andere onafhankelijk)
+
+
 Headers 
+Het gebruik van headers is belangrijk voor zoekmachines en de gebruikers van je website. 
+11. Onderzoek en leg uit waarom headers zowel belangrijk zijn voor zoekmachines als voor de gebruikers. 
+Headers zijn belangrijk, omdat zowel mensen als zoekmachines trefwoorden en filters gebruiken om de gezochte nodige informatie te vinden. Het geeft aan wat veel meer belang is.
+Voor het aanmaken van een text-header, in het Nederlands een subkop of kop, kan je gebruik maken van een Header tag. Je kunt verschillende grootte koppen creëren. 
+12. Onderzoek hoe je een text-header aanmaakt en reproduceer het volgende 
+---Zie HTML document voor alle coding Week 1 Onderdeel 1 opdrachten.
+        <h1> Headings opdrachten</h1>
+             <h1> Heading 1</h1>
+             <h2> Heading 2</h2>
+             <h3> Heading 3</h3>
+             <h4> Heading 4</h4>
+             <h5> Heading 5</h5>
+            <h6> Heading 6</h6>
+
+
+Paragrafen  
+13.Onderzoek wat een paragraaf tag is en hoe hij gebruikt wordt.  Geef hier een voorbeeld bij.  
+Het is een tag die aangeeft dat het om een paragraaf gaat. 
+Bv:
+<p> dit is een paragraaf </p>
+
+14.Onderzoek en leg het verschil tussen het stoppen van alle tekst in één  paragraaf tag, en het opsplitsen van de tekst in meerdere tags uit.  
+Het is nodig om aan te geven dat de tekst uit meerdere alinea’s bestaat.       
+
+15.Reproduceer het volgende resultaat door gebruik te maken van text-headers  en de paragraaf tags.  
+
+
+Horizontal rule  
+We willen nu een footer toevoegen onderaan onze pagina. Onderzoek hoe een  horizontal rule werkt en start aan de onderstaande opdracht.  
+16.Voeg een Horizontal rule toe en reproduceer het volgende resultaat.  
+
+
+Link tags  
+In onze footer willen we graag linken naar de TechGrounds website. Onderzoek hoe  een link tag werkt.  
+17.Voeg een link tag toe en reproduceer het volgende resultaat in de footer. 
+
+Zodra een gebruiker op de link klikt wordt de pagina weergegeven in de huidige  browser window. Door gebruik te maken van attributen kan de link geopend worden  in bijvoorbeeld een nieuw tabblad. Voorbeelden van HTML attributen zijn  bijvoorbeeld een image tag die een “alt” attribuut heeft.  content is only indirectly related to the document's main content. Asides are frequently pre
+18. Onderzoek welke 4 attributen een link tag kan hebben, leg uit wat deze doen  en voeg deze als voorbeeld toe op je website.  
+Href
+
+<a href=”www.techgrounds.nl download> Techgrounds</a> 
+Download <a href=”www.techgrounds.nl download hidden> Techgrounds</a>  
+Rel <a rel=”nofollow” href=”http://www.functravel.com/”> Cheap flights</a>
+Target
+
+<a href=”www.techgrounds.nl target=”_self”> Techgrounds</a> 
+Hreflang: welke taal versie je van de link krijgt wanneer het selecteert.
+<a href="www.techgrounds.nl" hreflang="en">Techgrounds</a>
+
+
