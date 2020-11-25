@@ -102,4 +102,19 @@ Lijsten
                                     <dt>Kaas</dt>
                                     <dl>Gemaakt van melk.</dl>
                                 </dl>
-                                    
+
+Navigatiebalken
+    <nav> tag kan gebruikt worden als container tag voor een groep navigation links.
+                    <nav>
+                        <a href="/html/">html</a>
+                        <a href="/css/">CSS </a>
+                        <a href="/js/"> javascript</a>
+                        <a href="/python/">python </a>
+                    </nav>
+
+    -Href link in de lingtag stuurt je door naar een baselink + href redirect.
+        -Als je www.techground.nl zit en je eerste link klikt, je terecht komt op www.techgrounds.nl/html
+        -niet perse gebruikelijk.
+    -Wel gebruikelijk om een lijst te gebruiken <ul> tag <li> tag.
+    -Krijg je een lijst onder elkaar met links.
+    ----door CSS kan je het stylen naar een mooie navigatiebalk.
