@@ -1,4 +1,5 @@
 <!----HTML ONderdeel 2 Elementen------->
+
 Links
 <a href="wwww.techgrounds" target="_self">Link text</a>
 --Opent de link in huidige website // hetzelfde als leeg laten
@@ -15,5 +16,90 @@ Attributen
 Autoplay: video wordt automatisch gestart.
 Width & Height: breedte/hoogt vast te stellen. Niet gedefineerd kan de webpagina na het inladen van de video content omlaag duwen.
 Controls: Gebruikt in de video tag om afspeel, pauzeer, volume knop toe te voegen.
+
 <Source> scr=".." --welk videobesatnd je wilt gebruiken.  type=".." Definieert het soort type bestand.
-<audio> Gebruikt om audio af te spelen op een website door middel van de source tag.</audio>
+<audio> Gebruikt om audio af te spelen op een website door middel van de source tag.</audio> Hetzelfde als <video> zonder Width&Hight.
+
+<ifram> Eenvoudigste om video's af te spelen in HTML is om Youtube te gebruiken. Een Iframe/inline frame is een HTML document/webpagina
+    dat in ee nander HTML document is geplaatst. Bijvoorbeeld, embedded Youtube video's of advertenties.
+Title: gebruikt voor screenreaders om te zien wat de content van de frame is.
+Width & Height: Gebruikt om breedt/hoogte vast te stellen van de iframe. Standaard in pixels.
+Style: De styling aan te passen. Kan je with&height exact aanpassen, border delete, position etc.
+Name atribute, Hieronder Link tag met als target de Iframe tag name. De iframe gewijzigd wordt naar de link zijn href, zodra hierop geklikt wordt.
+    De link wordt geopenend in onze iframe, bijvoorbeeld:
+        <iframe scre="content.htm" name="iframe_a" title="iframe example"> ... </iframe>
+        <p><a href="www.techgrounds.nl" target="iframe_a">Techgrounds.nl</a></p>
+
+Youtube
+    1.Naar de des betreffende video gaan
+    2.Delen > Embed> kopieren (iframe code)
+    3.Attributen kan opzoeken en wijzigen tot je gewenste resultaat hebt bereikt.
+
+<section>
+    -Reprensenteerd een alleenstaande sectie binnen HTML document.
+    -Vaak heeft een sectie zijn eigen heading.
+    -Secties verdeel je HTML document in verschillende onderdelen.
+Bijvoorbeeld:
+        <section>
+            <h2>WWF history</h2>
+            <p> Uitleg....</p>
+        </section
+        <section>
+            <h2>WWF's symbol</h2>
+            <p> Uitleg....</p>
+        </section>
+-Section opdelen van een webpagina per nieuw onderwerp of onderdeel. Geeft begin aan van nieuw onderdeel.
+
+DIV tag <div>
+    -Geen semantische betekenings, zoals <section>
+Bijvoorbeeld:
+        <div class="color-blue">
+            <h2> Heading in div elemnt<h2/>
+            <p> text in div element </p>
+        </div>
+        <div class="color-black">
+            <h2>Heading in div element</h2>
+            <p> text in div element</p>
+        </div>
+
+Nesting, lijsten en navigatiebalken
+Nesting
+    -HtML elementen kunnen genest worden, bijvoorbeeld:
+            <!DOCTYPE html>
+            <html>
+            <body>
+                <h1>First heading</h1>
+                <p> First paragraph</p>
+            </body>
+            </html>
+    -Geneste elementen zijn elementen die in elkaar zitten, van Engelse term 'nesting'=objecten in elkaar geplaats kunnen worden, e.g. Nesting Doll.
+    -<h1> tag staat in de <body> tag genest.
+
+Lijsten
+    3 soorten lijsten
+        1. <ul> </ul> tag Unordered lijsten
+            Bijvoorbeeld (lijst in bullet points):
+                                <ul>
+                                    <li>Cofee</li>
+                                    <li>Tea</li>
+                                    <li>Milk</li>
+                                </ul>
+
+        2. <ol> </ol> tag Ordered lijsten
+            Bijvoorbeeld (gecijferde lijst):
+                                <ol>
+                                    <li>Cofee</li>
+                                    <li>Tea</li>
+                                    <li>Milk</li>
+                                </ol>
+        4. <li> </li> tag lijst element
+
+        3. <dl> </dl> tag data lijst (term + definitie)
+                <dt> term
+                <dd> definitie
+                        Bijvoorbeel:
+                                <dl>
+                                    <dt>Kaas</dt>
+                                    <dl>Gemaakt van melk.</dl>
+                                </dl>
+                                    
