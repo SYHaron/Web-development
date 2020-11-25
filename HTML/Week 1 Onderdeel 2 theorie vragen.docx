@@ -1,0 +1,19 @@
+<!----HTML ONderdeel 2 Elementen------->
+Links
+<a href="wwww.techgrounds" target="_self">Link text</a>
+--Opent de link in huidige website // hetzelfde als leeg laten
+<a href="wwww.techgrounds" target="_blank">Link text</a>
+--Opent de link in new window of tabblad
+<a href="wwww.techgrounds" target="_parent">Link text</a>
+--Opent het document in het parent frame. Het parent frame is de frame dat om het huidige frame heen zit.
+<a href="wwww.techgrounds" target="_top">Link text</a>
+--Opent Top zorgt ervoor de webpagina zal worden ingeladen in de body van je huidige pagina.
+
+Media
+<video> Waar in je <source> element defineert waar je het video formaat definieert.</video>
+Attributen
+Autoplay: video wordt automatisch gestart.
+Width & Height: breedte/hoogt vast te stellen. Niet gedefineerd kan de webpagina na het inladen van de video content omlaag duwen.
+Controls: Gebruikt in de video tag om afspeel, pauzeer, volume knop toe te voegen.
+<Source> scr=".." --welk videobesatnd je wilt gebruiken.  type=".." Definieert het soort type bestand.
+<audio> Gebruikt om audio af te spelen op een website door middel van de source tag.</audio>
