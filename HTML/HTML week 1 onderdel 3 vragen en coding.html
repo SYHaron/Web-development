@@ -8,6 +8,77 @@
 <body>
     
     <section>
+        <h4>9. Maak zelf een form, met hetgeen wat je hebt geleerd.</h4>
+        <form action="/" method="POST" id="newsform">
+        <fieldset>
+            <legend>Formulier inschrijven/uitschrijven nieuwsbrief</legend>
+            <br>    
+                <article>
+                    <label for="fname">Voornaam:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Voornaam">
+                </article>
+            <br>
+                <article>
+                    <label for="lname">Achternaam:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Achternaam">
+                </article>
+            <br>
+                <article>
+                    <label for="bday">Geboortedatum:</label>
+                    <input type="date" id="bday" name="bday">
+                </article>
+            <br>
+                <article>
+                    <label>Geslacht:</label>
+                    <input type="radio" id="male" name="gender" value="man">
+                    <label for="male">Man</label>
+                    
+                    <input type="radio" id="female" name="gender" value="vrouw">
+                    <label for="female">Vrouw</label>
+
+                    <input type="radio" id="other" name="gender" value="Anders">
+                    <label for="other">Anders</label>
+                </article>
+            <br>
+                <article>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </article>
+            <br>
+                <article>
+                    <legends> Inschrijven/Uitschrijven nieuwsbrief:</legends>
+            <br><br>
+                    <input type="radio" id="yesno" name="yesno" value="Inschrijven">
+                    <label for="yesno">Inschrijven</label>
+                    <input type="radio" id="yesno" name="yesno" value="Uitschrijven">
+                    <label for="yesno">Uitschrijven</label>
+                </article>
+            <br>
+                <article>
+                    <legends>Welke nieuwsbrief wilt uw inschrijven/uitschrijven:</legends>
+            <br><br>
+                        <input type="checkbox" id="news" name="news" value="Dagelijkse_nieuwsbrief">
+                        <label for="news">Dagelijkse nieuwsbrief</label>
+                        <input type="checkbox" id="news" name="news" value="Week_nieuwsbrief">
+                        <label for="news">Week nieuwsbrief</label>
+                        <input type="checkbox" id="news" name="news" value="Maand_nieuwsbrief">
+                        <label for="news">Maand nieuwsbrief</label>
+                </article>
+            <br>
+                <article>
+                    <Label for="unsubscribe_news">Indien van toepassing, reden van uitschrijving:</label>
+            <br><br>
+                    <textarea id="unsubscribe_news" name="uitschrijven" form="newsform" rows="10" cols="60" placeholder="Type hier">
+                    </textarea>
+            <br><br>
+                    <input type="submit" value="Inschrijven/Uitschrijven">
+                </article>
+
+        </fieldset>
+        </form>
+    </section>
+    
+    <section>
         <h1>HTML tables</h1>
         <h4>10.Om een tabel te maken heb je elementen nodig. Geef voor elk element een definitie.</h4>
         <a title="Uitleg table tag" href="https://www.w3schools.com/tags/tag_table.asp"> W3schools tag table</a>
@@ -30,64 +101,71 @@
     <section>
         <h4>11.Maak een tabel, &lt;table&gt; &lt;/table&gt; element.</h4>
         <table style="background-color: rgb(238, 230, 230);">
-            <tr>
+            <thead>
                 <th>Voornaam</th>
                 <th>Achternaam</th>
                 <th>Leeftijd</th>
                 <th>Telefoonnr.</th>
-            </tr>
-            <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>41</td>
-                <td>+31 12345678</td>
-            </tr>
-            <tr>
-                <td>steven</td>
-                <td>Smith</td>
-                <td>32</td>
-                <td>+31 12345678</td>
-            </tr>
-            <tr>
-                <td>Alexander</td>
-                <td>Beave</td>
-                <td>16</td>
-                <td>+31 12345678</td>
-            </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>41</td>
+                    <td>+31 12345678</td>
+                </tr>
+                <tr>
+                    <td>steven</td>
+                    <td>Smith</td>
+                    <td>32</td>
+                    <td>+31 12345678</td>
+                </tr>
+                <tr>
+                    <td>Alexander</td>
+                    <td>Beave</td>
+                    <td>16</td>
+                    <td>+31 12345678</td>
+                </tr>
+            </tbody>
         </table>
     </section>
 
     <section>
         <h4>12.Maak een agenda tabel, &lt;table&gt;&lt;/table&gt; element.</h4>
         <table style="background-color: rgb(238, 230, 230);">
-            <tr>
-                <th>MA</th>
-                <th>Di</th>
-                <th>Wo</th>
-                <th>Do</th>
-                <th>Vr</th>
-            </tr>
-            <tr>
-                <td>Afspraak met tandarts</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>Sport</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Huiswerk maken</td>
-                <td>Werken</td>
-                <td>Werken</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Afspraak met tandarts</td>
-                <td></td>
-                <td></td>
-                <td>Werken</td>
-                <td>Bij vrienden</td>
-            </tr>
+            <thead>
+                <tr> 
+                    <th>MA</th>
+                    <th>Di</th>
+                    <th>Wo</th>
+                    <th>Do</th>
+                    <th>Vr</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Afspraak met tandarts</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Sport</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Huiswerk maken</td>
+                    <td>Werken</td>
+                    <td>Werken</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Afspraak met tandarts</td>
+                    <td></td>
+                    <td></td>
+                    <td>Werken</td>
+                    <td>Bij vrienden</td>
+                </tr>
+            </tbody>
         </table>
     </section>
 </body>
