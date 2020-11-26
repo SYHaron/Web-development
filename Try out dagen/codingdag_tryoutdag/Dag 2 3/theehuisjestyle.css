@@ -1,0 +1,217 @@
+body {background-color:black; 
+        color: white;
+        margin:0;
+        padding:0;
+        
+}
+/*Heading: loge + menu */
+#topnav{text-transform: capitalize;}
+#topnav{ font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+    background-color:black;
+        width:100%;
+        height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+ }
+/*MENU buttons // hover // text*/
+/*UL: gehele lijst*/
+.ul, .menu{
+      margin: 10px; /*tussen ruimte*/
+    margin-top: 10px;
+}
+
+/*menu: hover color + text color*/
+.menu:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.menu {
+    color: white;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        text-decoration: none; /*link underline gone*/
+        margin-top: 20px;          
+                  
+}
+
+
+/*Mission element*/
+
+/*theebg-image: image*/
+.theebg{  max-width: 100%;
+            height: auto;
+              
+            width: auto;
+            padding: 0;
+            margin: 0;
+                text-transform: uppercase;
+                border-radius: auto;
+                background-color:black;
+                font-weight: bold;
+
+}
+/*text opmaak headings // paragraphs*/
+.h2missie:first-letter{ text-transform: capitalize; }
+.p1, .p2:first-letter, .ht2::first-letter{ text-transform: capitalize; }
+
+.h2missie, .p1, .p2, .ht2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: block;
+padding: 5px; /*ruimte "onze missie" en "text"*/
+margin: 5px; /*boven rand, transparante box*/
+}
+
+.missie { position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: center; /* Position the background text */
+        bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        padding: 1px; /* Some padding */
+       
+}
+
+
+
+/*thee soorten element*/  /*akopjes: text stijl onder div3b*/
+#div3, .akopjes {position: relative;
+        text-align: center;
+        color: white;
+        background-color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: blok;
+    padding: 0;
+    margin: 0;
+   
+}
+/*div3b: enkel fotos*/ /*first text; foto plaatsing */
+#div3bb{
+    display: inline-block;
+}
+/* .div3b {position: relative;
+        text-align: center;
+        color: white;
+        background-color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        max-width: 100%;
+        height: auto;
+                  
+                width: auto;
+                padding: 0;
+                margin: 0;
+                    text-transform: uppercase;
+                    border-radius: auto;
+                    background-color: black;
+                    font-weight: bold;
+}
+.ht2:first-letter{ text-transform: capitalize; }
+.p2:first-letter{ text-transform: capitalize; }  */
+
+/*theekopje = images theekopjes*/
+.figure{max-width: 50%;
+            padding: 0;
+            margin: 0;
+                          
+}
+/*kopjes = text plaatsing*/
+.akopjes{text-align: center;
+        width: [width of img];
+        text-transform: capitalize;
+                padding: 0;
+                margin: 0;
+}
+
+/*locaties element*/
+#locaties{ position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*citiesfoto: theepot inschenken*/
+.citiesfoto{ max-width: 100%;
+            height: auto;
+              
+            width: auto;
+            padding: 0;
+            margin: 0;
+                text-transform: uppercase;
+                border-radius: auto;
+                background-color: black;
+                font-weight: bold;
+
+}
+.city1{ text-transform: capitalize;
+    display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+      top: 50%;
+      left: 50%;
+          transform: translate(-50%, -50%);
+          position: center; /* Position the background text */
+          bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+          background: rgb(0, 0, 0); /* Fallback color */
+          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+          color: #f1f1f1; /* Grey text */
+          padding: 20px; /* Some padding */
+}
+.ht3, .city2{ text-transform: capitalize;
+  
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+        top: 50%;
+        left: 50%;
+            transform: translate(-50%, -50%);
+            position: center; /* Position the background text */
+            bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+            background: rgb(10, 14, 238); /* Fallback color */
+            background: rgba(60, 12, 233, 0.5); /* Black background with 0.5 opacity */
+            color: #f1f1f1; /* Grey text */
+            padding: 20px; /* Some padding */
+    }
+
+    .city3{ text-transform: capitalize;
+          display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+            top: 50%;
+            left: 50%;
+                transform: translate(-50%, -50%);
+                position: center; /* Position the background text */
+                bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+                background: rgb(54, 230, 48); /* Fallback color */
+                background: rgba(66, 252, 28, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1; /* Grey text */
+                padding: 20px; /* Some padding */
+   
+}
+/*footer element*/
+.p4:first-letter{text-transform: capitalize;}
+#footer{ font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: white;
+  background-color:black;
+      width:100%;
+      height:70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid white;
+}
+.p4::first-letter{text-transform: capitalize;}

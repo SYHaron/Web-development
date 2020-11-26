@@ -1,0 +1,71 @@
+/*Topnav*/
+#topnav{ font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+    background-color:black;
+        width:100%;
+        height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+ }
+ #ulmenu{
+    margin: 10px; /*tussen ruimte*/
+    margin-top: 10px;
+ }
+ /*Menu text*/ 
+.menu::first-letter{text-transform: capitalize;}
+  .menu{ 
+     color: white;
+     text-decoration: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+ }
+ /*Menu text turns yellow + can click it*/
+ .menu:hover{ 
+     color:yellow;
+     transition: 0.5s; 
+ }
+
+
+ /*Mission*/
+
+  /*Theesoorten*/
+
+
+  /*Locaties*/
+  #locaties{ text-transform: capitalize; 
+}
+  .citiess {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+
+    }
+  .city{
+    margin: 0%;
+    font-weight: bold;
+    color: #bb1919;
+    display: flex;
+    text-align: center;
+  }
+
+  .plaats{  text-align: center;  }
+  .local {    text-align: center;  }
+ 
+
+  /*Footer*/
+  .footertext:first-letter{text-transform: capitalize;}
+  #footer{ font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+    background-color:black;
+        width:100%;
+        height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+  }
