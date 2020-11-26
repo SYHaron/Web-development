@@ -43,7 +43,7 @@ Labels
             </form>
         Let op! Eerste regel.
             Zien we de actie en de method die bij de <form> horen. Dit is hoe we 'form-handler' definieren.
-            We maken gebruik van de 'POST method', betekent dat we data opsturen> die data opstuur naar een andere pagina op onze website.
+            We maken gebruik van de 'POST method', betekent dat we data opsturen> die data opstuurt naar een andere pagina op onze website.
             Op deze pagina zouden wij, zonder in detail te treden, een server kunnen verbinden die de data opvangt en voor ons opslaat.
 
 GET vs POST
@@ -184,3 +184,6 @@ Groeperen van onze tabellen
             </table>
     ----Hierboven kan je zien het geen invloed heeft op de weergave in onze pagina.
     ----Wel is onze data beter in te lezen voor screenreaders en browsers voor slechtzienden.
+
+Extra
+-- 'Placeholder atribute' : text tevoorschijn, maar kan gelijk beginnen met typen.
