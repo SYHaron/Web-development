@@ -1,0 +1,186 @@
+HTML Forms
+ -Gebruikt om gebruikers input te verzamelen
+ ---Deze data kan vervolgends worden opgestuurd naar een server om de data te verwerken of de website kan gebaseerd op de ingevulde daata acties verbinden.
+ 
+ Meerdere soorten HTML form elementen.
+
+ <Input>
+-Input element heeft een attribute genaamd 'type'. Door type te defienieren zal het input element op andere wijze weergegeven worden.
+---Bijvoorbeeld:
+            <form>
+                <input type="text">
+            </form>
+        Zie je een leeg tekstveld. Gebruikelijk om een label eraan toevoegen.
+
+            <form>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female0" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other"> Other</label>
+            </form>
+        Zie je 'radio buttons' = laat een gebruiker één optie kiezen + naast 'radio buttons' een label staan.
+
+Labels
+-Labels zijn erg handig voor gebruikers die gebruik maken van screenreaders. Door de labels zullen de labels harop voorgelezen worden wanneer
+  de gebruiker een input element highlight.
+-Door het klikken op een lagbel wordt de bijbehorende radio button/checkbox geactiveerd.
+-Het 'for' atribute van de label tag moet gelijk zijn aan het 'id' atribute van het input element, zodat deze aan elkaar verbonden zijn + juiste wijze werken.
+----Bijvoorbeeld:
+            <input type="submit">
+
+-Dit definieert een knop die de form data zal opsturen naar de gekozen locatie, dit noemen we 'form-handler'
+----Bijvoorbeeld:
+            <form action="/contact" method="POST">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                    <input type="radio" id="female0" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other"> Other</label>
+                    <input type="submit" value="Submit">
+            </form>
+        Let op! Eerste regel.
+            Zien we de actie en de method die bij de <form> horen. Dit is hoe we 'form-handler' definieren.
+            We maken gebruik van de 'POST method', betekent dat we data opsturen> die data opstuur naar een andere pagina op onze website.
+            Op deze pagina zouden wij, zonder in detail te treden, een server kunnen verbinden die de data opvangt en voor ons opslaat.
+
+GET vs POST
+-Verschil tusen beide, GET en POST method, is bij het gebruiken van GET method de resultaten zichtbaar worden in de URL.
+----Niet handig als je met gevoelige data en heeft limiet grote.
+-!!-Voor niet-gevoelige data kan je wel GET method gebruiken. 
+----Op deze manier wordt de input in de google search-bar meegestuurd.
+-!!-Voor gevoelige data gebruiken we POST method.
+
+!!In de gegeven voorbeelden staat in elk element een name atribute. Als 'name atribute' niet wordt meegegeven, wordt de data
+  van het input veld niet opgestuurd.!!
+
+HTML Form elementen
+-Binnen een 'Form Container' tags kunnen de volgende form elementen geplaatst worden:
+
+            <label>......</label>
+            <input>
+            <select>..........</select>
+            <textarea>......</textarea>
+            <button>.......</button>
+            <fieldset>.........</fieldset>
+            <legend>......</legend>
+            <datalist>.......</datalist>
+            <output>.....</output>
+            <option>....</option>
+            <option>.....</option>
+            <optgroup>....</optgroup>    
+
+--!-Voor zelfonderzoek belangrijk om te onderzoeken wat het verschil en welke atributen meegegeven moeten worden om
+    het gewilde resultaat te bereiken.
+
+HTML Form Input types
+-Zijn veel verschillende soorten 'input types'. Hieronder volgt een volledige lijst van input types:
+
+            <input type="button">
+            <input type="checkbox">
+            <input type="color">
+            <input type="date">
+            <input type="datetime-local">
+            <input type="email">
+            <input type="file">
+            <input type="hidden">
+            <input type="image">
+            <input type="month">
+            <input type="number">
+            <input type="password">
+            <input type="radio">
+            <input type="range">
+            <input type="reset">
+            <input type="search">
+            <input type="sumbmit">
+            <input type="tel">
+            <input type="text">
+            <input type="time">
+            <input type="url">
+            <input type="week">
+
+--Dit onderdeel wordt duidelijker door de opgaven.
+---Geen belang om het uit je hoofd te kennen.
+---Wel belang is het juist opzoeken en googlen naar gewilde input type.
+
+HTML tabellen
+-Zorgen ervoor dat de codeur de data kan groeperen in rijen en kolommen.
+-De <table> container tag definieert een HTML tabel.
+-Hierin plaatsen we rijen <tr>, bijbehorende headers <th>, tabelcel definieert <td>
+---Bijvoorbeeld:
+           
+            <table>
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Age</th>
+                </tr>
+
+                <tr>
+                    <td>Jill</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+            </table>
+
+    -Hierboven zie je 3 kolommen <th> tag, Vervolgens elke rij de <td>, 3x ingevulde waardes.
+    -Voor elke nieuwe toevoeging maken we een nieuwe rij aan <tr>.
+    --Titel toevoegen aan onze label, <caption> tag, bijvoorbeeld:
+            
+            <table>
+                <caption>Info avond data</caption>
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Age</th>
+                </tr>
+
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+            </table>
+
+Groeperen van onze tabellen
+-Er zijn 3 groepering element: thead, tbody, tfooter.
+--thead: headers te groeperen.
+--tbody: alle basis content te groeperen.
+--tfooter: de content die we als footer-content zien.
+---Bijvoorbeeld, alle headers in thead, alle basic data in tbody, onderdelen (opsommingen/totaal) in tfooter:
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Savings</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>$80</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>Sum</td>
+                        <td>$180</td>
+                    </tr>
+                </tfoot>
+            </table>
+    ----Hierboven kan je zien het geen invloed heeft op de weergave in onze pagina.
+    ----Wel is onze data beter in te lezen voor screenreaders en browsers voor slechtzienden.
