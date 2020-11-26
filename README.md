@@ -1,6 +1,6 @@
 # Web-development
 Techgrounds academy: Overview of subjects & projects.
-Main language: Dutch, terms: English/Dutch.
+<br>Main language: Dutch, terms: English/Dutch.
 
 Week 1: HTML
 * Onderdeel 1 Intro HTML
