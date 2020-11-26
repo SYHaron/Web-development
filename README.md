@@ -16,6 +16,10 @@ Techgrounds academy: Overview of subjects & projects.
     - Lijsten, links, navigatiebar
 
 * Onderdeel 3 Forms & Tabellen
+    - HTML forms: input, forms, labels, submit, GET vs POST
+    - HTML form elementen
+    - HTML Form input types
+    - HTML assignments
 
 * Onderdeel 4 Eindopdracht
 
