@@ -1,6 +1,6 @@
 # Web-development
 Techgrounds academy: Overview of subjects & projects.
-Language: Dutch, terms: English
+Main language: Dutch, terms: English/Dutch.
 
 #Week 1: HTML
 * Onderdeel 1 Intro HTML
@@ -22,7 +22,7 @@ Language: Dutch, terms: English
     - HTML Form input types
     - HTML assignments
 
-* Onderdeel 4 Eindopdracht
+* Onderdeel 4 Final assignment
 
 #Week 2
 tba
