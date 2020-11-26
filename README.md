@@ -1,5 +1,6 @@
 # Web-development
 Techgrounds academy: Overview of subjects & projects.
+(Language: Dutch, terms: English)
 
 #Week 1: HTML
 * Onderdeel 1 Intro HTML
