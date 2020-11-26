@@ -6,29 +6,288 @@
     <title>HTML week 1 onderdeel 3 Forms and Tables</title>
 </head>
 <body>
-    
+    <h1>HTML forms</h1>
     <section>
-        <h4>9. Maak zelf een form, met hetgeen wat je hebt geleerd.</h4>
-        <form action="/" method="POST" id="newsform">
+        <h4>1.Maak een HTML form waarbij de gebruik zijn naam en achternaam in kan vullen.</h4>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+                <label for="fname">Voornaam:</label>
+                <input type="text" id="fname" name="fname" placeholder="Vul hier je voornaam in">
+            <br><br>
+                <label for="lname">Achternaam:</label>
+                <input type="text" id="lname" name="lname" placeholder="Vul hier je achternaam in">
+            </fieldset>
+        </form>
+    </section>
+<!-----Vraag 2----------------->
+    <section>
+        <h4>2.Naast input text fields zijn er ook nog andere input fields, zoalds:</h4>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+        <fieldset>
+            <legend>Radio button input type</legend>
+            <input type="radio" id="male" name="gender" value="man">
+            <label for="male">Man</label>
+        <br>
+            <input type="radio" id="female" name="gender" value="vrouw">
+            <label for="female">Vrouw</label>
+       </fieldset>
+        </form> 
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+               <legend>Checkbox input type</legend>
+                <input type="checkbox" id="appel" name="appel" value="appel">
+                <label for="appel"> Ik houd van appels</label>
+            <br>
+                <input type="checkbox" id="geenfruit" name="fruit2" value="fruit2">
+                <label for="greenfruit"> Ik eet geen fruit</label> 
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Password input type</legend>
+                <label for="username">Gebruikersnaam:</label>
+            <br>
+                <input type="text" id="username" name="username" >
+            <br>
+                <label for="pwd">Wachtwoord:</label>
+            <br>
+                <input type="password" id="pwd" name="pwd">
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Reset input type</legend>
+                <label for="reset"></label>
+                <input type="reset" id="reset" value="Reset">
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Submit input type</legend>
+                <label for="submit"></label>
+                <input type="submit" id="submit" value="Verzenden">
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Geboortedatum / Date input type</legend>
+                <label for="bday">Geboortedatum:</label>
+                <input type="date" id="bday" name="bday">
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Search input type</legend>
+                <label for="gsearch">Zoeken:</label>
+                <input type="search" id="gsearch" name="gsearch" placeholder="Type hier je zoekopdracht">
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Tijd / Time input type</legend>
+                <label for="appt">Selecteer de tijd:</label>
+                <input type="time" id="tijd" name="tijd">
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Onzichtbaar webbrowser / Hidden input type</legend>
+                <input type="hidden" id="custId" name="custId" value="3487">
+            </fieldset>
+        </form>
+    <br>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Email input type</legend>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Vul hier je emailadres in">
+            </fieldset>
+        </form>
+    </section>
+<!----Vraag 3-------------->
+    <section>
+        <h4>3.Maak een input field met een sumbit knop.</h4>
+        <form action="/" method="POST" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+            <legend>Email input type</legend>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Vul hier je emailadres in">
+                <label for="submit"></label>
+                <input type="submit" id="submit" value="Verzenden">
+            </fieldset>
+        </form>
+        <h4>Tip! Wat gebeurt er wanneer je op de submit knop clickt met een random text?</h4>
+        <p>Als je gewoon een tekst invoert krijg je een melding dat je @ moet gebruiken.</p>
+    </section>
+<!----Vraag 4-------------->
+    <section>
+        <h4>4.Een formulier kun je ook groeperen, bouw er een aan de hand van het voorbeeld.</h4>
+        <form action="/" method="GET" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+                <legend>Persoons gegevens</legend>
+            <br>   <div><!-- Achternaam -->
+                    <label for="achternaam">Achternaam: </label>
+                    <input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
+                </div> <br>
+                <div> <!-- Voornaam -->
+                    <label for="voornaam">Voornaam: </label>
+                    <input type="text" name="voornaam" id="voornaam" placeholder="voornaam">
+                </div> <br>                
+                <div><!-- Geboortedatum -->
+                    <label for="geboorte_datum">Geboortedatum: </label>
+                    <input type="date" name="geboorte_datum" id="geboorte_datum" placeholder="mm / dd / yyyy">
+                </div> <br>
+                <div><!-- Geslacht -->
+                    <label for="male">M:</label>
+                    <input type="radio" name="geslacht" id="male" placeholder="achternaam">
+                    <label for="female">V: </label>
+                    <input type="radio" name="geslacht" id="female">
+                </div> <br>
+                <div><!-- Postcode -->
+                    <label for="postcode">Postcode: </label>
+                    <input type="text" name="postcode" id="postcode" placeholder="postcode">
+                </div> <br>
+                <div><!-- Adres -->
+                    <label for="adres">Adres: </label>
+                    <input type="text" name="adres" id="adres" placeholder="adres">
+                </div> <br>
+            </fieldset>
+                    <input type="submit" value="Verzenden">
+                    <input type="reset" value="Reset">
+        </form>
+    </section>
+<!----Vraag 5-------------->
+    <section>
+        <h4>5.Naast input element heb je ook een select element. Hiermee kan je een dropdown list maken. Maak er een.</h4>
+        <form action="/" method="GET" style="background-color: rgb(216, 199, 199);">
+        <fieldset>
+            <label for="os">Besturingssystemen</label>
+                <select name="os" id="os">
+                    <option value="mac">MacOS</option>
+                    <option value="windows">Windows</option>
+                    <option value="linux">Linux</option>
+                </select>
+        </fieldset>
+        </form>
+    </section>
+<!----Vraag 6-------------->
+    <section>
+        <h4>6.Dropdown list, Radio buttons, Checkbox zijn 3 verschillende manieren om de gebruiker een keuze te laten
+            maken. Geef for elke van de drie een situatie waar je het kan gebruiken en leg het uit.
+        </h4>
+        <p>Dropdown List: Een dropdown list kan gebruikt worden om bijvoorbeeld een keuze te maken van welke regio iemand woont.
+        <br>Radio button: Kan worden gebruikt om een geslacht te kiezen.
+        <br>Checkbox: Dit kan worden toegepast als iemand akkoord gaat met de algemene voorwaarden.
+        </p>
+    </section>
+<!----Vraag 7---------Submit, Label with link "terms and conditions", dropdownlist-------->
+    <section>
+        <h4>7.Maak een reserveringsformulier om een sport te reserveren en bevat minstens de aangegeven informatie.</h4>
+        <form action="/" method="GET" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+                <legend>Inschrijformulier Sporten</legend>
+            <br><div> 
+                    <label for="fname">Naam:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Vul hier je naam in" required>
+                </div> <br>
+                <div>
+                    <legend>Heeft u een lidmaatschap?:</legend>
+                    <input type="radio" id="yesno" name="yesno" value="Ja">
+                    <label for="yesno">Ja</label>
+                    <input type="radio" id="yesno" name="yesno" value="Nee">
+                    <label for="yesno">Nee</label>
+                </div> <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Vul hier je emailadres in" required>
+                </div> <br>
+                <div>
+                    <label for="sport">Keuze uit sporten:</label>
+                    <select name="sport" id="os" required>
+                        <option value="tafeltennis">Tafeltennis</option>
+                        <option value="badminton">Badminton</option>
+                        <option value="squash">Squash</option>
+                    </select>
+                </div> <br>
+                <div>
+                    <label for="date">Datum en Tijd:</label>
+                    <input type="datetime-local" id="date" name="datum_en_tijd" required>
+                </div> <br>
+                <div>
+                    <label for="agreements"><a href="https://termsandcondition...." title="Naar algemene voorwaarden" target="_blank">Algemene voorwaarden</a></label>
+                    <input type="checkbox" id="agreements" name="agreements" value="algemene_voorwaarden" required>
+                </div> <br>
+                <div>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" value="Verzenden">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+<!----Vraag 8------Textarea maxlength-------->
+    <section>
+        <h4>8.Maak een reserverings formulier om een boek te reserveren en bevat minstens de aangegeven informatie.</h4>
+        <form action="/" method="GET" style="background-color: rgb(216, 199, 199);">
+            <fieldset>
+                <legend>Boek reserverings formulier</legend>
+            <br><div> 
+                    <label for="fname">Naam:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Vul hier je naam in" required>
+                </div> <br>
+                <div>
+                    <label for="tel">Telefoonnummer:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Vul hier je telefoonnummer in" required>
+                </div> <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Vul hier je emailadres in" required>
+                </div> <br>
+                <div>
+                    <label for="book">Boek titel(s):</label> <br>
+                    <textarea id="book" name="book" rows="5" cols="80" maxlength="500">1.</textarea>
+                </div> <br>
+                <div>
+                    <label for="quantity_book">Aantal boeken:</label>
+                    <input type="number" id="quantity_book" name="quantity_book" min="1" max="5">
+                </div> <br>
+                <div>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" value="Verzenden">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+<!----Vraag 9-------------->
+    <section>
+        <h4>9.Maak zelf een form, met hetgeen wat je hebt geleerd.</h4>
+        <form action="/" method="POST" id="newsform" style="background-color: rgb(216, 199, 199);">
         <fieldset>
             <legend>Formulier inschrijven/uitschrijven nieuwsbrief</legend>
             <br>    
-                <article>
+                <div>
                     <label for="fname">Voornaam:</label>
                     <input type="text" id="fname" name="fname" placeholder="Voornaam">
-                </article>
+                </div>
             <br>
-                <article>
+                <div>
                     <label for="lname">Achternaam:</label>
                     <input type="text" id="lname" name="lname" placeholder="Achternaam">
-                </article>
+                </div>
             <br>
-                <article>
+                <div>
                     <label for="bday">Geboortedatum:</label>
                     <input type="date" id="bday" name="bday">
-                </article>
+                </div>
             <br>
-                <article>
+                <div>
                     <label>Geslacht:</label>
                     <input type="radio" id="male" name="gender" value="man">
                     <label for="male">Man</label>
@@ -38,23 +297,23 @@
 
                     <input type="radio" id="other" name="gender" value="Anders">
                     <label for="other">Anders</label>
-                </article>
+                </div>
             <br>
-                <article>
+                <div>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Email">
-                </article>
+                    <input type="email" id="email" name="email" placeholder="Vul hier je emailadres in">
+                </div>
             <br>
-                <article>
+                <div>
                     <legends> Inschrijven/Uitschrijven nieuwsbrief:</legends>
             <br><br>
                     <input type="radio" id="yesno" name="yesno" value="Inschrijven">
                     <label for="yesno">Inschrijven</label>
                     <input type="radio" id="yesno" name="yesno" value="Uitschrijven">
                     <label for="yesno">Uitschrijven</label>
-                </article>
+                </div>
             <br>
-                <article>
+                <div>
                     <legends>Welke nieuwsbrief wilt uw inschrijven/uitschrijven:</legends>
             <br><br>
                         <input type="checkbox" id="news" name="news" value="Dagelijkse_nieuwsbrief">
@@ -63,21 +322,21 @@
                         <label for="news">Week nieuwsbrief</label>
                         <input type="checkbox" id="news" name="news" value="Maand_nieuwsbrief">
                         <label for="news">Maand nieuwsbrief</label>
-                </article>
+                </div>
             <br>
-                <article>
+                <div>
                     <Label for="unsubscribe_news">Indien van toepassing, reden van uitschrijving:</label>
             <br><br>
                     <textarea id="unsubscribe_news" name="uitschrijven" form="newsform" rows="10" cols="60" placeholder="Type hier">
                     </textarea>
             <br><br>
                     <input type="submit" value="Inschrijven/Uitschrijven">
-                </article>
+                </div>
 
         </fieldset>
         </form>
     </section>
-    
+<!----Vraag 10-------------->
     <section>
         <h1>HTML tables</h1>
         <h4>10.Om een tabel te maken heb je elementen nodig. Geef voor elk element een definitie.</h4>
@@ -97,7 +356,7 @@
             <dd>De td tag: standaard cell, bijvoorbeeld Januari</dd>
         </dl>
     </section>
-
+<!----Vraag 11-------------->
     <section>
         <h4>11.Maak een tabel, &lt;table&gt; &lt;/table&gt; element.</h4>
         <table style="background-color: rgb(238, 230, 230);">
@@ -130,7 +389,7 @@
             </tbody>
         </table>
     </section>
-
+<!----Vraag 12-------------->
     <section>
         <h4>12.Maak een agenda tabel, &lt;table&gt;&lt;/table&gt; element.</h4>
         <table style="background-color: rgb(238, 230, 230);">
@@ -167,6 +426,101 @@
                 </tr>
             </tbody>
         </table>
+    </section>
+<!----Vraag 13-------------->
+    <section>
+        <h4>13.Je kan gebruik maken van 'colspan' en 'rowspan' in een tabel. 
+            Zoek op wat elk doet en pas het toe met minstens de gegeven informatie.</h4> 
+        <p style="font-size: 18px;" style="color: rgb(0, 10, 104);"><Strong> Colspan = </Strong> 
+                Colspan zorgt er voor dat er horizontale kolom word aangemaakt.</p>
+        <p style="font-size: 18px;" style="color: rgb(0, 10, 104);"><Strong> Rowspan = </Strong> 
+                Rowspan zorgt er voor dat er een verticale kolom word aangemaakt.</p>
+    </section>
+    <section>
+                            <style> 
+                                table, th, td { 
+                                border: 1px solid rgb(12, 0, 63); 
+                                border-collapse: collapcalmse; 
+                                padding: 9px; 
+                                } 
+                            </style> 
+<!-- <td> geschreven van links naar rechts, 2e <tr> is volgende regel eronder  --> 
+            <table>
+                <thead>
+                    <th>Sport</th>
+                    <th>Recreanten</th>
+                    <th>Competitie spelers</th>  
+                    <th>Totaal deelnemers </th>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td>Badminton</td>  
+                        <td>10</td>  
+                        <td>30</td> 
+                        <td>40</td>
+                    <tr>
+                        <td>Racket sport Tafeltennis</td> 
+                        <td>59</td>  
+                        <td>30</td> 
+                        <td>89</td>
+                    </tr> 
+                    <tr>
+                        <td>Tennis</td> 
+                        <td>159</td>  
+                        <td>130</td> 
+                        <td>289</td>
+                    </tr> 
+                    <tr>
+                        <td>Voetbal</td> 
+                        <td>88</td>  
+                        <td>40</td> 
+                        <td>128</td>
+                    </tr>
+                    <tr>
+                        <td>Ball sport Basketbal</td> 
+                        <td>60</td>  
+                        <td>40</td> 
+                        <td>100</td>
+                    </tr> 
+                    <tr>
+                        <td>Volleybal</td> 
+                        <td>35</td>  
+                        <td>20</td> 
+                        <td>55</td>
+                    </tr>
+                    <tr> 
+                        <td>Totaal aantal deelnemers:</td> 
+                        <td colspan="3" align="right">701</td> 
+                       </tr> 
+                </tbody>
+            </table>
+    </section>
+<!------Vraag 14 ------- -->
+    <section>
+        <table> 
+            <h4>14. Voorbeeld: incasso bureau</h4>
+            <thead> 
+                <th>Naam</th> 
+                    <th>Betaling</th> 
+    <!-- Rowspan zorgt er voor dat er verticale kolom worden aangemaakt -->
+                        <th rowspan="3">Betaling gelukt</th>
+            </thead> 
+            <tbody> 
+                    <tr>
+                        <td>Abdusselam</td> 
+                        <td>$80000</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Urvin</td> 
+                        <td>$10000</td>
+                    </tr> 
+    <!-- Colspan zorgt er voor dat er horizontale kolom worden aangemaakt  -->
+                    <tr>        
+                        <td colspan="3">Totaal: $90000</td>
+                    </tr>
+                </tbody> 
+        </table>
+        <br>
     </section>
 </body>
 </html>
