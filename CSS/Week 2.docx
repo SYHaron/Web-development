@@ -1,1 +1,18 @@
 Theorie CSS
+Onderdeel 1.Selectors & Visual rules
+
+CSS selector = eerste deel van een CSS-regel.
+   Het is een patron van elementen en andere termen die de browser vertellen welke HTML elementen moeten worden geselecteerd om
+   de CSS-eigenschappen binnen de regel toe te passen.
+
+Het element of de elementen die door de selector worden geselecteerd, worden 'The subject of the selector' genoemd.
+   Bijvoorbeeld:
+                h1 {
+                    color: blue;
+                    background-color: yellow;
+                    }
+
+                p{
+                    color: red;
+                    }
+
