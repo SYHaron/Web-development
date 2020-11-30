@@ -16,7 +16,7 @@ Week 1: HTML
     - Image, Audio & Video
     - Lijsten, links, navigatiebar
 
-* Onderdeel 3 Forms & Tabellen
+ * Onderdeel 3 Forms & Tabellen
     - HTML forms: input, forms, labels, submit, GET vs POST
     - HTML form elementen
     - HTML Form input types
@@ -24,11 +24,15 @@ Week 1: HTML
 
 * Onderdeel 4 Final assignment
 
-Week 2 CSS
-tba
-
-Week 3 CSS
-tba
+* Week 2 / 3 CSS
+    - Selectors & Visual ruler
+    - Box model
+    - Display & Positioning
+    - Pseudo elements
+    - Flexbox
+    - Transitions & Animations
+    - Media queries
+    - Final Assignment
 
 Week 4
 tba
