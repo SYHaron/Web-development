@@ -24,10 +24,10 @@ Week 1: HTML
 
 * Onderdeel 4 Final assignment
 
-Week 2
+Week 2 CSS
 tba
 
-Week 3
+Week 3 CSS
 tba
 
 Week 4
