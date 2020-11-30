@@ -16,3 +16,7 @@ Het element of de elementen die door de selector worden geselecteerd, worden 'Th
                     color: red;
                     }
 
+Styling die toegepast wordt toegepast in een bepaalde volgorde.
+Het kan voorkomen dat je styling toegepast en vervolgens niet het gewenste resultaat ziet.
+Cascade en Inheritance zijn belangrijke concepten om te begrijpen hoe styling werkt.
+
