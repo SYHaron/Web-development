@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7 general selector</title>
+    <style>
+         div ~ p {background-color: yellow;}   
+    </style>
+</head>
+<body>
+    <nav></nav>
+    <main>
+        <!-- general selector <div ~ p > = selecteerd all 'p' die 'kinderen' zijn van een specifiek element. -->
+        <div>
+            <span>Here's a span with some text.</span>
+            <p>Here's a p with some text.</p>
+            <span>Here's a span with more text.</span>
+            <span>Here's a span with some text.</span>
+            <p>Here's a p with some text.</p>
+            <span>Here's a span with more text.</span>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
