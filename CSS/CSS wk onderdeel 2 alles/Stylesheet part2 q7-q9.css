@@ -1,0 +1,58 @@
+/* Stylesheet onderdeel 2 vraag 7 */
+
+#q7article{background-color: rgb(222, 208, 233);
+    width: 250px;
+    height: 750px;
+    margin: 5px;
+    padding: 5px;
+    border: solid black;
+    border-width: 5px;
+}
+
+/* Q7 is de article/div element helemaal */
+#q7{background-color: yellow;
+    width: 50px;
+    height: 600px;
+    margin: 5px;
+    padding: 5px;
+    border: solid red;
+    border-width: 5px;
+}
+
+.q7title1 {background-color: rgb(85, 238, 38);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: double black;
+    border-width: 10px;}
+
+.q7tekst1 {background-color: rgb(241, 159, 234);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: dotted black;
+    border-width: 10px;
+
+}
+
+.q7tekst2 {background-color: rgb(159, 159, 241);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: ridge rgb(95, 185, 54);
+    border-width: 20px;
+
+}
+
+.q7tekst3 {background-color: rgb(169, 241, 159);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: groove rgb(253, 21, 21);
+    border-width: 50px;
+
+}
