@@ -1,0 +1,12 @@
+/* Stylesheet voor CSS Table of Contents */
+
+/* Intro // introductie */
+#intro { background-color: yellow;
+
+}
+
+/* Onderdeel 1*/
+/* Bulletpoints list HTML bestand links */
+ul {list-style-type: upper-roman;
+
+}

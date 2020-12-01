@@ -1,0 +1,33 @@
+/* Stylesheet Q5 */
+.pmargin{background-color: yellow;
+    padding: 35px;
+    border: 5px solid red
+}
+
+.q5titles{background-color: yellow;
+    padding: 35px;
+    border: 5px solid red;
+   
+}
+
+.q5tekst1{background-color: rgb(181, 181, 243);
+    padding: 35px;
+    border: 50px solid red;
+    border-top-width: thin;
+
+}
+
+.q5tekst3{background-color: rgb(181, 181, 243);
+    padding: 35px;
+    border: 50px solid red;
+    border-top-width: thin;
+
+}
+
+
+/* Vraag 6 */
+#q6 {background-color: yellow;
+    padding: 35px;
+    border: 5px solid red;
+    margin: 50px;
+}
