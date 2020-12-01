@@ -25,8 +25,8 @@ Week 1: HTML
 * Onderdeel 4 Final assignment
 
 * Week 2 / 3 CSS
-    - Selectors & Visual ruler
-    - Box model
+    - Selectors & Visual ruler: soorten selectors, cascade, inheritance.
+    - Box model: inline-, block -elementen
     - Display & Positioning
     - Pseudo elements
     - Flexbox
