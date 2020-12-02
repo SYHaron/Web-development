@@ -1,0 +1,28 @@
+/* Stylsheet onderdeel 3 display & positioning*/
+/* ------Vraag 7 ---------------------*/
+#p3q7{display:flex;
+    position: relative;
+    text-align: center;
+    color: yellow;
+    border: solid red;
+    background-color: rgb(218, 247, 199);
+}
+
+.q7image {position: static;
+    width: 1000px;
+    height: auto;
+}
+/* block per element zodat, specifiek postioning mogelijk */
+.q7title {position: absolute;
+    top: 150px;
+    left: 200px;
+    font-style: italic;
+    font-size: 250%;
+}
+
+.q7text {position: absolute;
+    top: 500px;
+    left: 600px;
+    font-style: italic;
+    font-size: 200%;
+}

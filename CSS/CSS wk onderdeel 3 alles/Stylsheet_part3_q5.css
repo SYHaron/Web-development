@@ -9,8 +9,10 @@ ul {list-style-type: none;}
     color: rgb(231, 9, 9);
 }
 
-img {
-}
+/* img {
+} */
+
+
 /* block per element zodat, specifiek postioning mogelijk */
 .q5text1 {position: absolute;
     top: 10px;
@@ -25,7 +27,7 @@ img {
 }
 
 .q5text3 {position: absolute;
-    top: 100px;
+    top: 80px;
     left: 16px;
 
 }

@@ -1,0 +1,23 @@
+/* Stylsheet onderdeel 3 display & positioning*/
+/* ------Vraag 6 ---------------------*/
+
+#p3q6{position: relative;
+    text-align: left;
+}
+
+.outerdiv_block{ display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+
+}
+
+.innerdiv_block{position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(31, 233, 31);
+    right: 25px;
+    left: 25px;
+    top: 25px;
+    bottom: 25px;
+}
