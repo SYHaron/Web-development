@@ -1,0 +1,64 @@
+/* Stylsheet onderdeel 3 display & positioning*/
+/* ------Vraag 2 ---------------------*/
+.q2div p { display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+
+.q2titel {background-color: yellow;
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+    border: solid rgb(89, 247, 15);
+    position: relative;
+    top: 50px;
+    /* right: 50px; */
+    left: 50px;
+}
+
+/* -----Vraag 3 -----------*/
+.q3div p { display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+
+.q3titel {background-color: yellow;
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+    border: solid rgb(89, 247, 15);
+    position: relative;
+    bottom: 30px;
+    /* right: 50px; */
+    left: 20px;
+}
+
+/* -----Vraag 4 -----------*/
+.q4div p { display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+
+.q4titel {background-color: yellow;
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+    border: solid rgb(89, 247, 15);
+    position: none;
+    top: 100px;
+    /* right: 50px; */
+    left: 50px;
+}
+

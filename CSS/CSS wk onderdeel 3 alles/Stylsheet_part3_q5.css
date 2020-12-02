@@ -1,0 +1,31 @@
+/* Stylsheet onderdeel 3 display & positioning*/
+/* ------Vraag 5 ---------------------*/
+
+ul {list-style-type: none;}
+
+/* Block maken van hele specifieke div */
+#p3q5{position: relative;
+    text-align: left;
+    color: rgb(231, 9, 9);
+}
+
+img {
+}
+/* block per element zodat, specifiek postioning mogelijk */
+.q5text1 {position: absolute;
+    top: 10px;
+    left: 16px;
+
+}
+
+.q5text2 {position: absolute;
+    top: 50px;
+    left: 16px;
+
+}
+
+.q5text3 {position: absolute;
+    top: 100px;
+    left: 16px;
+
+}
