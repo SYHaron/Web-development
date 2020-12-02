@@ -1,10 +1,10 @@
 /* Stylsheet onderdeel 3 display & positioning*/
 /* ------Vraag 8 ---------------------*/
 
-#q8container {display:flex;
+#q8container {display: inline-block;
     position: relative;
     text-align: center;
-    color: yellow;
+    color: black;
     border: solid red;
     background-color: rgb(218, 247, 199);
 }
@@ -12,18 +12,37 @@
 .q8image {position: static;
     width: 1000px;
     height: auto;
-}
-/* block per element zodat, specifiek postioning mogelijk */
-.q8title {position: absolute;
-    top: 150px;
-    left: 200px;
-    font-style: italic;
-    font-size: 250%;
+    /* opacity: 0.5; */
 }
 
-.q8text {position: absolute;
-    top: 500px;
-    left: 600px;
+/* block per element zodat, specifiek postioning mogelijk */
+.q8title {background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 200px;
     font-style: italic;
     font-size: 200%;
 }
+
+.q8text {background-color: red;
+    opacity: 0.5;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-style: italic;
+    font-size: 150%;
+}
+
+
+/* .q8span {position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    left: 25px;
+    top: 25px;
+    bottom: 25px;
+    background-color: rgb(10, 253, 10);
+    position: absolute;
+    top: 200px;
+    left: 200px;
+} */

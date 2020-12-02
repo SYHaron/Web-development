@@ -14,9 +14,9 @@
     margin: 10px;
     padding: 5px;
     border: solid rgb(89, 247, 15);
-    position: relative;
+    position: reflative;
     top: 50px;
-    /* right: 50px; */
+    right: 50px;
     left: 50px;
 }
 
