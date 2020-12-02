@@ -72,7 +72,41 @@
                     <p>Je kan elk HTML element op elke gewenste locatie plaatsen.</p>
                     <p>De top, right, bottom, left properties bepalen de uiteindelijke locatie van geplaatste elementen.</p>
             </article>
+            <dl>
+                <strong>Postioning values</strong>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank" title="Developer mozzila CSS position">Uitleg CSS postioning</a>
+                <dt>Static</dt>
+                <dd>Postioning volgens normal flow document.</dd>
+                <dd>Top, right, bottom, left, z-index properties have no effect>>default value.</dd>
 
+                <dt>Relative</dt>
+                <dd>Postioning volgens normal flow document, offset relative to itself based on values (top, right, bottom, left).</dd>
+                <dd>Offset beinvloedt niet de positie van andere elementen, space gegeven voor een element in page layout blijft hetzelfde als static.</dd>
+
+                <dt>Absolute</dt>
+                <dd>Element verwijdert van normal flow document, geen space gemaakt voor het element in pagina layout.</dd>
+                <dd>Positie is relatief aan de initial containing block.</dd>
+                <dd>Final positie is bepaald door values (top, right, bottom, left).</dd>
+
+                <dt>Fixed</dt>
+                <dd>Dit value, fixed, maakt een new stacking context. In geprinte documenten, element is gepositioneerd op dezelfde plek op elke pagina.</dd>
+                <dd>Element is verwijderd van normal flow document, geen space gemaakt ervoor in pagina layout.</dd>
+                <dd>Positie is relatief aan de intial containing block bepaald door viewport, behalve als
+                    als het ancestors (transform, perspective, filter) property set is to something other than none.
+                    In dit geval reageerd de ancestor als contaning block.
+                </dd>
+                <dd>Eind positie wordt bepaald door values (top, right, bottom, left).</dd>
+
+                <dt>Sticky</dt>
+                <dd>Postioning volgens normal flow.</dd>
+                <dd>Offset is relatief aan zijn dichtsbijzijnde scrolling ancestor en containing block (nearset block-level ancestor).</dd>
+                <dd>Incl. table-related elements, gebaseerd op values (top, right, bottom, left). Offset beinvloed niet de positie van andere elementen.</dd>
+                <dd>Deze value maakt een new stacking context.</dd>
+                <dd>Sticky element plakt aan de dichtsbijzijnde ancestor en heeft scrolling mechanisme (gemaakt overflow is hidden, scroll,
+                    auto, overlay), zelfs als dichtsbijzijnde ancester geen dichtsbijzijnde scrolling ancestor is.
+                </dd>
+                <dd>Effectively inhibits any sticky behaviour.</dd>
+            </dl>
         </section>
     </main>
     <footer>
