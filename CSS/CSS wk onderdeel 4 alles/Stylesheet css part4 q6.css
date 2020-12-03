@@ -11,12 +11,13 @@
     background: radial-gradient(ellipse at center,
     black 10%,
     black 70%,
-    red 50% );
+    white 50% );
 }
 .p{color:white;
     margin:120px;
     font-size: 500%;;
 }
+
 
 /* oefen planet 2  rood----------*/
     #planet2{background-color: black;
