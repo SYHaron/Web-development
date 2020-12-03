@@ -95,3 +95,16 @@
   .force-opaque::placeholder {
     opacity: 1;
   }
+
+  /* selection pseudo-element */
+/* Make selected text gold on a red background */
+::selection {
+    color: rgb(255, 217, 4);
+    background-color: rgb(136, 2, 2);
+  }
+  
+  /* Make selected text in a paragraph white on a blue background */
+  .selection_example::selection {
+    color: white;
+    background-color: blue;
+  }

@@ -87,14 +87,47 @@
                     in combinatie van ::placeholder pseudo-element in zijn selector.
                 </dd>
 
-                <dt></dt>
-                <dd></dd>
+                <dt>::selection</dt>
+                <dd>Syntax:  ::-moz-selection  //  ::selection</dd>
+                <dd>Applies style aan het gedeelte van het document dat is highlighted bij de gebruiker (muis klik-sleep).</dd>
 
-                <dt></dt>
-                <dd></dd>
+                <dt>::slotted()</dt>
+                <dd>Syntax: ::slotted()</dd>
+                <dd>Toepasbaar op elk element met locatie in een slot binnen een HTML template.</dd>
+                <dd>Dit werkt enkel binnen CSS geplaatst in een Shadow DOM. Het targets enkel elementen niet text node.</dd>
+                <dd><pre>
+                ::slotted( &lt;compound-selector-list&gt; )
+                    where 
+                        &lt;compound-selector-list&gt; = &lt;compound-selector&gt;#
+                        
+                    where 
+                        &lt;compound-selector&gt; = [ &lt;type-selector&gt;? &lt;subclass-selector&gt;* [ &lt;pseudo-element-selector&gt; &lt;pseudo-class-selector&gt;* ]* ]!
+                        
+                    where 
+                        &lt;type-selector&gt; = &lt;wq-name&gt; | &lt;ns-prefix&gt;? &apos;*&apos;
+                        &lt;subclass-selector&gt; = &lt;id-selector&gt; | &lt;class-selector&gt; | &lt;attribute-selector&gt; | &lt;pseudo-class-selector&gt;
+                        &lt;pseudo-element-selector&gt; = &apos;:&apos; &lt;pseudo-class-selector&gt;
+                        &lt;pseudo-class-selector&gt; = &apos;:&apos; &lt;ident-token&gt; | &apos;:&apos; &lt;function-token&gt; &lt;any-value&gt; &apos;)&apos;
+                        
+                    where 
+                        &lt;wq-name&gt; = &lt;ns-prefix&gt;? &lt;ident-token&gt;
+                        &lt;ns-prefix&gt; = [ &lt;ident-token&gt; | &apos;*&apos; ]?  | 
+                        &lt;id-selector&gt; = &lt;hash-token&gt;
+                        &lt;class-selector&gt; = &apos;.&apos; &lt;ident-token&gt;
+                        &lt;attribute-selector&gt; = &apos;[&apos; &lt;wq-name&gt; &apos;]&apos; | &apos;[&apos; &lt;wq-name&gt; &lt;attr-matcher&gt; [ &lt;string-token&gt; | &lt;ident-token&gt; ] &lt;attr-modifier&gt;? &apos;]&apos;
+                        
+                    where 
+                        &lt;attr-matcher&gt; = [ &apos;~&apos; |  |  | &apos;^&apos; | &apos;$&apos; | &apos;*&apos; ]? &apos;=&apos;
+                        &lt;attr-modifier&gt; = i | s
+                </pre></dd>
 
-                <dt></dt>
-                <dd></dd>
+                <dt>::spelling-error </dt>
+                <dd>Syntax: ::spelling-error  </dd>
+                <dd>Een text gedeelte dat wordt onderstreept als het incorrect spelling is.</dd>
+                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color, outline en zijn longhands,
+                    text-decoration en zijn bijbehorende propeties, text-emphasis-color, text-shadow.
+                </dd>
+                <dd>Nog NIET werkende in webbrowers.</dd>
             </dl>
         </section>
 <!-- vraag 3 ------>
@@ -102,7 +135,7 @@
             <h2>Q3. Kan je van de opgezochte 14 pseudo-elementen voorbeelden maken.</h2>
                 <p>:: after - pseudo element</p>
             <dt><strong>'Simpel' gebruikt</strong></strong></dt> 
-            <div class="pe_::after">
+            <div class="pe_after">
                     <p class="boring-text">Here is some plain old boring text.</p>
                     <p>Here is some normal text that is neither boring nor exciting.</p>
                     <p class="exciting-text">Contributing to MDN is easy and fun.</p>  
@@ -119,7 +152,7 @@
                 </p>
             </div>
         <br>
-            <div class="pe_::before">
+            <div class="pe_before">
                 <p>::before - pseudo element</p>
                 <p>Gebruik: quote marks, decoratief, to-do lijst (met java kunnen afvinken), special characters</p>
                 <q>Some quotes</q>, he said, <q>are better than none.</q>
@@ -136,14 +169,14 @@
                 <P>Special characters, zoals letters dikgedrukt, symbool pijltje.</P>
             </div>
         <br>
-            <div class="pe_::backdrop">
+            <div class="pe_backdrop">
                 <p>::backdrop - pseudo element</p>
                 <dd>Gebruikt worden bij het stylen van de achtergrond van een geplaatste video.
                     I.p.v. standaard zwarte achtergrond, bijvoorbeeld rood te maken.
                 </dd>
             </div>
         <br>
-            <div class="pe_::cue">
+            <div class="pe_cue">
                 <p>::cue - pseudo element</p>
                 <P>Text is wit met doorzichtige zwarte achtergrond.</P>
                 <p>Enkel gebruik van volgende CSS property:</p>
@@ -156,12 +189,12 @@
     </pre>
             </div>
         <br>
-            <div class="pe_::cue-region">
+            <div class="pe_cue-region">
                 <p>::cue-region - pseudo element</p>
                 <dd>Geldt hetzelfde als ::cue enkel pseudo-element.</dd>
             </div>
         <br>
-            <div class="pe_::first-letter">
+            <div class="pe_first-letter">
                 <p>::first-letter - pseudo element</p>
                 <dd>Toepasbaar: All font properties, all background properties, all margin properties, all padding properties,
                     all border properties, color property, text-properties (enkel float:none).
@@ -176,12 +209,12 @@
                 </dd>
             </div>  
         <br>
-            <div class="pe_::file-selector-button">
+            <div class="pe_file-selector-button">
                 <p>selector::file-selector-button- pseudo element</p>
                 <dd>Voordbeeld: De 'bestand kiezen' knop, dat je erop klikt en bestand(en) kan selecteren in het popup-scherm.</dd>
             </div> 
         <br>
-            <div class="pe_::grammar-error ">
+            <div class="pe_grammar-error ">
                 <p>::grammar-error  - pseudo element</p>
                 <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color,
                     outline en zijn longhands, text-decoration en zijn bijhoren properties, text-emphasis-color,
@@ -190,20 +223,20 @@
                 <dd>Voorbeeld: grammatisch error =rood onderstreept.</dd>
             </div>
         <br>
-            <div class="pe_::marker">
+            <div class="pe_marker">
                 <p>::marker - pseudo element</p>
                 <dd>Toepasbaar op CSS properties: all font properties, white-space, color, text-combine-upricht,
                     unicode-bidi, direction, content, all animation, all transition.
                 </dd>
             </div>
         <br>
-            <div class="pe_::part(ident=)">
+            <div class="pe_part(ident=)">
                 <p>::part( &lt;ident&gt;+ ) - pseudo element</p>
                 <dd>Voorbeeld met JavaScript: Tab1 Tab2 Tab3 = elk wordt dan zwart+text blauw als je muis-hover doet.</dd>
                 <dd>Dus dat je kan zien wat je gaat 'selecteren'. CSS om de tabs naast elkaar te zetten.</dd>
             </div>
         <br>
-            <div class="pe_:::placeholder ">
+            <div class="pe_placeholder ">
                 <p>:::placeholder  - pseudo element</p>
                 <dd>Voorbeelden: </dd>
                 <dd>Color contrast = text leesbaar maken, door kleur-verschil/contrast. Gebruik: dat je bepaalde informatie kan blijven hebben, maar toch iets kan typen.</dd>
@@ -218,12 +251,28 @@
                 </div>
             </div>
         <br>
-            <div class="pe_::">
-                <p>:: backdrop - pseudo element</p>
+            <div class="pe_selection">
+                <p>::selection - pseudo element</p>
+                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color,
+                    outline en zijn longhands, text-decoration en bijbehorende properties,
+                    text-shadow (background-image is ignored).
+                </dd>
+                <dd class="selection_example">Voorbeeld: dat je text wordt highlighted in kleur naar keuze als je met muis klik-sleep doet.</dd>
+                <dd>Deze regel tekst is rood/goud als je klikt-sleep, omdat het CSS selection hele document is en niet specifieke class/id naam.</dd> 
             </div>
         <br>
-            <div class="pe_::">
-                <p>:: backdrop - pseudo element</p>
+            <div class="pe_slotted()">
+                <p>::slotted() - pseudo element</p>
+                <dd>Voorbeeld Developer Mozilla:</dd>
+                <dd><a href="https://mdn.github.io/web-components-examples/slotted-pseudo-element/" target="_blank">Voorbeeld/example</a></dd>
+            </div>
+        <br>
+            <div class="pe_spelling-error ">
+                <p>::spelling-error - pseudo element</p>
+                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color, outline en zijn longhands,
+                    text-decoration en zijn bijbehorende propeties, text-emphasis-color, text-shadow.
+                </dd>
+                <dd>Voorbeeld: incorrect spelling wordt rood highlighted.</dd>
             </div>
         </section>
     </main>
