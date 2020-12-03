@@ -1,22 +1,25 @@
 /* Stylesheet onderdeel 4 vraag 5 */
 
 /* Block maken van hele specifieke div */
-.q5div{display:inline-block;
+.q5div::before{display:inline-block;
+    content: url(../Images\ css/girafschuin.jpg);
     position: relative;
-    text-align: center;
-    border:solid 5px black;
-    color: rgb(231, 9, 9);
-    
+    text-align: left;
+    border: solid 5px black;
 }
 
 /* block per element zodat, specifiek postioning mogelijk */
 .q5text{ position: absolute;
-    top: 10px;
-    left: 16px;
-   
+    color:red;
+    top: 300px;
+    left: 50px;
+
+    width: 1100px;
+    height: auto;
+  
 }
 
-img {position:static;
+/* img {position:static;
     width: 800px;
     height: auto;
-}
+} */
