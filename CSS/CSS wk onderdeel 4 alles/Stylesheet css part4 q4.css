@@ -1,4 +1,37 @@
+
+
 /* oefen ------------*/
+.q4_4outerdiv{
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+
+  background-color: yellow;
+  font-size:200%;
+
+  position: relative;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.q4_4outerdiv{
+border-right: 5px solid red;
+border-bottom: 5px solid red;
+bottom: 0;
+right: 0;
+border-style: double;
+}
+
+.q4_4outerdiv{
+  border-left: 5px solid blue;
+  border-top: 5px solid blue;
+  bottom: 0;
+  right: 0;
+}
+
+/* nieuwe-------------------------- */
+
 .q4_outerdiv{
     text-align: center;
     margin: auto;
@@ -26,12 +59,10 @@
     bottom: 0;
     right: 0;
   }
-  /* oefen -----------*/
 
-
+/* nieuwe-------------------------- */
   
-  /* Vraag 4 ------------*/
-.q44_outerdiv{
+.q444_outerdiv{
     text-align: center;
     margin: auto;
     line-height: 2;
@@ -46,8 +77,8 @@
 
   }
 
-  /* Verticaal links */
-.q44_outerdiv::after{
+  /* Verticaal links-boven */
+.q444_outerdiv::after{
     content:'';
   position: absolute;
   background-color: red;
@@ -57,8 +88,8 @@
   left:-15px;
 
 }
-/* horizontaal links */
-.q44_outerdiv::before{
+/* horizontaal links-boven */
+.q444_outerdiv::before{
     content:'';
     position: absolute;
     background-color: red;
@@ -67,28 +98,115 @@
     left:-12px;
   }
 
+/* nieuwe-------------------------- */
+  
+.q44_outerdiv{
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+
+  background-color: yellow;
+  font-size:200%;
+
+  position: relative;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* horizontaal rechts-boven */
+.q44_outerdiv::after{
+  content:'';
+position: absolute;
+background-color: rgb(6, 255, 6);
+width: 20%;
+height: 5px;
+right: -11px
+}
+/* verticaal rechts - boven */
+.q44_outerdiv::before{
+  content:'';
+  position: absolute;
+  background-color: rgb(10, 241, 10);
+  width: 5px;
+  height: 60%;
+  top: 0;
+  right: -12px;
+}
+
+/* nieuwe-------------------------- */
+
+.q4x_outerdiv{
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+
+  background-color: yellow;
+  font-size:200%;
+
+  position: relative;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* horizontaal rechts-onder */
+.q4x_outerdiv::after{
+  content:'';
+position: absolute;
+background-color: blue;
+width: 20%;
+height: 5px;
+bottom:0;
+right: -11px
+}
+/* verticaal rechts - onder */
+.q4x_outerdiv::before{
+  content:'';
+  position: absolute;
+  background-color: blue;
+  width: 5px;
+  height: 60%;
+  bottom:0;
+  right: -12px;
+}
 
 
+/* nieuwe-------------------------- */
+  
+.q4xx_outerdiv{
+  text-align: center;
+  margin: auto;
+  line-height: 2;
 
-  /*Spiegelbeeld Verticaal rechts */
-  /* .q44_outerdiv::after{
-    content:'';
-    position: absolute;
-    background-color: #85C1E9;
-    width: 3px;
-    height: 50%;
-    bottom: 0;
-    right:45px;
-} */
-/* horizontaal rechts */
-/* .q44_outerdiv::before{
-    content:'';
-    position: absolute;
-    background-color: #85C1E9;
-    width: 20%;
-    height: 3px;
-    bottom: 0;
-    right:45px;
-} */
+  background-color: yellow;
+  font-size:200%;
 
- 
+  position: relative;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+/* Verticaal links-onder */
+.q4xx_outerdiv::after{
+  content:'';
+position: absolute;
+background-color: pink;
+width: 5px;
+height: 50%;
+bottom: 0;
+left:-15px;
+
+}
+/* horizontaal links-onder */
+.q4xx_outerdiv::before{
+  content:'';
+  position: absolute;
+  background-color: pink;
+  width: 20%;
+  height: 5px;
+  bottom:0;
+  left:-12px;
+}
+
+  /* oefen -----------*/
