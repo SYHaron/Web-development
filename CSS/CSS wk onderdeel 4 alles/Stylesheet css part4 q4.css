@@ -1,47 +1,94 @@
-/* Stylesheet CSS onderdeel 4 vraag 4 */
-#q4::before{
-    text-align: left;
-
-}
-
-
-
-.q4_outerdiv{background-color: orange;
+/* oefen ------------*/
+.q4_outerdiv{
     text-align: center;
-    width: 400px;
-    height: auto;
-    font-size: 200%;
-    overflow:hidden;
-   }
+    margin: auto;
+    line-height: 2;
 
-   .q4_outerdiv::before{
-        content: "";
-        background-color: rgb(0, 255, 21);
-        float:left;
-        position:absolute;
-        width:5px;
-        height: 5.5%;
-        left: 5px;   
-   }
+    background-color: yellow;
+    font-size:200%;
 
-   .q4_outerdiv::after{
-         content: "";
-        background-color: rgb(0, 255, 55);
-        float:right;
-        position:absolute;
-        width:5px;
-        height: 5.5%;
-        right: 584px;
-       
+    position: relative;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.q4_outerdiv{
+  border-right: 5px solid red;
+  border-bottom: 5px solid red;
+  bottom: 0;
+  right: 0;
 }
 
+.q4_outerdiv{
+    border-left: 5px solid blue;
+    border-top: 5px solid blue;
+    bottom: 0;
+    right: 0;
+  }
+  /* oefen -----------*/
 
-.q4_outerdiv::after{
-     content: "";
-   background-color: rgb(0, 255, 55);
-   float:right;
-   position:absolute;
-   height:5px;
-   width: 5.5%;
-   right: 584px;
+
+  
+  /* Vraag 4 ------------*/
+.q44_outerdiv{
+    text-align: center;
+    margin: auto;
+    line-height: 2;
+
+    background-color: yellow;
+    font-size:200%;
+
+    position: relative;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  /* Verticaal links */
+.q44_outerdiv::after{
+    content:'';
+  position: absolute;
+  background-color: red;
+  width: 5px;
+  height: 50%;
+  top: 0;
+  left:-15px;
+
 }
+/* horizontaal links */
+.q44_outerdiv::before{
+    content:'';
+    position: absolute;
+    background-color: red;
+    width: 20%;
+    height: 5px;
+    left:-12px;
+  }
+
+
+
+
+  /*Spiegelbeeld Verticaal rechts */
+  /* .q44_outerdiv::after{
+    content:'';
+    position: absolute;
+    background-color: #85C1E9;
+    width: 3px;
+    height: 50%;
+    bottom: 0;
+    right:45px;
+} */
+/* horizontaal rechts */
+/* .q44_outerdiv::before{
+    content:'';
+    position: absolute;
+    background-color: #85C1E9;
+    width: 20%;
+    height: 3px;
+    bottom: 0;
+    right:45px;
+} */
+
+ 
