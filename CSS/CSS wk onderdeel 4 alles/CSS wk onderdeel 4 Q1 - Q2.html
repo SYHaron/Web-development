@@ -61,6 +61,32 @@
                 <dd>Toepasbaar op 1e regel van een block-element.</dd>
                 <dd>Lengte 1e regel is afhankelijk van verschillende factoren.</dd>
 
+                <dt>::file-selector-button</dt>
+                <dd>Syntax: selector::file-selector-button</dd>
+                <dd>Staat voor button of input-tag of type="file".</dd>
+                <dd>::file-selector-button = een element opzichtzelf, dus je kan stijlen met kleurtjes.</dd>
+
+                <dt>::grammar-error </dt>
+                <dd>Syntax: ::grammar-error </dd>
+                <dd>PE is een stuk text dat is gemarkeerd als grammatisch incorrect.</dd>
+                <dd>Nog NIET werkende in webbrowers.</dd>
+
+                <dt>::marker </dt>
+                <dd>Syntax: ::marker</dd>
+                <dd>Selecteert de marker box van een list item.</dd>
+                <dd>Kan je de 'bullet-points' stijlen van een lijst.</dd>
+
+                <dt>::part() </dt>
+                <dd>Syntax:  ::part( &lt;ident&gt;+ ) </dd>
+                <dd>Represents any element binnen een shadow tree dat een matching part attribute.</dd>
+
+                <dt>::placeholder </dt>
+                <dd>Syntax:  ::placeholder </dd>
+                <dd>Staat voor placeholder text in input-tag of textarea-tag element.</dd>
+                <dd>Enkel de subset CSS properties dat ::first-line pseudo-element gebruiken, kan je gebruiken 
+                    in combinatie van ::placeholder pseudo-element in zijn selector.
+                </dd>
+
                 <dt></dt>
                 <dd></dd>
 
@@ -150,24 +176,46 @@
                 </dd>
             </div>  
         <br>
-            <div class="pe_::">
-                <p>:: backdrop - pseudo element</p>
+            <div class="pe_::file-selector-button">
+                <p>selector::file-selector-button- pseudo element</p>
+                <dd>Voordbeeld: De 'bestand kiezen' knop, dat je erop klikt en bestand(en) kan selecteren in het popup-scherm.</dd>
             </div> 
         <br>
-            <div class="pe_::">
-                <p>:: backdrop - pseudo element</p>
+            <div class="pe_::grammar-error ">
+                <p>::grammar-error  - pseudo element</p>
+                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color,
+                    outline en zijn longhands, text-decoration en zijn bijhoren properties, text-emphasis-color,
+                    text-shadow.
+                </dd>
+                <dd>Voorbeeld: grammatisch error =rood onderstreept.</dd>
             </div>
         <br>
-            <div class="pe_::">
-                <p>:: backdrop - pseudo element</p>
+            <div class="pe_::marker">
+                <p>::marker - pseudo element</p>
+                <dd>Toepasbaar op CSS properties: all font properties, white-space, color, text-combine-upricht,
+                    unicode-bidi, direction, content, all animation, all transition.
+                </dd>
             </div>
         <br>
-            <div class="pe_::">
-                <p>:: backdrop - pseudo element</p>
+            <div class="pe_::part(ident=)">
+                <p>::part( &lt;ident&gt;+ ) - pseudo element</p>
+                <dd>Voorbeeld met JavaScript: Tab1 Tab2 Tab3 = elk wordt dan zwart+text blauw als je muis-hover doet.</dd>
+                <dd>Dus dat je kan zien wat je gaat 'selecteren'. CSS om de tabs naast elkaar te zetten.</dd>
             </div>
         <br>
-            <div class="pe_::">
-                <p>:: backdrop - pseudo element</p>
+            <div class="pe_:::placeholder ">
+                <p>:::placeholder  - pseudo element</p>
+                <dd>Voorbeelden: </dd>
+                <dd>Color contrast = text leesbaar maken, door kleur-verschil/contrast. Gebruik: dat je bepaalde informatie kan blijven hebben, maar toch iets kan typen.</dd>
+                <dd>Windows high contrast mode = placeholder text heeft dezelfde style als user-getypte text. Kan in 
+                    deze modus leesbaarheid beinvloeden.
+                </dd>
+                <dd>Labels = Geen vervanging voor label-tag. Zonder label kunnen screenreader programmes geen text lezen.</dd>
+                <dd>Style placeholders: text is rood.</dd>
+                <dd>Opaque text = opacity tot welk level element achter text is ontzichtbaar.</dd>
+                    <input placeholder="Default opacity...">
+                    <input placeholder="Full opacity..." class="force-opaque">
+                </div>
             </div>
         <br>
             <div class="pe_::">

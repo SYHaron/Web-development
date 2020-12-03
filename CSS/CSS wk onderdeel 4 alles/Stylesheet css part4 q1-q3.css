@@ -85,3 +85,13 @@
     transform: rotate(45deg);
     width: 0.5em;
   }
+
+
+/* placeholder pseudo-element */
+::placeholder {
+    color: red;
+  }
+  
+  .force-opaque::placeholder {
+    opacity: 1;
+  }
