@@ -1,1 +1,47 @@
 /* Stylesheet CSS onderdeel 4 vraag 4 */
+#q4::before{
+    text-align: left;
+
+}
+
+
+
+.q4_outerdiv{background-color: orange;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    font-size: 200%;
+    overflow:hidden;
+   }
+
+   .q4_outerdiv::before{
+        content: "";
+        background-color: rgb(0, 255, 21);
+        float:left;
+        position:absolute;
+        width:5px;
+        height: 5.5%;
+        left: 5px;   
+   }
+
+   .q4_outerdiv::after{
+         content: "";
+        background-color: rgb(0, 255, 55);
+        float:right;
+        position:absolute;
+        width:5px;
+        height: 5.5%;
+        right: 584px;
+       
+}
+
+
+.q4_outerdiv::after{
+     content: "";
+   background-color: rgb(0, 255, 55);
+   float:right;
+   position:absolute;
+   height:5px;
+   width: 5.5%;
+   right: 584px;
+}
