@@ -1,2 +1,151 @@
 /* Stylesheet onderdeel 4 vraag 6*/
 
+#planets{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background: yellow;
+    margin: 10px;
+}
+
+/* Vraag 6 */
+#planet1{background-color: black;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+
+    background: radial-gradient(ellipse at center,
+    blue 1%,
+    black 70%,
+    red 80%
+    );
+}
+
+/* oefen planet 2 */
+    #planet2{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+
+/* oefen planet 3 */
+    #planet3{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+/* oefen planet 4 */
+    #planet4{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+/* oefen planet 5 */
+    #planet5{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+
+/* oefen planet 6 */
+    #planet6{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+/* oefen planet 7 */
+    #planet7{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+/* oefen planet 8 */
+    #planet8{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+/* oefen planet 9*/
+    #planet9{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
+
+/* oefen planet 10 */
+    #planet10{background-color: black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+
+        background: radial-gradient(ellipse at center,
+        blue 1%,
+        black 70%,
+        red 80%
+        );
+    }
