@@ -1,2 +1,22 @@
 /* Stylesheet onderdeel 4 vraag 5 */
 
+/* Block maken van hele specifieke div */
+.q5div{display:inline-block;
+    position: relative;
+    text-align: center;
+    border:solid 5px black;
+    color: rgb(231, 9, 9);
+    
+}
+
+/* block per element zodat, specifiek postioning mogelijk */
+.q5text{ position: absolute;
+    top: 10px;
+    left: 16px;
+   
+}
+
+img {position:static;
+    width: 800px;
+    height: auto;
+}
