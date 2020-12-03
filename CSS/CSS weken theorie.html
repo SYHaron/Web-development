@@ -15,6 +15,7 @@
 
     </nav>
     <main>
+<!-- Onderdeel 1. Selectors & Visual ruler -->
         <section>
             <h1>Theorie CSS</h1>
             <H2>Onderdeel 1. Selectors & Visual ruler</H2>
@@ -51,7 +52,7 @@
 
                 </article>
         </section>
-
+<!-- Onderdeel 2. Het box model -->
         <section>
             <h2>Onderdeel 2. Het box model</h2>
                 <article>
@@ -64,7 +65,7 @@
                 <p class="box-model-diagram"><strong>Het box model</strong></p>
                 <img src="./Images css/box-model-diagram.jpg" width="1000px" height="auto">
         </section>
-
+<!-- Onderdeel 3.Display & Positioning -->
         <section>
             <h2>Onderdeel 3.Display & Positioning</h2>
             <article>
@@ -108,17 +109,54 @@
                 <dd>Effectively inhibits any sticky behaviour.</dd>
             </dl>
             <pre>
-                De default position in je html is static. Het element wordt gepositioneerd volgens de normale stroom van het document. De eigenschappen boven, rechts, onder, links en z-index hebben geen effect. Dit is de standaardwaarde.
+            De default position in je html is static. Het element wordt gepositioneerd volgens de normale stroom van het document. De eigenschappen boven, rechts, onder, links en z-index hebben geen effect. Dit is de standaardwaarde.
                   
-                Position properties:
-                Relative: Het element is relatief gepositioneerd ten opzichte van zijn normale positie, dus "left: 20px" voegt 20 pixels toe aan de LINKER-positie van het element
+            Position properties:
+            Relative: Het element is relatief gepositioneerd ten opzichte van zijn normale positie, dus "left: 20px" voegt 20 pixels toe aan de LINKER-positie van het element
                 
-                Absolute: Het element is gepositioneerd ten opzichte van het eerste gepositioneerde (niet statische) bovenliggende element
+            Absolute: Het element is gepositioneerd ten opzichte van het eerste gepositioneerde (niet statische) bovenliggende element
                 
-                Fixed: Het element is gepositioneerd ten opzichte van het browservenster
+            Fixed: Het element is gepositioneerd ten opzichte van het browservenster
                 
-                Sticky: Het element wordt gepositioneerd op basis van de scrollpositie van de gebruiker.
-            </pre>>
+            Sticky: Het element wordt gepositioneerd op basis van de scrollpositie van de gebruiker.
+            </pre>
+        </section>
+<!-- Onderdeel 4. Pseudo elements -->
+        <section>
+            <h2>Onderdeel 4. Pseudo elements</h2>
+            <div>
+                <p>Met CSS kan je stijlen definieren op basis van elementen. Maar soms is het niet genoeg om het gewenste resultaat te krijgen.
+                    Als je alleen over element- of attribuut- selectors hebt, bijvoorbeeld opmaak eerste letter/regel van inhoud elementen.
+                </p>
+                <p>Om dit mogelijk te maken zijn Pseudo-elementen geintorduceerd.</p>
+                <p>Je kan ze zien als een denkbeeldig element die niet in je document voorkomt, maar wel kan 'stijlen'.</p>
+                <p>Je tal van interessante ontwerpmogelijkheden toepassen zonder de senmatiek van de opmaak negatief te beinvloeden.</p>
+                <p>De meest gebruikte pseudo-elementen zijn: "::before en ::after".</p>
+                <img src="./Images css/pseudoelementbeforeafter.jpg" alt="pseudo element before en after" width="500px" height="auto">
+                <p>Pseudo elementen kan je position: absolute, relative t.o.v. parent element, kan je ze zien als twee extra lagen waar je me kunt spelen.</p>
+                <p>Tal van toepassingen mogelijk, zoals meervoudige borders, achtergronden, allerlei vormen.</p>
+                <a href="http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/" title="Nicolas gallagher uitleg pseudo elementen">Uitleg meerdere achtergrondne en borders (niet beveiligd).</a>  
+            </div>
+<!-- Pseudo classes en elements -->
+            <div>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" title="Developer Mozilla Pseudo classes">Uitleg pseudo classes</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" title="Developer Mozilla Pseudo elements">Uitleg pseudo elements</a>
+            </div>
+            <dl>
+                <dt>Pseudo-element</dt>
+                <dd>::after (2x ::)</dd>
+                <dt>Pseudo-class</dt>
+                <dd>:after (1x : )</dd>
+                
+                <dt>Pseudo-elements</dt>
+                <dd>Keyword added to a selector that lets you style a specific part of the selected element(S).</dd>
+                <dd>Bijvoorbeel: p::first-line{____} = verandert eerste regel font van een paragraaf</dd>
+                <dt>Sytax pseudo-elements</dt>
+                <dd>Selector::pseudo-element{ property:value; }</dd>
+                <dd>Bijvoorbeeld: ::after (:after), ::backdrop, ::before (:before), ::cue,::cue-region, </dd>
+                <dd>::first-letter (:first-letter), ::first-line (:first-line), ::file-selector-button, ::grammar-error </dd>
+                <dd>::marker, ::part(), ::placeholder, ::selection, ::slotted(), ::spelling-error  </dd>
+            </dl>
         </section>
     </main>
     <footer>

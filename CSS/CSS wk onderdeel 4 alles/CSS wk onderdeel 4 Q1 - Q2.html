@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS wk part 4 Q1 Q2 Q3</title>
+    <link rel="stylesheet" href="./Stylesheet css part4 q1-q3.css">
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <main>
+<!-- Vraag 1 & 2 ---------->
+        <section>
+            <h2>Q1/Q2. Kan je 14 voorbeelden geven van pseudo-elementen en leg ze uit.</h2>
+            <dl>
+                <dt>Pseudo-element</dt>
+                <dd>::after (2x ::)</dd>
+                <dt>Pseudo-class</dt>
+                <dd>:after (1x : )</dd>
+
+                <dt>::after</dt>
+                <dd>Syntax: a::after { content: "→"; } = pijltje na een link.</dd>
+                <dd>Inline bij default. Maakt een pseudo-element, laaste kind van een selected element.
+                    Vaak gebruikt voor toevoeging van cosmetisch content aan element with content property.
+                </dd>
+                <dd>Enkel te gebruiken bij boxed elementen/specifieke elementen, niet vervaning boxes/element img, br elementen.</dd>
+
+                <dt>::before</dt>
+                <dd>Syntax: ::before = toegepast op 1e kind van selected element.</dd>
+                <dd>Inline gebruik, voornamelijk cosmetisch.</dd>
+
+                <dt>::backdrop</dt>
+                <dd>Syntax: ::backdrop = toegepast als een box met dezelfde maten als viewport.</dd>
+                <dd>Komt automatisch onder elk element dat in full-screen mode.</dd>
+                <dd>Incl. elementen met FullscreenAPI, dialog elements</dd>
+                <dd>Full screen element worden Lifo (last in-first out) geplaatst, speciale laag in viewport, komt als laaste (dus bovenaan) voor viewport dingen.</dd>
+                <dd>Neither inherits from of omgekeerd van andere lementen. Geen limitaties voor welke property je het kan gebruiken.</dd>
+
+                <dt>::cue</dt>
+                <dd>syntax: ::cue { selector } = matches WebVTT cues, binnne een element. Kan je de style cpations en andere cues in media met VTT tracks stijlen.</dd>
+                <dd>Properties toegepast op alle cues, alsof ze één zijn.</dd>
+               <dd>De uitzondering is background en longhand properties geldt per cue zelfstandig, ter verkomen
+                   dat created boxes, onbedoelde verberging van grote gebieden van media te verwijden.
+               </dd>
+
+                <dt>::cue-region { }</dt>
+                <dd>Syntax: ::cue-region | ::cue-region { selector } </dd>
+                <dd>Geldt hetzelfde als ::cue enkel pseudo-element.</dd>
+
+                <dt>::first-letter (:first-letter)</dt>
+                <dd>Syntax: ::first-letter </dd>
+                <dd>Toepast een stijl aan de eerste letter van eerste regel in een block element.</dd>
+                <dd>1e letter niet altijd makkelijk te zien, puntuation (Pi, elke stijl open, close, intial quote, final quote, andere punctuatie).</dd>
+                <dd>Bepaalde talen, NL = IJS... ijs.</dd>
+                <dd>Gebruik van PE-::before, neemt 1e letter eerste stukje content.</dd>
+
+                <dt>::first-line (:first-line)</dt>
+                <dd>Syntax: ::first-line (:first-line)</dd>
+                <dd>Toepasbaar op 1e regel van een block-element.</dd>
+                <dd>Lengte 1e regel is afhankelijk van verschillende factoren.</dd>
+
+                <dt></dt>
+                <dd></dd>
+
+                <dt></dt>
+                <dd></dd>
+
+                <dt></dt>
+                <dd></dd>
+            </dl>
+        </section>
+<!-- vraag 3 ------>
+        <section>
+            <h2>Q3. Kan je van de opgezochte 14 pseudo-elementen voorbeelden maken.</h2>
+                <p>:: after - pseudo element</p>
+            <dt><strong>'Simpel' gebruikt</strong></strong></dt> 
+            <div class="pe_::after">
+                    <p class="boring-text">Here is some plain old boring text.</p>
+                    <p>Here is some normal text that is neither boring nor exciting.</p>
+                    <p class="exciting-text">Contributing to MDN is easy and fun.</p>  
+                <dt><strong>Decoratief gebruik</strong></dt>  
+                    <span class="ribbon">Look at the orange box after this text. </span>
+                    <dd>-Het oranje text staat er dubbel achter ('nep' element) door ::after pseudo element. Zonder zou het bestaande
+                        overschrijven als zelfstandige element die je styled.
+                        (hetzelfde geldt voor de "boring en exciting!" text.)
+                    </dd>
+            <dt><strong>Tooltip gebruik</strong></dt> 
+                <p>Here we have some
+                    <span tabindex="0" data-descr="collection of words and punctuation">text</span> with a few
+                    <span tabindex="0" data-descr="small popups that appear when hovering">tooltips</span>.
+                </p>
+            </div>
+        <br>
+            <div class="pe_::before">
+                <p>::before - pseudo element</p>
+                <p>Gebruik: quote marks, decoratief, to-do lijst (met java kunnen afvinken), special characters</p>
+                <q>Some quotes</q>, he said, <q>are better than none.</q>
+                <p>Decoratief als bij ::after pseudo-element effect, maar dan voor de text.</p>
+                <ul>
+                    <p>Lijst click-baar/afvinken met JavaScript</p>
+                    <li>Buy milk</li>
+                    <li>Take the dog for a walk</li>
+                    <li>Exercise</li>
+                    <li>Write code</li>
+                    <li>Play music</li>
+                    <li>Relax</li>
+                  </ul>
+                <P>Special characters, zoals letters dikgedrukt, symbool pijltje.</P>
+            </div>
+        <br>
+            <div class="pe_::backdrop">
+                <p>::backdrop - pseudo element</p>
+                <dd>Gebruikt worden bij het stylen van de achtergrond van een geplaatste video.
+                    I.p.v. standaard zwarte achtergrond, bijvoorbeeld rood te maken.
+                </dd>
+            </div>
+        <br>
+            <div class="pe_::cue">
+                <p>::cue - pseudo element</p>
+                <P>Text is wit met doorzichtige zwarte achtergrond.</P>
+                <p>Enkel gebruik van volgende CSS property:</p>
+    <pre>background,cbackground-attachment, background-clip, background-color,background-image,
+        background-origin, background-position, background-repeat, background-size, color,
+        font, font-family, font-size, font-stretch, font-style, font-variant, font-weight,
+        line-height, opacity,  outline, outline-color, outline-style, outline-width, ruby-position,
+        text-combine-upright,  text-decoration,  text-decoration-color, text-decoration-line,
+        text-decoration-style,  text-decoration-thickness, text-shadow, visibility, white-space
+    </pre>
+            </div>
+        <br>
+            <div class="pe_::cue-region">
+                <p>::cue-region - pseudo element</p>
+                <dd>Geldt hetzelfde als ::cue enkel pseudo-element.</dd>
+            </div>
+        <br>
+            <div class="pe_::first-letter">
+                <p>::first-letter - pseudo element</p>
+                <dd>Toepasbaar: All font properties, all background properties, all margin properties, all padding properties,
+                    all border properties, color property, text-properties (enkel float:none).
+                </dd>
+                <dd>Voorbeeld: 1x Grote Letter (boek) / Simple drop cap; Effect on speciale punctuatie/non-latin characters (JP,CH,KR).</dd>
+            </div>
+        <br>
+            <div class="pe_:::first-line (:first-line)">
+                <p>::first-line (:first-line) - pseudo element</p>
+                <dd>Toepasbaar: All font properties, all background properties, color property, text-decoration(-color/-inline/-style).
+                    word-spacing, letter-spacing, text-decoration, text-transform, line-height.
+                </dd>
+            </div>  
+        <br>
+            <div class="pe_::">
+                <p>:: backdrop - pseudo element</p>
+            </div> 
+        <br>
+            <div class="pe_::">
+                <p>:: backdrop - pseudo element</p>
+            </div>
+        <br>
+            <div class="pe_::">
+                <p>:: backdrop - pseudo element</p>
+            </div>
+        <br>
+            <div class="pe_::">
+                <p>:: backdrop - pseudo element</p>
+            </div>
+        <br>
+            <div class="pe_::">
+                <p>:: backdrop - pseudo element</p>
+            </div>
+        <br>
+            <div class="pe_::">
+                <p>:: backdrop - pseudo element</p>
+            </div>
+        <br>
+            <div class="pe_::">
+                <p>:: backdrop - pseudo element</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
