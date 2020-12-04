@@ -33,6 +33,7 @@ div::after{content:"";
     margin:60px;
     border:solid 10px yellow;
     background-color: red;
+    transform: rotate(45deg)
 }
 
 .div::before{content:"";
