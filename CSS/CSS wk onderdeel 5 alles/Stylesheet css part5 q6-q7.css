@@ -1,0 +1,102 @@
+/* Stylesheet onderdeel 5 vraag 6 */
+
+/* Vraag 6 ---------- */
+#q6flexcontainer{background-color:rgb(236, 234, 124);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 30px 0px 30px 0px;
+    margin:0px;
+    flex: 1 100%;
+    flex-direction: column;
+
+}
+.staaf6.nr1{background-color: purple;
+    margin :5px;
+    text-align: center;
+    color:white;
+    margin-right: 0px;
+}
+.staaf6.nr2{background-color: purple;
+    margin :5px;
+    text-align: center;
+    color:white;
+    margin-right: 400px;
+}
+.staaf6.nr3{background-color: purple;
+    margin :5px;
+    text-align: center;
+    color:white;
+    margin-right: 300px;
+}
+.staaf6.nr4{background-color: purple;
+    margin :5px;
+    text-align: center;
+    color:white;
+    margin-right: 200px;
+}
+.staaf6.nr5{background-color: purple;
+    margin :5px;
+    text-align: center;
+    color:white;
+    margin-right: 700px;
+}
+.staaf6.nr6{background-color: purple;
+    margin :5px;
+    text-align: center;
+    color:white;
+    margin-right: 600px;
+}
+
+
+
+/* Vraag 7 ---------- */
+
+#q7flexcontainer{background-color:skyblue;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0px 0px 10px 0px;
+    margin:0px;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+.staaf7.nr1{background-color: purple;
+    padding: 0px 0px 500px 0px;
+    text-align: center;
+    color:white;
+    margin: 0px;
+}
+.staaf7.nr2{background-color: purple;
+    margin-top :100px;
+    padding: 0px 0px 200px 0px;
+    text-align: center;
+    color:white;
+}
+.staaf7.nr3{background-color: purple;
+    margin-top :80px;
+    padding: 0px 0px 300px 0px;
+    text-align: center;
+    color:white;
+}
+.staaf7.nr4{background-color: purple;
+    margin-top :50px;
+    padding: 0px 0px 400px 0px;
+    text-align: center;
+    color:white;
+}
+.staaf7.nr5{background-color: purple;
+    margin-top :100px;
+    padding: 0px 0px 150px 0px;
+    text-align: center;
+    color:white;
+}
+.staaf7.nr6{background-color: purple;
+    margin-top :80px;
+    padding: 0px 0px 200px 0px;
+    text-align: center;
+    color:white;
+}
+
+
