@@ -1,34 +1,54 @@
 /* Stylesheet onderdeel 4 vraag 7 */
 
-#zon2{display: absolute;
+div{display: absolute;
     width: 300px;
     height: 300px;
-    margin: 10px;
-
-    background: radial-gradient(ellipse at center,
-    red 1%,
-    yellow 70%,
-    white 50% );
+    margin:60px;
+    border:solid red;
+    background-color: red;
 }
 
-#div::before{content:"before";
+div::before{content:"";
     width: 300px;
     height: 300px;
-    margin: 10px;
-
-    background: radial-gradient(ellipse at center,
-    red 1%,
-    yellow 70%,
-    white 50% );
+    border:solid red;
+    background-color: red;
+    position: absolute;
+    transform: rotate(60deg);
 }
 
-#div::after{content:"after";
+div::after{content:"";
     width: 300px;
     height: 300px;
-    margin: 10px;
+    border: solid red;
+    background-color: red;
+    position: absolute;
+    transform: rotate(30deg);
+}
 
-    background: radial-gradient(ellipse at center,
-    red 1%,
-    yellow 70%,
-    white 50% );
+/* Twee zon */
+.div{display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin:60px;
+    border:solid 10px yellow;
+    background-color: red;
+}
+
+.div::before{content:"";
+    width: 300px;
+    height: 300px;
+    border:solid blue;
+    background-color: yellow;
+    position: absolute;
+    transform: rotate(60deg);
+}
+
+.div::after{content:"";
+    width: 300px;
+    height: 300px;
+    border: solid red;
+    background-color: blue;
+    position: absolute;
+    transform: rotate(30deg);
 }
