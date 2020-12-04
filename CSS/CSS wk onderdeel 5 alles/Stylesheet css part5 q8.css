@@ -1,1 +1,92 @@
 /* Stylesheet onderdeel 5 vraag 8 */
+
+
+
+
+
+
+
+/* oefenen */
+#container6blocks{background-color: lightgray;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+.block1.nr1{background-color: orange;
+    padding:0px;
+    width: 200px;
+    height: 150px;
+    margin:0px;
+
+ /* cijfer in het block  ----*/
+    line-height: 150px;
+    font-size: 2em;
+    text-align: center;
+    color:purple;
+}
+.block1.nr2{background-color: lime;
+    padding:0px;
+    width: 200px;
+    height: 150px;
+    margin:0px;
+
+ /* cijfer in het block  ----*/
+    line-height: 150px;
+    font-size: 2em;
+    text-align: center;
+    color:pink;
+}
+.block1.nr3{background-color: pink;
+    padding:0px;
+    width: 200px;
+    height: 150px;
+    margin:0px;
+
+ /* cijfer in het block  ----*/
+    line-height: 150px;
+    font-size: 2em;
+    text-align: center;
+    color:skyblue;
+}
+.block1.nr4{background-color: yellow;
+    padding:0px;
+    width: 200px;
+    height: 150px;
+    margin:0px;
+
+ /* cijfer in het block  ----*/
+    line-height: 150px;
+    font-size: 2em;
+    text-align: center;
+    color:lime;
+}
+.block1.nr5{background-color: skyblue;
+    padding:0px;
+    width: 200px;
+    height: 150px;
+    margin:0px;
+
+ /* cijfer in het block  ----*/
+    line-height: 150px;
+    font-size: 2em;
+    text-align: center;
+    color:yellow;
+}
+.block1.nr6{background-color: red;
+    padding:0px;
+    width: 200px;
+    height: 150px;
+    margin:0px;
+
+ /* cijfer in het block  ----*/
+    line-height: 150px;
+    font-size: 2em;
+    text-align: center;
+    color:orange;
+
+    background: radial-gradient(ellipse at center,
+    red 10%,
+    orange 100%)
+}
