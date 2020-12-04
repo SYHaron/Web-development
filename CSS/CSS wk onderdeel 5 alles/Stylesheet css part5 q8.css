@@ -1,49 +1,40 @@
 /* Stylesheet onderdeel 5 vraag 8 */
 
 
-
-
-
-
-
-/* oefenen */
-#container6blocks{background-color: lightgray;
+#container6blocks{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap:wrap;
     flex-direction: row;
 }
 
-.block1.nr1{background-color: orange;
-    padding:0px;
+.block1{  padding:0px;
     width: 200px;
     height: 150px;
     margin:0px;
+    border-radius: 20px;
+/* flex-basis = hoeveel items naast elkaar. 32%=2items, 24%=4items  */
+/* Hoe hoger procent = minder items op elke regel. */
+    flex-grow:0;
+    flex-basis:32%
+}
 
+/* Specifiek voor elk block */
+.block1.nr1{background-color: orange;
  /* cijfer in het block  ----*/
     line-height: 150px;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     color:purple;
 }
 .block1.nr2{background-color: lime;
-    padding:0px;
-    width: 200px;
-    height: 150px;
-    margin:0px;
-
  /* cijfer in het block  ----*/
     line-height: 150px;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     color:pink;
 }
 .block1.nr3{background-color: pink;
-    padding:0px;
-    width: 200px;
-    height: 150px;
-    margin:0px;
-
  /* cijfer in het block  ----*/
     line-height: 150px;
     font-size: 2em;
@@ -51,38 +42,23 @@
     color:skyblue;
 }
 .block1.nr4{background-color: yellow;
-    padding:0px;
-    width: 200px;
-    height: 150px;
-    margin:0px;
-
  /* cijfer in het block  ----*/
     line-height: 150px;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     color:lime;
 }
 .block1.nr5{background-color: skyblue;
-    padding:0px;
-    width: 200px;
-    height: 150px;
-    margin:0px;
-
  /* cijfer in het block  ----*/
     line-height: 150px;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     color:yellow;
 }
 .block1.nr6{background-color: red;
-    padding:0px;
-    width: 200px;
-    height: 150px;
-    margin:0px;
-
  /* cijfer in het block  ----*/
     line-height: 150px;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     color:orange;
 
