@@ -1,3 +1,53 @@
 /* Stylesheet onderdeel 5 vraag 9 */
 
+#container1{background-color: lightgray;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+img{width: 300px;
+    height: auto;
+    margin-bottom:2px;
+}
+.img2{margin-top:100px;
+    margin-bottom:110px;
+}
+.img3{margin-top:90px;
+    margin-bottom:90px;
+}
+
+
+h2{color: blue;
+}
+
+p{color: black;
+}
+button{background-color: blue;
+    color: white;
+    width: auto;
+}
+button:hover{color:lime;
+}
+
+
+.block1{  padding:0px;
+    width: 300px;
+    height: auto;
+    margin:0px;
+/* flex-basis = hoeveel items naast elkaar. 32%=2items, 24%=4items  */
+/* Hoe hoger procent = minder items op elke regel. */
+    flex-grow:1;
+    flex-basis:23%;
+
+    background-color: rgb(180, 180, 180);
+ /* text in het block  ----*/
+    text-align: center;
+    color:yellow;
+}
+
+.block1 + .block1 {
+    margin-left: 2%;
+}
 
