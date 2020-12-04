@@ -150,11 +150,13 @@
     color:red;
 }
 
+
+
 /* Vraag 5 Align items------------ */
 #q5flexcontainer{background-color:hotpink;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding-right: 0;
     margin:0;
     flex: 1 100%;
@@ -165,10 +167,59 @@
     padding: 20px;
     margin :5px;
     text-align: center;
-    color:slateblue
+    color:slateblue;
+    align-self: flex-start;
 }
 
 .flexitem5.nr3{background-color: skyblue;
+    border:solid 3px yellow;
+    padding: 20px;
+    margin :5px;
+    text-align: center;
+}
+#q55flexcontainer{background-color:red;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 0;
+    margin:0;
+    flex: 1 100%;
+
+}
+.flexitem55{background-color: burlywood;
+    border:solid 3px black;
+    padding: 50px;
+    margin :5px;
+    text-align: center;
+    color:slateblue;
+    align-self: stretch;
+}
+
+.flexitem55.nr3{background-color: skyblue;
+    border:solid 3px black;
+    padding: 20px;
+    margin :5px;
+    text-align: center;
+}
+#q555flexcontainer{background-color:darkcyan;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 0;
+    margin:0;
+    flex: 1 100%;
+
+}
+.flexitem555{background-color: orange;
+    border:solid 3px purple;
+    padding: 20px;
+    margin :5px;
+    text-align: center;
+    color:slateblue;
+    align-self: flex-end;
+}
+
+.flexitem555.nr3{background-color: skyblue;
     border:solid 3px yellow;
     padding: 20px;
     margin :5px;
