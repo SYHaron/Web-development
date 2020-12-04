@@ -1,4 +1,7 @@
 # Web-development
+<style>
+    *{list-style-type: upper-roman;}
+</style>
 Techgrounds academy: Overview of subjects & projects.
 <br>Main language: Dutch, terms: English/Dutch.
 
