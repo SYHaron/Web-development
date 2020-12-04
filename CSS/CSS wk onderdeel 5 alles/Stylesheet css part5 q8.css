@@ -9,8 +9,8 @@
 }
 
 .block1{  padding:0px;
-    width: 200px;
-    height: 150px;
+    /* width: 200px;
+    height: 150px; */
     margin:0px;
     border-radius: 20px;
 /* flex-basis = hoeveel items naast elkaar. 32%=2items, 24%=4items  */
