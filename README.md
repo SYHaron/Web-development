@@ -34,7 +34,7 @@ Week 1: HTML
     - Pseudo classes, Pseudo elements
 * Onderdeel 5 Flexbox
     - flexbox container, flexbox item
-* Onderdeel 6 Transitions & Animations
+* Onderdeel 6 Transitions
 * Onderdeel 7 Media queries
 * Onderdeel 8 Final Assignment
 
