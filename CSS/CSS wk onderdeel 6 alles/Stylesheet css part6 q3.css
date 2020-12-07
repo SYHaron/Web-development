@@ -1,6 +1,8 @@
 
 #outercontainer{
     background-color: lightgray;
+    width: 800px;
+    height: 630px;
 }
 
 
@@ -16,27 +18,36 @@
     background-color:skyblue;
     border:solid 2px black;
 
-    transition-property: width;
+    transition-property: all;
     transition-duration: 3s;
     transition-timing-function: linear;
-
-
 }
 
 .block1:hover {
-
     background-color:skyblue;
     border:solid 3px red;
 /* transition */
     width:200px;
     height: 100px;
+
+    
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    transform:translate(600px, 0);
+    position:absolute;
 }
 
 
 @keyframes example {
-    from   {background-color:red;}
-    to   {background-color:green;}
-    to  {background-color:yellow;}
-
+    0%  {background-color:lime;}
+    25%   {background-color:orange;}
+    50%  {background-color:yellow;}
+    75% {background-color:hotpink;}
+    100% {background-color:khaki;}
 }
 
+.block1.nr2, .block1.nr4, .block1.nr6 { 
+    transition-timing-function: steps(8) ;
+}
