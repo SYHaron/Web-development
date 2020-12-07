@@ -26,7 +26,8 @@ p{color: black;
 }
 button{background-color: blue;
     color: white;
-    width: auto;
+    width: 320px;
+    height: 50px;
 }
 button:hover{color:lime;
 }
