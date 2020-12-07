@@ -3,6 +3,8 @@
     background-color: lightgray;
     width: 800px;
     height: 630px;
+    flex-direction: column;
+    display: flex;
 }
 
 
@@ -36,7 +38,7 @@
     animation-iteration-count: infinite;
 
     transform:translate(600px, 0);
-    position:absolute;
+    position:relative;
 }
 
 
