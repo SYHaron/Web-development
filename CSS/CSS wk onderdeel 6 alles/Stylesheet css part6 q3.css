@@ -1,28 +1,42 @@
 
-#container6blocks{
-    /* display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    flex-direction: column; */
+#outercontainer{
     background-color: lightgray;
 }
 
 
 .block1 {
-    padding:0px;
     width: 100px;
     height: 100px;
-    margin:0px;
+
     border-radius: 20px;
-/* flex-basis = hoeveel items naast elkaar. 32%=2items, 24%=4items  */
-/* Hoe hoger procent = minder items op elke regel. */
-    flex-grow:0;
-    flex-basis:32%;
 
     line-height: 100px;
     text-align: center;
 
     background-color:skyblue;
     border:solid 2px black;
+
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+
+
 }
-    
+
+.block1:hover {
+
+    background-color:skyblue;
+    border:solid 3px red;
+/* transition */
+    width:200px;
+    height: 100px;
+}
+
+
+@keyframes example {
+    from   {background-color:red;}
+    to   {background-color:green;}
+    to  {background-color:yellow;}
+
+}
+
