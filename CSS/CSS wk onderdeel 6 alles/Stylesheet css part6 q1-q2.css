@@ -1,15 +1,22 @@
 /* Stylesheet onderdeel 6 vraag 1 */
 .q2text:hover{color: white;
     background-color:black;
-
 }
 
 .q2title:hover{color: red;
     background-color:black;
-
+  
 }
 
 .q2paragraaf:hover{color: yellow;
     background-color:black;
 
 }
+
+
+.q2text {
+    transition:  background-color 2s;
+}
+
+
+
