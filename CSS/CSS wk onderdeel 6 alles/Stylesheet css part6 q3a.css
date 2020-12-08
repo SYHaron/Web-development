@@ -50,7 +50,7 @@
     
         transform:translate(750px, 0);
         transition-timing-function: steps(25);
-        transition-delay: 1.5s;
+        transition-delay: 1.05s;
     }
 
     #innerbox:hover .block.nr3{
