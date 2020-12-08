@@ -69,28 +69,6 @@
         transition-timing-function: steps(5);
     }
 
-    #innerbox:hover .block.nr5{
-        animation-name: example;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    
-        transform:translate(750px, 0) rotate(-700deg);
-    
-    }
-    .block.nr5{
-        transform-origin: left center;
-        transition: transform 1s;
-    }
-    .block.nr5:before{content:"";
-        transform-origin: left center;
-        transition: transform 10s;
-        background-color: skyblue;
-    
-        border:solid red;
-        background-color: red;
-        position: absolute;
-    }
-
     #innerbox:hover .block.nr6{
         animation-name: example;
         animation-duration: 3s;
@@ -100,3 +78,44 @@
         border-radius: 50%;
     
     }
+
+
+
+
+    /* Iets proberen, werp-ster */
+
+    #innerbox:hover .block.nr5{
+        animation-name: example;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    
+        transform:translate(750px, 0) rotate(-700deg);
+    }
+    .block.nr5{ 
+        transform-origin: left center;
+        transition: transform 1s;
+
+        transition-property: all;
+        transition-timing-function: linear;
+        display:absolute;
+    }
+    .block.nr5::before{content:"";
+        width: 50px;
+        height: 50px;
+        padding:20px;
+        border:solid rgb(41, 41, 107);
+        background-color: rgb(245, 245, 110);
+        position: absolute;
+        transform: rotate(60deg);
+
+    }
+    .block.nr5::after{content:"";
+        width: 50px;
+        height: 50px;
+        padding: 20px;
+        border: solid rgb(117, 20, 20);
+        background-color: rgb(190, 190, 241);
+        position: absolute;
+        transform: rotate(30deg);
+    }
+
