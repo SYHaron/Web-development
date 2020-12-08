@@ -91,7 +91,7 @@
     
         transform:translate(750px, 0) rotate(-700deg);
     }
-    .block.nr5{ 
+    .block.nr5{display:flex;
         transform-origin: left center;
         transition: transform 1s;
 
