@@ -1,0 +1,63 @@
+.body {
+    margin:50px;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+
+
+    transition: all 2s ease-in-out;
+    /* transition-property: all;
+    transition-duration: 2s; 
+    transition-timing-function: ease-in-out; */
+
+    margin:20px;
+}
+
+.container:hover #box1{
+    transform:translateY(300px);
+
+    animation-name:example;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+.container:hover #box2{
+    transform: translateX(500px);
+    border-radius:50%;
+
+    animation-name:example;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+/* .box:hover{
+    transform:translatey(100px);
+    transform:rotate(60deg);
+    background-color: orange;
+
+    animation-name:example;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+} */
+
+@keyframes example{    0%  {background-color:lime;}
+25%   {background-color:orange;}
+50%  {background-color:yellow;}
+75% {background-color:hotpink;}
+100% {background-color:khaki;}
+
+}
+
+
+
+/*
+transition: waarde van de properties
+:hover: waardes wat die gaat doen.
+1.element die je wilt targetten
+2.hover properties gebruiken */
