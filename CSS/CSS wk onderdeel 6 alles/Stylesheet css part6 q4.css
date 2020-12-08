@@ -1,6 +1,6 @@
 
 
-#outerbox{display:flex;
+#outerbox{display:block;
     width: 1500px;
     height: 800px;
     margin: 20px;
@@ -33,5 +33,9 @@
 }
 
 .block.nr1{
-    position: relative;
+float:right;
 }
+
+.block.nr3{
+    float:right;
+    }
