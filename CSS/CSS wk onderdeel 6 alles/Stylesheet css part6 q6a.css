@@ -29,29 +29,22 @@
     margin-right:10px;
     margin-top: 150px;
     border-radius: 100%;
-
-    background-image: url(../Images\ css/pkmn_squirtle_happy.gif);
-
+    background-position: center;
 }
 
-
-
-
-.h2title{color:black;}
-.h2title:hover{
-    color: orange;
-    opacity:0.5;
+#k1:hover{
+    background-image: url(../Images\ css/pkmn_squirtle.gif);
 
 }
-.h2title.nr2:hover{
-    background-image: url(../Images\ css/pokebal2.jpg);
+#k2:hover{
+    background-image: url(../Images\ css/pkmn_bulbasaur.gif);
 
 }
-.h2title.nr3:hover{
-    background-image: url(../Images\ css/pokebal2.jpg);
+#k3:hover{
+    background-image: url(../Images\ css/pkmn_detpikachu.gif);
 
 }
-.h2title.nr4:hover{
-    background-image: url(../Images\ css/pokebal2.jpg);
-
+#k4:hover{
+    background-image: url(../Images\ css/pkmn_charmander.gif);
+    background-position: top;
 }
