@@ -26,13 +26,17 @@
     transition-timing-function: ease-in-out;
 }
 
-
+#outerbox:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
 
 .block.nr1{
     position: absolute;
     left: 810px;
 }
-#innerbox:hover .block.nr1{
+#innerbox .block.nr1{
     animation-name: example1;
     animation-duration:30s;
     animation-iteration-count: infinite;
@@ -51,7 +55,7 @@
 .block.nr2{
         position: absolute;
 }
-#innerbox:hover .block.nr2{
+#innerbox .block.nr2{
         animation-name: example2;
         animation-duration: 30s;
         animation-iteration-count: infinite;
@@ -72,7 +76,7 @@
     position: absolute;
     top:570px;
 }    
-#innerbox:hover .block.nr3{
+#innerbox .block.nr3{
     animation-name: example3;
     animation-duration: 30s;
     animation-iteration-count: infinite;

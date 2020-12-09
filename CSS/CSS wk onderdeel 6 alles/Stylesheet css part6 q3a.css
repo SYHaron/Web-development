@@ -1,5 +1,5 @@
 /* Stylesheet onderdeel 6 vraag 3a */
-.body{display:flex;
+.body{
     margin: 20px;
 }
 
@@ -98,7 +98,7 @@
 
         transition-property: all;
         transition-timing-function: linear;
-        position:absolute;
+        display:absolute;
     }
     .block.nr5::before{content:"";
         width: 50px;
