@@ -38,7 +38,7 @@
 }
 #innerbox .block.nr1{
     animation-name: example1;
-    animation-duration:30s;
+    animation-duration:10s;
     animation-iteration-count: infinite;
 
 }
@@ -57,7 +57,7 @@
 }
 #innerbox .block.nr2{
         animation-name: example2;
-        animation-duration: 30s;
+        animation-duration: 10s;
         animation-iteration-count: infinite;
        
             
@@ -78,7 +78,7 @@
 }    
 #innerbox .block.nr3{
     animation-name: example3;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
         
 }
