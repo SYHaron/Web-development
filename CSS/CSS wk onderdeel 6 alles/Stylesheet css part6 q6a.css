@@ -17,7 +17,7 @@
     text-align: center;
 
     border:solid 5px black;
-    border-radius: 5px;
+    border-radius: 5%;
 
     position: relative;
 
@@ -28,6 +28,10 @@
     color:yellow;
     margin-right:10px;
     margin-top: 150px;
+    border-radius: 100%;
+
+    background-image: url(../Images\ css/pkmn_squirtle_happy.gif);
+
 }
 
 
@@ -36,7 +40,18 @@
 .h2title{color:black;}
 .h2title:hover{
     color: orange;
-    background-image: url(../Images\ css/pokebal2.jpg);
     opacity:0.5;
+
+}
+.h2title.nr2:hover{
+    background-image: url(../Images\ css/pokebal2.jpg);
+
+}
+.h2title.nr3:hover{
+    background-image: url(../Images\ css/pokebal2.jpg);
+
+}
+.h2title.nr4:hover{
+    background-image: url(../Images\ css/pokebal2.jpg);
 
 }
