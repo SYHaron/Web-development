@@ -1,0 +1,68 @@
+
+.body{
+    margin: 20px;
+}
+
+#outerbox{
+    width: 800px;
+    padding:10px;
+    margin: 20px;
+    background-color: rgb(247, 233, 235);
+    border:solid 3px skyblue;
+}
+
+.block{
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+
+#innerbox:hover .block.nr4{
+
+    transform:translate(600px, 0);
+}
+
+.block.nr4{
+    background-image: url();
+
+}
+
+
+
+
+
+/* .pokebal {
+    position: relative;
+    width: 100px;
+}
+
+.pokebal {
+    position: relative;
+    width: 100px;
+}
+
+
+.bal{
+    position: relative;
+    background-color: skyblue;
+    width: 700px;
+    margin:20px;
+
+    border:solid 3px black;
+    border-radius: 100%;
+}
+
+#container{
+    display:flex;
+    position: inline=block;
+}
+
+
+#container:hover .pokebal{
+    transform:translateX(600px);
+
+    animation-name:example;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+} */

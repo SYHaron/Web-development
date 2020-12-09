@@ -1,5 +1,5 @@
-#outerbox{  width: 900px;
-    height: 670px;
+#outerbox{  width: 600px;
+    height: 540px;
     margin: 0px;
     background-color: rgb(247, 233, 235);
     border:solid 3px skyblue;
@@ -38,6 +38,8 @@
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
 
+    opacity:1;
+
 }
 
 #innerbox:hover .block.nr1:before{content:"";
@@ -48,6 +50,7 @@
     transform-origin:left bottom;
     transform: translate(100px, 0px) rotate(45deg);
     transition-timing-function: ease-in-out;
+    opacity:1;
 
 }
 
