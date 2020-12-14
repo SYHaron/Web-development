@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
+$translucent-white: rgba(91, 240, 53, 0.3);
+$icon-square-length: width 300px, height 300px;
+$standard-border: solid 4px black;
+
 h1 {
     font-family: Roboto, sans-serif;
     text-align: center;
@@ -12,12 +16,13 @@ h1 {
     url("./Images/lemon_header.jpg");
     .slogan{
         position: absolute;
-        border: 4px solid rgb(0, 0, 0);
+        border: $standard-border;
         top: 200px;
         left: 25%;
         width: 50%;
         height: 200px;
         text-align: center;
+        background-color: $translucent-white;
             span{
                 font-size: 24px;
                 line-height: 200px;
@@ -32,7 +37,16 @@ h1 {
     .icon{
         display:inline-block;
         margin:2%;
-        border: 4px solid black;
+        border: $standard-border;
         font-size: 32px;
+            &:hover{
+            color:lime
+        }
     }
 }
+
+
+// Ampersand & kan je gebruiken om de ID/CLASS/TAG te gebruiken bij
+// bijvoorbeeld :hover functie.
+    // Het selecteert de voorgaande 'naam' waar je iets wil toepassen,
+    // ipv elke keer de naam te typen.

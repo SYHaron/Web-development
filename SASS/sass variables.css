@@ -12,12 +12,13 @@ h1 {
 
 .banner .slogan {
   position: absolute;
-  border: 4px solid black;
+  border: solid 4px black;
   top: 200px;
   left: 25%;
   width: 50%;
   height: 200px;
   text-align: center;
+  background-color: rgba(91, 240, 53, 0.3);
 }
 
 .banner .slogan span {
@@ -33,7 +34,11 @@ h1 {
 .container .icon {
   display: inline-block;
   margin: 2%;
-  border: 4px solid black;
+  border: solid 4px black;
   font-size: 32px;
+}
+
+.container .icon:hover {
+  color: lime;
 }
 /*# sourceMappingURL=sass variables.css.map */
