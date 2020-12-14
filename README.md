@@ -46,6 +46,7 @@ Week 4 - SASS & Bootstrap
     - 4.Mixins and Includes
     - 5.Extend and Inheritence
     - 6.Operators
+    - 7.Final assignment
 
 
 Week 5 - 6
