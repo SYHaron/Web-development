@@ -1,0 +1,26 @@
+.button {
+  background-color: lime;
+  color: navy;
+  font-size: 3em;
+  border-radius: 5%;
+}
+
+.button:hover {
+  background-color: skyblue;
+  color: hotpink;
+}
+
+.colorChangingSquare {
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+  width: 300px;
+  height: 300px;
+  border: solid 3px black;
+  margin: 10px;
+}
+
+.colorChangingSquare:hover {
+  background-color: yellow;
+  background-color: lime;
+}
+/*# sourceMappingURL=sass mixins and includes.css.map */

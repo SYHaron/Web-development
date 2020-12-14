@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACEA,AAAA,OAAO,CAAA;EACH,KAAK,ECDK,IAAI;EDEd,gBAAgB,ECEK,OAAO;CDI/B;;AARD,AAGI,OAHG,AAGF,MAAM,CAAA;EACH,KAAK,ECHO,MAAM;EDIlB,YAAY,ECHC,MAAM;EDInB,gBAAgB,ECHO,IAAI;CDI9B",
+    "sources": [
+        "sass partials and modules.scss",
+        "SASS_partials/_button.scss",
+        "SASS_partials/_colors.scss"
+    ],
+    "names": [],
+    "file": "sass partials and modules.css"
+}

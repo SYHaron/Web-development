@@ -1,0 +1,11 @@
+.button {
+  color: blue;
+  background-color: hotpink;
+}
+
+.button:hover {
+  color: yellow;
+  border-color: orange;
+  background-color: pink;
+}
+/*# sourceMappingURL=sass partials and modules.css.map */
