@@ -38,8 +38,15 @@ Week 1: HTML
 * Onderdeel 7 Media queries
 * Onderdeel 8 Final Assignment
 
-Week 4
-tba
+Week 4 - SASS & Bootstrap
+* SASS
+    - 1.Nesting
+    - 2.Variables
+    - 3.Partials and Modules
+    - 4.Mixins and Includes
+    - 5.Extend and Inheritence
+    - 6.Operators
+
 
 Week 5 - 6
 Holidays
