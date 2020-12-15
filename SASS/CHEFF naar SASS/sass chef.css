@@ -59,7 +59,13 @@ button {
   border-color: #80b380;
 }
 
-#populair .gerechten {
+#populair {
+  font-size: 52px;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.gerechten {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,12 +73,12 @@ button {
       justify-content: space-around;
 }
 
-#populair .pasta {
+.gerechten .pasta {
   height: 400px;
   width: 300px;
 }
 
-#populair .imgpasta {
+.gerechten .pasta .imgpasta {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -81,11 +87,11 @@ button {
   margin-right: auto;
 }
 
-#populair span {
+.gerechten .pasta span {
   margin-left: 230px;
 }
 
-#populair .show {
+.gerechten .pasta .show {
   margin-left: 250px;
 }
 

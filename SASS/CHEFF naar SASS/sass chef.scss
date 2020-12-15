@@ -1,6 +1,7 @@
 @import "./sass\ chef\ colors";
 @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 
+
 body{  font-family: 'Lobster', cursive;
     margin: 0px;
     padding: 0px;
@@ -51,32 +52,38 @@ ul {
     border-color:$button_color_rand;
  }
 
-       
+ @mixin imgpasta{ width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-#populair{
-    .gerechten{
-        display: flex;
-        justify-content: space-around;
-    }
+ }
+ #populair {
+    font-size: 52px;
+    text-align: center;
+    margin-top: 300px;
+ }
+ .gerechten {
+    display: flex;
+    justify-content: space-around;
     .pasta {
         height: 400px;
         width: 300px;
+        .imgpasta {
+            @include imgpasta();
+         }
+         span {
+            margin-left: 230px;
+         }
+         
+        .show {
+            margin-left: 250px;
+         }
      }
-     .imgpasta{
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-     }
-     span {
-        margin-left: 230px;
-     }
-    .show {
-        margin-left: 250px;
-     }
-}
+ }
+
 
 #menutitle{
     text-align: center;
