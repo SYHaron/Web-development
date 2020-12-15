@@ -1,0 +1,78 @@
+<!-- Voorbeeld w3schools -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SASS part5 q2</title>
+    <style>
+        /* Variable declarations */
+        :root {
+            --blue: #1e90ff;
+            --white: #ffffff;
+        }
+
+        .container {
+            --fontsize: 25px;
+        }
+
+        /* Styles */
+        body {
+            background-color: var(--blue);
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--blue);
+        }
+
+        .container {
+            color: var(--blue);
+            background-color: var(--white);
+            padding: 15px;
+            font-size: var(--fontsize);
+        }
+
+        @media screen and (min-width: 450px) {
+            .container {
+                --fontsize: 50px;
+            }
+
+            :root {
+                --blue: lightblue;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header></header>
+    <main>
+        <section class="text">
+            <h2>2. Lees het gegeven artikel en maak een voorbeeld ervan.</h2>
+            <p>Het geven artikel in het document doet het niet, website niet bereikbaar.</p>
+            <p>Het scherm veranderdt van lichtblauw (skyblue) naar blauw (blue).
+                Dit komt omdat de min-max width 450px is dus als die onder 450px, bijvoorbeeld 449px dan gaat de IF-conditie in.
+                Veranderdt de tekstgrote en de kleur ervan.
+            </p>
+            
+            <p>w3school voorbeeld gebruikt.</p>
+        </section>
+
+        <section>
+            <h1>Using Variables in Media Queries</h1>
+
+            <div class="container">
+                <h2>Lorem Ipsum</h2>
+                <p>When the browser's width is 450px or wider, set the --fontsize variable value to 50px and the --blue
+                    variable value to lightblue. Resize the browser window to see the effect.</p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
