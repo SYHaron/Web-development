@@ -26,7 +26,7 @@ Week 1: HTML
 
 Week 2 / 3 CSS
 * 1 Selectors & Visual ruler
-    - soorten selectors, cascade, inheritance.
+    - soorten selectors, cascade, inheritance
 * 2 Box model
     - inline-, block -elementen
 * 3 Display & Positioning
