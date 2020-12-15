@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+body {
+  font-family: 'Lobster', cursive;
+  margin: 0px;
+  padding: 0px;
+  background-color: #887777;
+}
+
+header {
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 5px;
+  font-size: 2em;
+}
+
+section {
+  position: relative;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  background-image: url(./cooking.jpg);
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  margin-top: -40px;
+  top: 0px;
+  left: 0px;
+}
+
+.cooking {
+  margin-left: 50%;
+  color: #6187d8;
+  position: relative;
+}
+
+.cooking #cookingtitle {
+  font-size: 52px;
+  margin-bottom: 0px;
+}
+
+.cooking #buy, .cooking #show {
+  color: #6187d8;
+}
+
+button {
+  padding: 5px 15px 5px 15px;
+  background: none;
+  border-color: #80b380;
+}
+
+#populair .gerechten {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#populair .pasta {
+  height: 400px;
+  width: 300px;
+}
+
+#populair .imgpasta {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#populair span {
+  margin-left: 230px;
+}
+
+#populair .show {
+  margin-left: 250px;
+}
+
+#menutitle {
+  text-align: center;
+}
+
+.menucontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.menucontainer .chef1 {
+  width: 350px;
+  height: 600px;
+  border-radius: none;
+}
+
+.menucontainer .outercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+}
+
+.menucontainer .outercontainer .container1 {
+  width: 300px;
+}
+
+.menucontainer .outercontainer .container2 {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.menucontainer .outercontainer .container3 {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.footer {
+  position: relative;
+  height: 200px;
+  padding-top: 30px;
+  width: 100%;
+  background-color: #7aaf90;
+  color: white;
+  text-align: center;
+}
+
+.footer .contact {
+  display: inline-block;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .info {
+  display: inline-block;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 600px;
+}
+
+.footer #tekst {
+  color: #6187d8;
+  font-size: 20px;
+}
+
+.footer #in {
+  color: #6187d8;
+}
+/*# sourceMappingURL=sass chef.css.map */

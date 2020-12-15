@@ -1,0 +1,136 @@
+@import "./sass\ chef\ colors";
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+
+body{  font-family: 'Lobster', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-color: $background-color;
+}
+
+header {
+    text-align: right;
+ }
+ 
+ul {
+    list-style-type: none;
+    li {
+        display: inline-block;
+        padding: 5px;
+        font-size: 2em;
+     }
+ }
+ 
+ section{ position: relative;
+    &::before{ content: "";
+        position: absolute;
+        background-image: url(./cooking.jpg);
+        filter:brightness(50%);
+        background-size: cover;
+        height: 450px;
+        width: 100%;
+        margin-top: -40px;
+        top: 0px;
+        left: 0px;
+    }
+ }
+
+ .cooking{margin-left: 50%;
+    color:$text_color;
+    position: relative;
+    #cookingtitle{
+        font-size: 52px;
+        margin-bottom: 0px;
+    }
+    #buy, #show{
+        color:$text_color;
+    }
+ }
+
+ button{ padding: 5px 15px 5px 15px;
+    background: none;
+    border-color:$button_color_rand;
+ }
+
+       
+
+#populair{
+    .gerechten{
+        display: flex;
+        justify-content: space-around;
+    }
+    .pasta {
+        height: 400px;
+        width: 300px;
+     }
+     .imgpasta{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     span {
+        margin-left: 230px;
+     }
+    .show {
+        margin-left: 250px;
+     }
+}
+
+#menutitle{
+    text-align: center;
+}
+.menucontainer{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    .chef1{
+        width: 350px;
+        height: 600px;
+       border-radius: none;
+    }
+    .outercontainer{
+        display: flex;
+        flex-direction: wrap;
+        .container1{
+            width: 300px;
+        }
+         .container2{
+             width: 300px;
+             margin-left: 20px;
+         }
+         .container3{
+            width: 300px;
+            margin-left: 20px;
+        }
+     }
+}
+  
+
+
+.footer {
+    position: relative;
+    height: 200px;
+    padding-top: 30px;
+    width: 100%;
+    background-color: $footer_color;
+    color: white;
+    text-align: center;
+    .contact{
+        display: inline-block;
+        justify-content: space-around;
+    }
+    .info{
+        display: inline-block;
+        justify-content: space-around ; 
+        margin-left: 600px;
+        }
+        #tekst {
+            color: rgb(97, 135, 216);
+            font-size: 20px;
+         }
+         #in {
+            color: rgb(97, 135, 216);
+        }
+}
