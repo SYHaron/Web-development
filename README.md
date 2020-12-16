@@ -48,7 +48,7 @@ Week 4 - SASS & Bootstrap
     - 6.Operators
     - 7.Final assignment
 * BOOTSTRAP
-
+    -Grid System & Responsiveness
 
 Week 5 - 6
 Holidays
