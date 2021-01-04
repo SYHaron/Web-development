@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+</head>
+
+<body>
+    <h2>Undefined en getallen aan variable toekennen</h2>
+    <p>Q1. Via inspecteren in webbrowser>console: getal1</p>
+    <script>
+        let getal1 = "";
+        console.log("getal1" + getal1);
+    </script>
+
+    <p>Q2a. Via inspecteren in webbrowser>console: getal2</p>
+    <script>
+        const getal2 = "";
+        console.log("getal2" + getal2)
+    </script>
+
+    <p>Q2b. Via inspecteren in webbrowser>console: error uncaughtsyntaxerror: identifier getal2 has beenn declared.</p>
+    <script>
+        const getal2 = "1";
+        console.log("getal2" + getal2)
+    </script>
+
+    <p>Q3. Via inspecteren in webbrowser>console: getal3 => getal33</p>
+    <script>
+        var getal3 = "3";
+        console.log("getal3" + getal3);
+    </script>
+
+    <p>Q4. Via inspecteren in webbrowser>console: getal3 => getal35</p>
+    <script>
+        var getal3 = "5";
+        console.log("getal3" + getal3);
+    </script>
+<br>
+    <h2>Verschillende data types herkennen</h2>
+    <p>Q5. Via inspecteren in webbrowser>console: datatypestring </p>
+    <!-- <script>
+        let datatype = "true";
+        console.log("datatype" + typeof datatype);
+    </script> -->
+
+    <p>Q5. Via inspecteren in webbrowser>console: datatypeboolean (zonder "...."), hetzelfde voor waarde false </p>
+    <!-- <script>
+        let datatype = true;
+        console.log("datatype" + typeof datatype);
+    </script> -->
+    <!-- <script>
+        let datatype = false;
+        console.log("datatype" + typeof datatype);
+    </script> -->
+
+    <p>Q6 string. Via inspecteren in webbrowser>console: datatypestring, met waarde in ="" </p>
+    <!-- <script>
+        let datatype = "true";
+        console.log("datatype" + typeof datatype);
+    </script> -->
+
+    <p>Q6 number. Via inspecteren in webbrowser>console: waarde een getal is, bijvoorbeeld 1, 2, 3, 4, 5</p>
+    <!-- <script>
+        let datatype = 5;
+        console.log("datatype" + typeof datatype);
+    </script> -->
+
+    <p>Q6 bigint. Via inspecteren in webbrowser>console: waarde een getal (1, 2, 3) + 'n'</p>
+    <!-- <script>
+        let datatype = 5n;
+        console.log("datatype" + typeof datatype);
+    </script> -->
+
+    <p>Q6 symbol. Via inspecteren in webbrowser>console: waarde staat in "symbol(...)", text als getallen.</p>
+    <script>
+        let datatype = Symbol("1 text");
+        console.log("datatype" + typeof datatype);
+    </script>
+
+    <p>Q7. Via inspecteren in webbrowser>console: </p>
+    <script>
+        const waarde6 = "6";
+        const waarde8 = "8";
+        const sum = num1 + num2;
+    </script>
+</body>
+
+</html>
