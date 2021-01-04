@@ -54,7 +54,7 @@ Week 5 - 6
 Holidays
 
 Week 7 - 8 JavaScript
-* 
+*JavaScript
     - 1.Variables
     - 2.Conditions
     - 3.Functions
