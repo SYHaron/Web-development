@@ -1,7 +1,7 @@
 # Web-development
 Techgrounds academy: Overview of subjects & projects.
 <br>Main language: Dutch, terms: English/Dutch.
-<br>Start November 2019 - End 2021.
+<br>Start November 2019 - End XXX 2021.
 
 Week 1: HTML
 * 1 Intro HTML
