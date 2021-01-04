@@ -25,18 +25,18 @@ Week 1: HTML
 * 4 Final assignment
 
 Week 2 / 3 CSS
-* 1 Selectors & Visual ruler
+* 1.Selectors & Visual ruler
     - soorten selectors, cascade, inheritance
-* 2 Box model
+* 2.Box model
     - inline-, block -elementen
-* 3 Display & Positioning
-* 4 Pseudo elements
+* 3.Display & Positioning
+* 4.Pseudo elements
     - Pseudo classes, Pseudo elements
-* 5 Flexbox
+* 5.Flexbox
     - flexbox container, flexbox item
-* 6 Transitions
-* 7 Media queries
-* 8 Final Assignment
+* 6.Transitions
+* 7.Media queries
+* 8.Final Assignment
 
 Week 4 - SASS & Bootstrap
 * SASS
@@ -53,11 +53,16 @@ Week 4 - SASS & Bootstrap
 Week 5 - 6
 Holidays
 
-Week 7
-tba
-
-#Week 8
-tba
+Week 7 - 8 JavaScript
+* 
+    - 1.Variables
+    - 2.Conditions
+    - 3.Functions
+    - 4.Scopes
+    - 5.Arrays, loops, Iterators
+    - 6.Objects
+    - 7.Classes
+    - 8.Final Assignment
 
 Week 9
 tba
