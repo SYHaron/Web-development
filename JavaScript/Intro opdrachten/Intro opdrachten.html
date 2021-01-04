@@ -38,7 +38,7 @@
         var getal3 = "5";
         console.log("getal3" + getal3);
     </script>
-<br>
+    <br>
     <h2>Verschillende data types herkennen</h2>
     <p>Q5. Via inspecteren in webbrowser>console: datatypestring </p>
     <!-- <script>
@@ -88,7 +88,8 @@
         console.log('De optelsom van' + waarde6 + 'en' + waarde8 + 'is:' + sum);
     </script> -->
 
-    <p>Q7. Via inspecteren in webbrowser>console: const 2x variable 1x minus sign -6, const sum (or replace + for -), console+log =14 </p>
+    <p>Q7. Via inspecteren in webbrowser>console: const 2x variable 1x minus sign -6, const sum (or replace + for -),
+        console+log =14 </p>
     <!-- <script>
         const waarde8 = 8;
         const waarde6 = -6;
@@ -104,7 +105,8 @@
         console.log('De vermenigvuldiging' + waarde6 + 'keer' + waarde8 + 'is:' + sum);
     </script> -->
 
-    <p>Q7. Via inspecteren in webbrowser>console: const 2x variable, const sum replace + for /, console+log =1.33333 </p>
+    <p>Q7. Via inspecteren in webbrowser>console: const 2x variable, const sum replace + for /, console+log =1.33333
+    </p>
     <!-- <script>
         const waarde8 = 8;
         const waarde6 = 6;
@@ -157,16 +159,57 @@
         console.log(number);
     </script> -->
     <p>Q10b.Via inspecteren in webbrowser>: 3+4=7 // number++ +4 postfix increment</p>
-    <dd>number++ blijft hetzelfde waarde 3 en daarna nog +4 is totaal 7, hetzelfde als voorgaande anders geschreven.</dd>
-    <script>
+    <dd>number++ blijft hetzelfde waarde 3 en daarna nog +4 is totaal 7, hetzelfde als voorgaande anders geschreven.
+    </dd>
+    <!-- <script>
         let number = 3;
         const sum = number++ + 4;
         console.log(sum);
-    </script>
+    </script> -->
 
-    <p>Q11. via inspecteren in webbrowser>console: </p>
+    <p>Q11. via inspecteren in webbrowser>console: antwoord 4</p>
+    <dd>number = (((3+4)-2)/5)*4=4= (7)-2(5)/5(1)*4=4</dd>
     <script>
-        
+        let number = 3;
+        number += 4;
+        number -= 2;
+        number /= 5;
+        number *= 4;
+        console.log(number);
     </script>
+<br>
+    <h2>Wat je met JS String kan doen</h2>
+    <p>Q12. Wat merk je op t.o.v. het uitprinten van numbers?</p>
+    <dd>Gebruik van aanhalings tekens/quotation marks, text gebruikt ipv. getallen.</dd>
+    <!-- <script>
+        let fname = "Voornaam";
+        let lname = "Achternaam";
+        console.log(fname + lname);
+    </script> -->
+    <p>Q13. Wat merk je op aan de gegven opdracht.</p>
+    <dd>Met gebruik van String kan je text three als getal 3 gebruiken en bijelkaar optellen = 6. </dd>
+    <!-- <script>
+        let str = "three";
+            str = 3;
+            str = (str + str);
+        document.write(str);
+    </script> -->
+
+<p>Q14. Wanneer zou je een String met single quote ' gebruiken?</p>
+<dd>Je gebruik "" of '' als je text, getallen, speciale symbolen wilt gebruikten.
+    Je gebruikt een combinatie als je verschillende dingen wilt aanduiden, bijvoorbeeld String las verkleining 'it is' naar "it's"
+    Je gebruikt enkel 1x "" en/of 1x '' in String en die dubbel (2x "" of 2x'').
+</dd>
+<!-- <script>
+    let str = "   Hello world, it is a 'sunny' day.   ".toUpperCase();
+    document.write(str);
+</script> -->
+
+<p>Q15. Wat wordt er geprint en hoe zou het anders kunnne schrijven met dezelfde uitkomst?</p>
+<dd> </dd>
+<script>
+    
+</script>
 </body>
+
 </html>
