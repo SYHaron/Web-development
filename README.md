@@ -1,6 +1,7 @@
 # Web-development
 Techgrounds academy: Overview of subjects & projects.
 <br>Main language: Dutch, terms: English/Dutch.
+<br>Start November 2019 - End 2021.
 
 Week 1: HTML
 * 1 Intro HTML
@@ -53,7 +54,7 @@ Week 4 - SASS & Bootstrap
 Week 5 - 6
 Holidays
 
-Week 7 - 8 JavaScript
+Week 7 - 10 JavaScript
 * JavaScript
     - 1.Variables
     - 2.Conditions
@@ -63,12 +64,6 @@ Week 7 - 8 JavaScript
     - 6.Objects
     - 7.Classes
     - 8.Final Assignment
-
-Week 9
-tba
-
-Week 10
-tba
 
 Week 11
 tba
