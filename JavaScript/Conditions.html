@@ -13,22 +13,70 @@
     <p>2.Voeg toe aan opdracht 1, groter dan 4.</p>
     <p>3. Voeg toe aan opdracht 1, is gelijk aan/groter dan 11.</p>
     <p>4. Voeg toe aan opdracht 1, is kleiner dan 3.</p>
-    <input type="number" name="number" id="number">
-    <button id="btn" onclick="checkNumber()">Button</button>
-    <div>
-        <span id="label"></span>
-    </div>
-    <script>
-        function checkNumber() {
-            let number;
-            number = parseInt(document.getElementById("number").value);
-            if (number==3) {document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan getal 3";}
-            else if (number > 4 || number >=11) {document.getElementById("label").innerHTML = "Het ingevoerde getal is groter dan 4."+" Het ingevoerde getal is (gelijk of) groter dan 11";}
-            // else if (number>=11) {document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan of groter dan 11.";}
-            else if (number < 3) {document.getElementById("label").innerHTML = "Het ingevoerde getal is kleiner dan 3.";}
-        }
-
-    </script>
+        <input type="number" name="number" id="number">
+        <button id="btn" onclick="checkNumber()">Button</button>
+        <div>
+            <span id="label"></span>
+        </div>
+        <script>
+            function checkNumber() {
+                let number;
+                number = parseInt(document.getElementById("number").value);
+                if (number == 3) { document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan getal 3"; }
+                else if (number < 3) { document.getElementById("label").innerHTML = "Het ingevoerde getal is kleiner dan 3."; }
+                else if (number >= 11) { document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan of groter dan 11."; }
+                else if (number > 4) { document.getElementById("label").innerHTML = "Het ingevoerde getal is groter dan 4."; }
+                // else if (number > 4 || number >=11) {document.getElementById("label").innerHTML = "Het ingevoerde getal is groter dan 4."+" Het ingevoerde getal is (gelijk of) groter dan 11";}
+            }
+        </script>
+    <p>5 Wat is het verschil tussen &lt; en &lt;= comparison operators? </p>
+    <a href="https://www.w3schools.com/js/js_comparisons.asp" target="_blank" alt="W3schools uitleg comparison operators">Uitleg comparison operators</a>
+        <dt>
+            comparison operator: &lt;
+        </dt>
+        <dd>
+            Less than X / kleiner dan X. *x = waarde (getal/tekst) Checkt één ding in een statement.
+        </dd>
+        <dt>
+            comparison operator: &lt;=
+        </dt>
+        <dd>
+            Less than X / Kleiner dan  X  of Gelijk aan X. *x = waar (getal/tekst). Checkt twee dingen in een statement.
+        </dd>
+    <p>6. Maak en leg uit met een voorbeeld wat comparison operator ! doet.</p>
+        <dt>
+            comparison operator: !
+        </dt>
+        <dd>! verandert de comparison in het tegenovergestelde. "==" betekent X is gelijk aan. "!=" X is niet gelijk aan.
+            In geval ook dat je ipv 2x == naar 1x=  gaat !==.
+        </dd>
+        <input type="number" name="number" id="nr">
+        <button id="btn" onclick="buttonclick()">Button</button>
+        <div><span id="text"></span> </div>
+        <script>
+        function buttonclick() {
+            let nr;
+            nr = parseInt(document.getElementById("nr").value);
+            if (nr == 5) { document.getElementById("text").innerHTML = "Het ingevoerde getal is gelijk aan 5."; }
+            else if (nr !== 3) { document.getElementById("text").innerHTML = "Het ingevoerde getal is NIET gelijk aan 3 waarde of type"; }
+            }
+        </script>
+    <!-- Let op naam verandering van id -->
+    <p>7.Gebruikt voorgaande opdracht en zorgt ervoor dat als het statement niet geldt/vtp is het 'label' geen tekst laat zien in de browser.</p>
+        <input type="number" name="number" id="nr2">
+        <button id="btn" onclick="buttonclick2()">Button</button>
+        <div><span id="text2"></span> </div>
+        <script>
+        function buttonclick2() {
+            let nr2;
+            nr2 = parseInt(document.getElementById("nr2").value);
+                if (nr2 == 3) { document.getElementById("text2").innerHTML = "Het ingevoerde getal is gelijk aan getal 3"; }
+                else if (nr2 < 3) { document.getElementById("text2").innerHTML = "Het ingevoerde getal is kleiner dan 3."; }
+                else if (nr2 >= 11) { document.getElementById("text2").innerHTML = "Het ingevoerde getal is gelijk aan of groter dan 11."; }
+                else if (nr2 > 4) { document.getElementById("text2").innerHTML = "Het ingevoerde getal is groter dan 4."; }
+                else {document.getElementById("text2").innerHTML = "";} //undefined
+            }
+        </script>
 </body>
 
 </html>
