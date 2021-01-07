@@ -86,6 +86,7 @@
         <p>Q6 symbol. Via inspecteren in webbrowser>console: waarde staat in "symbol(...)", text als getallen.</p>
         <script>
             let datatype = Symbol("1 text");
+            let test = Symbol("1 text");
             console.log("datatype" + typeof datatype);
         </script>
 
@@ -288,7 +289,7 @@
         <dd>Text in "" en getallen los. In dit geval is 'are' weg uit de zin.</dd>
         <script>
             let strsplit = "Where are the cats and dogs?";
-                ressplit = strsplit.split("are", 5);
+                ressplit = strsplit.split("are", 5); //"wat wil je weg", limit getal erachter
             document.write(ressplit);
         </script>
 
