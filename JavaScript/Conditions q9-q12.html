@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS conditions q9-q12</title>
+</head>
+
+<body>
+    <h2>Conditions</h2>
+    <p>9.Programeer de volgende logica "getal is groter dan 5 en kleiner dan 10"</p>
+    <input type="number" name="number" id="number9">
+    <button id="btn" onclick="checkNumber9()">Button</button>
+    <div><span id="label9"></span></div>
+    <script>
+        function checkNumber9() {
+            let number9;
+            number9 = parseInt(document.getElementById("number9").value);
+            if (number9 > 5 && number9 < 10) { document.getElementById("label9").innerHTML = "Het ingevoerde getal is groter dan 5 en kleiner dan 10."; }
+            else { document.getElementById("label9").innerHTML = ""; }
+        }
+    </script>
+    <p>10.Uitbreiding op opdracht</p>
+    <h2>Conditions</h2>
+    <p>10.Programeer de volgende logica "getal is gelijk of groter dan 13 en getal is gelijk of kleiner dan 20".</p>
+    <p>11.Programeer de volgende logica "getal is gelijk aan 21 of gelijk aan 23".</p>
+    <input type="number" name="number" id="number11">
+    <button id="btn" onclick="checkNumber11()">Button</button>
+    <div><span id="label11"></span></div>
+    <script>
+        function checkNumber11() {
+            let number11;
+            number11 = parseInt(document.getElementById("number11").value);
+            if (number11 >= 13 && number11 <= 20) { document.getElementById("label11").innerHTML = "Het ingevoerde getal is gelijk of groter dan 13" + " en " + "het ingevoerde getal is gelijk of kleiner dan 20."; }
+            else if (number11 == 21 || number11 == 23) { document.getElementById("label11").innerHTML = "Het ingevoerde getal is gelijk aan 21 of gelijk aan 23."; }
+            else if ((number11 > 30 && number11 < 35) || (number11 > 40 && number11 < 45)) { document.getElementById("label11").innerHTML = "Het ingevoerde getal is tussen 30 en 35 of tussen 40 en 45."}
+            else { document.getElementById("label11").innerHTML = ""; }
+        }
+    </script>
+</body>
+
+</html>
