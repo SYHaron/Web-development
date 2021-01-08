@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Conditions q13-</title>
 </head>
+
 <body>
     <h3>Conditions</h3>
     <p>13.</p>
@@ -27,14 +29,22 @@
     <button onclick="knopTranslateMonth()">translate</button>
     <div id="outputTranslatedMonth"></div>
     <script>
-        function knopTranslateMonth(){
-            let inputNumber;
-            inputNumber = parseInt(document.getElementById("inputNumber").value);
-            let outputTranslatedMonth = knopTranslateMonth(document.getElementById("outputTranslatedMonth").innerHTML = "");
-            
-            if(inputNumber = 1) { outputTranslatedMonth.innerHTML="January"};
+        function knopTranslateMonth() {
+            let inputNumber = parseInt(document.getElementById("inputNumber").value);
+            let outputTranslatedMonth = (document.getElementById("outputTranslatedMonth").innerHTML);
+
+            if (inputNumber = 1) { document.getElementById("outputTranslatedMonth").innerHTML = "January"; }
+            // if (inputNumber = 2) { outputTranslatedMonth = "February"; }
+            // if (inputNumber = 3) { outputTranslatedMonth = "March"; }
+            // if (inputNumber = 4) { outputTranslatedMonth = "April"; }
+            // if (inputNumber = 5) { outputTranslatedMonth = "May"; }
+            // if (inputNumber = 6) { outputTranslatedMonth = "June"; }
+            // if (inputNumber = 7) { outputTranslatedMonth = "July"; }
+            // if (inputNumber = 8) { outputTranslatedMonth = "August"; }
+            // if (inputNumber = 9) { outputTranslatedMonth = "September"; }
         }
     </script>
 
 </body>
+
 </html>

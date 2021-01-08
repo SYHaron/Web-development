@@ -30,9 +30,10 @@
     <div><span id="label11"></span></div>
     <script>
         function checkNumber11() {
-            let number11;
-            number11 = parseInt(document.getElementById("number11").value);
-            if (number11 >= 13 && number11 <= 20) { document.getElementById("label11").innerHTML = "Het ingevoerde getal is gelijk of groter dan 13" + " en " + "het ingevoerde getal is gelijk of kleiner dan 20."; }
+            let number11 = parseInt(document.getElementById("number11").value);
+            let number12 =  document.getElementById("label11").innerHTML;
+
+            if (number11 >= 13 && number11 <= 20) { number12 = "Het ingevoerde getal is gelijk of groter dan 13" + " en " + "het ingevoerde getal is gelijk of kleiner dan 20."; }
             else if (number11 == 21 || number11 == 23) { document.getElementById("label11").innerHTML = "Het ingevoerde getal is gelijk aan 21 of gelijk aan 23."; }
             else if ((number11 > 30 && number11 < 35) || (number11 > 40 && number11 < 45)) { document.getElementById("label11").innerHTML = "Het ingevoerde getal is tussen 30 en 35 of tussen 40 en 45."}
             else { document.getElementById("label11").innerHTML = ""; }
