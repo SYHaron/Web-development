@@ -107,7 +107,13 @@
             let count = document.getElementById("count").textContent;
 
             if (count < 3) { count++; document.getElementById("count").textContent = count; }
+
+
+            else if (count ==3){document.getElementById("label").innerHTML= "Three strikes and out!";} //count 3x klikken = game over.
+
+
         }
+        // document.getElementById("label").innerHTML = guessingWord;
     </script>
 </body>
 
