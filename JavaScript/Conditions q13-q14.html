@@ -9,7 +9,8 @@
 
 <body>
     <h3>Conditions</h3>
-    <p>13. (if/else if/ else) Maak een logica die ervoor zorgt dat je de maand in text ziet wanneer je een getal in vult.</p>
+    <p>13. (if/else if/ else) Maak een logica die ervoor zorgt dat je de maand in text ziet wanneer je een getal in
+        vult.</p>
     <h1>Translate months</h1>
     <!-- <input type="number" name="number" id="numberThisMonth">
     <button onclick="translateMonth13()">translate</button>
@@ -48,20 +49,43 @@
         }
     </script>
 
-    <p>14. (switch statement) Maak een logica die ervoor zorgt dat je de maand in text ziet wanneer je een getal in vult.</p>
+    <p>14. (switch statement) Maak een logica die ervoor zorgt dat je de maand in text ziet wanneer je een getal in
+        vult.</p>
     <h1>Getallen naar Maanden</h1>
     <input type="number" name="number" id="inputNumber14">
     <button onclick="knopVertaalMaand()">Vertaal</button>
     <div id="outputMaand"></div>
     <script>
-        function knopVertaalMaand(){
+        function knopVertaalMaand() {
             let number;
             let months = parseInt(document.getElementById("inputNumber14").value);
 
-            switch (months){
-                case 1 : number = "Januari";
+            switch (months) {
+                case 1: number = "Januari";
                     break;
-                default : number = "Geen maand, kies een ander getal."
+                case 2: number = "Februari";
+                    break;
+                case 3: number = "Maart";
+                    break;
+                case 4: number = "April";
+                    break;
+                case 5: number = "Mei";
+                    break;
+                case 6: number = "Juni";
+                    break;
+                case 7: number = "Juli";
+                    break;
+                case 8: number = "Augustus";
+                    break;
+                case 9: number = "Septemer";
+                    break;
+                case 10: number = "Oktober";
+                    break;
+                case 11: number = "November";
+                    break;
+                case 12: number = "December";
+                    break;
+                default: number = "Geen maand, kies een ander getal.";
             }
             document.getElementById("outputMaand").innerHTML = number;
         }
