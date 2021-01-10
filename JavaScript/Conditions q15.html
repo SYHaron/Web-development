@@ -11,45 +11,45 @@
         position: relative;
         border: 1px solid black;
         border-radius: .5em;
-        background-color: white;
+        background-color: lightgreen;
         padding: .5em;
         cursor: pointer;
         transition: background-color .3s ease-in-out;
         z-index: 1;
     }
 
-    .words button:focus{
+    .words button:focus {
         outline: none;
-        background-color: grey;
+        background-color: yellow;
     }
 
-    .words.fg {
+    .words .fg {
         position: absolute;
         content: "";
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
-        top:0;
-        left:0;
-        width:100%;
+        top: 0;
+        left: 0;
+        width: 100%;
         height: 100%;
         border-radius: inherit;
-        background-color: white;
+        background-color: rgb(243, 225, 225);
         z-index: 2;
         transition: width .3s ease-out;
-        overflow:hidden;
+        overflow: hidden;
     }
 
-    .words.button:hover.fg{
+    .words .button:hover .fg {
         width: 0;
         z-index: 1;
     }
 
-    .words button:focus.fg {
+    .words button:focus .fg {
         width: 0;
     }
 
-    .answer{
+    .answer {
         font-size: 2em;
         font-weight: 900;
     }
@@ -59,17 +59,35 @@
     <h1>Guess the word</h1>
     <section>
         <div class="words">
-            <button onclick="guess(this)"><div class="fg">show</div><span>Together</span></button>
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Teamwork</span></button>
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Scrum</span></button>
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Individual</span></button>
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Moments</span></button>
+            <button onclick="guess(this)">
+                <div class="fg">show</div><span>Together</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Teamwork</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Scrum</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Individual</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Moments</span>
+            </button>
 
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Like</span></button>
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Dislike</span></button>
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Money</span></button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Like</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Dislike</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Money</span>
+            </button>
 
-            <button onclick="guess(this)"><div class="fg">Show</div><span>Important</span></button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Important</span>
+            </button>
         </div>
     </section>
 
@@ -79,13 +97,16 @@
             <p id="label"></p>
         </div>
     </section>
-    
+
     <script>
         const words = ["Together", "Teamwork", "Scrum", "Individual", "Moments", "Like", "Dislike", "Money", "Important"];
-        const guessingWord = words[Math.round(Math.random()*8)];
+        const guessingWord = words[Math.round(Math.random() * 8)];
 
-        function guess(obj){
-            
+        function guess(obj) {
+            const guessingWord = words[Math.floor(Math.random() * words.length)];
+            let count = document.getElementById("count").textContent;
+
+            if (count < 3) { count++; document.getElementById("count").textContent = count; }
         }
     </script>
 </body>
