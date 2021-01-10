@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Conditions q13-q14</title>
+</head>
+
+<body>
+    <h3>Conditions</h3>
+    <p>13. (if/else if/ else) Maak een logica die ervoor zorgt dat je de maand in text ziet wanneer je een getal in vult.</p>
+    <h1>Translate months</h1>
+    <!-- <input type="number" name="number" id="numberThisMonth">
+    <button onclick="translateMonth13()">translate</button>
+    <div class="outputMonth13"></div>
+    <script>
+        let monthNames13 = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    
+        let numberThisMonth = [monthNames13.getMonth()+1];
+        // let outputMonth13 = document.getElementById("outputMonth13");
+        function translateMonth13(){
+            if (number13ThisMonth >=0 && <=12) {document.getElementById("outputMonth13").innerHTML = "";}
+            else {document.getElementById("outputMonth13").innerHTML = undefined;}
+        </script>
+    -->
+
+    <input type="number" name="number" id="inputNumber">
+    <button onclick="knopTranslateMonth()">translate</button>
+    <div id="outputTranslatedMonth"></div>
+    <script>
+        function knopTranslateMonth() {
+            let inputNumber = parseInt(document.getElementById("inputNumber").value);
+
+            if (inputNumber == 1) { document.getElementById("outputTranslatedMonth").innerHTML = "January"; }
+            else if (inputNumber == 2) { document.getElementById("outputTranslatedMonth").innerHTML = "February"; }
+            else if (inputNumber == 3) { document.getElementById("outputTranslatedMonth").innerHTML = "March"; }
+            else if (inputNumber == 4) { document.getElementById("outputTranslatedMonth").innerHTML = "April"; }
+            else if (inputNumber == 5) { document.getElementById("outputTranslatedMonth").innerHTML = "May"; }
+            else if (inputNumber == 6) { document.getElementById("outputTranslatedMonth").innerHTML = "June"; }
+            else if (inputNumber == 7) { document.getElementById("outputTranslatedMonth").innerHTML = "July"; }
+            else if (inputNumber == 8) { document.getElementById("outputTranslatedMonth").innerHTML = "August"; }
+            else if (inputNumber == 9) { document.getElementById("outputTranslatedMonth").innerHTML = "September"; }
+            else if (inputNumber == 10) { document.getElementById("outputTranslatedMonth").innerHTML = "October"; }
+            else if (inputNumber == 11) { document.getElementById("outputTranslatedMonth").innerHTML = "November"; }
+            else if (inputNumber == 12) { document.getElementById("outputTranslatedMonth").innerHTML = "December"; }
+            else { document.getElementById("outputTranslatedMonth").innerHTML = ""; }
+        }
+    </script>
+
+    <p>14. (switch statement) Maak een logica die ervoor zorgt dat je de maand in text ziet wanneer je een getal in vult.</p>
+    <h1>Getallen naar Maanden</h1>
+    <input type="number" name="number" id="inputNumber14">
+    <button onclick="knopVertaalMaand()">Vertaal</button>
+    <div id="outputMaand"></div>
+    <script>
+        function knopVertaalMaand(){
+            let number;
+            let months = parseInt(document.getElementById("inputNumber14").value);
+
+            switch (months){
+                case 1 : number = "Januari";
+                    break;
+                default : number = "Geen maand, kies een ander getal."
+            }
+            document.getElementById("outputMaand").innerHTML = number;
+        }
+    </script>
+</body>
+
+</html>
