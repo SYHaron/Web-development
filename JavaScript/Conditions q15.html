@@ -94,47 +94,49 @@
     <section>
         <div>
             <span>The number of wrong guessing:<span id="count">0</span></span>
-            <p id="label"></p>
+            <p id="label"></p> 
         </div>
     </section>
 
+    <!--
+    //debugging using console ---f12 shortkey console in webbrowser
+    // console.log(guessingWord);
+
+    //Math.floor = dichtsbijzijnde hele decimaal naar beneden 1,4123=1
+
+    //Math.random() * XXXX = 51; nummer tussen 0-50, moet je max +1
+
+    //declaring a variable ==> "const words = [....]"
+
+    // let tryk;
+    // tryk = prompt("click/kies een vakje")
+    // console.log("Your guess is:" + tryk); 
+    //source https://www.youtube.com/watch?v=o6hvejKRtUw-->
+
     <script>
-        //debugging using console ---f12 shortkey console in webbrowser
-        // console.log(guessingWord);
-
-        //Math.floor = dichtsbijzijnde hele decimaal naar beneden 1,4123=1
-
-        //Math.random() * XXXX =  51;  nummer tussen 0-50, moet je max +1
-
-        //declaring a variable ==> "const words = [....]"
-
-           // let tryk;
-            // tryk = prompt("click/kies een vakje")
-            // console.log("Your guess is:" + tryk);
-
-        
-        //source https://www.youtube.com/watch?v=o6hvejKRtUw
-
         const words = ["Together", "Teamwork", "Scrum", "Individual", "Moments", "Like", "Dislike", "Money", "Important"];
         const guessingWord = words[Math.round(Math.random() * 8)];
 
         function guess(obj) {
             //maak guess=> object
-            // let guess = obj.children[1].textContent
+            // let guess = obj.children[1].textContent = element en daar de kinderen  (fg en span) ervan, altijd array dus tussen [...] getal welke child.
             let guess = obj.querySelector("span").innerText;
+            let count = document.getElementById("count").textContent;
+          
 
+            if (guess == guessingWord) { document.getElementById("label").innerText = "Correct gekozen. Antwoord: " + guessingWord; }
+            else if (guess != guessingWord) { document.getElementById("label").textContent = "Verkeerd gekozen, antwoord: " + guessingWord; }
 
-            if (guess == guessingWord) { document.getElementById("label").innerHTML = "Correct gekozen. Antwoord: " + guessingWord;}
-            else if (guess != guessingWord) {count++; document.getElementById("label").innerHTML = "Verkeerd gekozen. Antwoord: " + guessingWord;}
-
-
-            // let count = document.getElementById("count").textContent;
-            // if (count < 3) { count++; document.getElementById("count").textContent = count; }
-            // else if (count ==3){document.getElementById("label").innerHTML= "Three strikes and out! " + guessingWord;} //count 3x klikken = game over.
+            if (guess != guessingWord && count < 3) { count++; document.getElementById("count").textContent = count; }
         }
-        // document.getElementById("label").innerHTML = guessingWord;
-        // console.log(guessingWord);
     </script>
+
+    <!-- // let count = document.getElementById("count").textContent;
+      // if (count < 3) { count++; document.getElementById("count").textContent = count; }
+      // else if (count ==3){document.getElementById("label").innerHTML= "Three strikes and out! " + guessingWord;} //count 3x klikken = game over.
+      
+      // document.getElementById("label").innerHTML = guessingWord;
+      // console.log(guessingWord); -->
 </body>
 
 </html>
