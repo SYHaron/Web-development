@@ -85,9 +85,7 @@
                 <div class="fg">Show</div><span>Money</span>
             </button>
 
-            <button onclick="guess(this)">
-                <div class="fg">Show</div><span>Important</span>
-            </button>
+            <button onclick="guess(this)"><div class="fg">Show</div><span>Important</span></button>
         </div>
     </section>
 
@@ -102,18 +100,20 @@
         const words = ["Together", "Teamwork", "Scrum", "Individual", "Moments", "Like", "Dislike", "Money", "Important"];
         const guessingWord = words[Math.round(Math.random() * 8)];
 
-        function guess(obj) {
-            const guessingWord = words[Math.floor(Math.random() * words.length)];
-            let count = document.getElementById("count").textContent;
-
-            if (count < 3) { count++; document.getElementById("count").textContent = count; }
-
-
-            else if (count ==3){document.getElementById("label").innerHTML= "Three strikes and out!";} //count 3x klikken = game over.
+        function guess(obj){
+            let guess=obj.child;
+            if (words == guessingWord){document.getElementById("label").innerHTML="correct."}
+    
 
 
+
+
+            // let count = document.getElementById("count").textContent;
+            // if (count < 3) { count++; document.getElementById("count").textContent = count; }
+            // else if (count ==3){document.getElementById("label").innerHTML= "Three strikes and out!";} //count 3x klikken = game over.
         }
-        // document.getElementById("label").innerHTML = guessingWord;
+        // document.getElementById("label").innerHTML = guessingWord; 
+        // console.log(guessingWord);
     </script>
 </body>
 
