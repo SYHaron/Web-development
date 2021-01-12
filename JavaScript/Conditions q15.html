@@ -94,7 +94,7 @@
     <section>
         <div>
             <span>The number of wrong guessing:<span id="count">0</span></span>
-            <p id="label"></p> 
+            <p id="label"></p>
         </div>
     </section>
 
@@ -122,12 +122,12 @@
             // let guess = obj.children[1].textContent = element en daar de kinderen  (fg en span) ervan, altijd array dus tussen [...] getal welke child.
             let guess = obj.querySelector("span").innerText;
             let count = document.getElementById("count").textContent;
-          
 
             if (guess == guessingWord) { document.getElementById("label").innerText = "Correct gekozen. Antwoord: " + guessingWord; }
             else if (guess != guessingWord) { document.getElementById("label").textContent = "Verkeerd gekozen, antwoord: " + guessingWord; }
 
             if (guess != guessingWord && count < 3) { count++; document.getElementById("count").textContent = count; }
+            else if (guess != guessingWord && count == 3) { count++; document.getElementById("count").textContent = count; location.reload("count"); }
         }
     </script>
 
