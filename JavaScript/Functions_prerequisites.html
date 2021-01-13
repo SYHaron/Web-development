@@ -27,25 +27,44 @@
         <p class="greeting2"></p>
         <button onclick="greeting2()">Click</button>
         <script>
-            function greeting2(name, lastName, age) {
-                console.log("Hello " + name + " " + lastName + " " + age);
+            function greeting2() {
+                function greeting2(name, lastName, age) {
+                    console.log("Hello " + name + " " + lastName + " " + age);
+                }
+                greeting2("John", "Smith", "30");
             }
-            greeting2("John", "Smith", "30");
         </script>
     </section>
 
     <section>
-        <p>Q3.Schrijf functie waarbij je een je een getal mee kan geven aan de functie. Print vervolgens het getal uit in
+        <p>Q3.Schrijf functie waarbij je een je een getal mee kan geven aan de functie. Print vervolgens het getal uit
+            in
             de console.</p>
-        <p class="greeting4"></p>
-        <button onclick="greeting4()">Click</button>
+        <p class="greeting3"></p>
+        <button onclick="greeting3()">Click</button>
         <script>
             let number = ["red", "blue", "green"];
             let number1 = [1, 2, 3];
-            function greeting4() {
+            function greeting3() {
                 console.log(number[0], number1[1]);
-                console.log(number[2], number1[2]);
-                console.log(number[1], number1[0]);
+                //     console.log(number[2], number1[2]);
+                //     console.log(number[1], number1[0]);
+            }
+        </script>
+    </section>
+
+    <section>
+        <p>Q4.Schrijf functie waarbij je 2x getallen met elkaar vermenigvuldigt en geef de waarde van de
+            vermenigvuldiging terug. Print vervolgens het getal uit in
+            de console.</p>
+        <p id="function4"></p>
+        <button onclick="function4()">Click</button>
+        <script>
+            function function4() { //zodat je  moet clicken om het antwoord in console tevoorschijn te krijgen.
+                function function4(x, y = 2) {
+                    return x * y;
+                }
+                console.log(function4(4));
             }
         </script>
     </section>
@@ -53,8 +72,8 @@
     <!-- function answer(){
     let vraag1 = "Q1: Hello world.";
     let vraag2 = "Q2: XX."
-       console.log (vraag1);
-       console.log (vraag2);
+    console.log (vraag1);
+    console.log (vraag2);
     } -->
 </body>
 
