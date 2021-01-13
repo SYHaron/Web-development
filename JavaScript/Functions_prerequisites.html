@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Functions: prerequisites</title>
 </head>
+
 <body>
-    <p id="answer"></p>
-    <button onclick="answer()">Click</button>
-    <script>
-        // function answer(){
-        // let vraag1 = "Q1: Hello world.";
-        // let vraag2 = "Q2: XX."
-        //    console.log (vraag1);
-        //    console.log (vraag2);
-        // }
+    <h2>JS Functions: prerequisites</h2>
+    <section>
+        <p>Q1.Schrijf een functie die de tekst 'Hello world' in de console uitprint. Geef een goede functie naam ervoor.
+        </p>
+        <p id="greeting"></p>
+        <button onclick="greeting()">Click</button>
+        <script>
+            function greeting() {
+                console.log("Hello world");
+            }
+        </script>
+    </section>
 
-    //hieronder antwoorden
+    <section>
+        <p>Q2.Schrijf functie waarbij je een tekst mee kan geven aan ee functie. Print vervolgens de tekst uit in de console.</p>
+        <p class="greeting2"></p>
+        <button onclick="greeting2()">Click</button>
+        <script>
+            function greeting2(name, lastName, age){
+                console.log("Hello " + name + " " + lastName + " " + age);
+            }
+            greeting2("John", "Smith", "30");
+        </script>
+    </section>
 
-    </script>
+    <section>
+        <p>Q3.Schrijf functie waarbij je een je een getal mee kan geven aan de functie. Print vervolgens de tekst uit in de console.</p>
+    </section>
+
+    <!-- function answer(){
+    let vraag1 = "Q1: Hello world.";
+    let vraag2 = "Q2: XX."
+       console.log (vraag1);
+       console.log (vraag2);
+    } -->
 </body>
+
 </html>
