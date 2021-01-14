@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Function q5b</title>
+</head>
+
+<body>
+    <section>
+        <p>Q5b. Random naam</p>
+        <!-- <input type="number" name="number" id="inputNumberRandom">
+        <button onclick="randomNaam()">Checknaam</button>
+        <div id="outputRandomNaam"></div> -->
+
+        <script>
+            function radomNaam() {
+                let test = Math.round(Math.random() * 8);
+                console.log(test);
+                listName(test); // test basis getal vergelijken met  statements
+            }
+
+            function listName(x) {
+                let number = "";
+
+                switch (x) {
+                    case 1: number = "John";
+                        break;
+                    case 2: number = "Oly";
+                        break;
+                    case 3: number = "Mo";
+                        break;
+                    case 4: number = "Hendrik";
+                        break;
+                    case 5: number = "Tony";
+                        break;
+                    case 6: number = "Irus";
+                        break;
+                    case 7: number = "Jan";
+                        break;
+                    case 8: number = "Peter";
+                        break;
+                    default: number = "Niet in database / gelijk.";
+                }
+                console.log(listName);
+                outputRandomNaam.innerHTML= number;
+            }
+        </script>
+    </section>
+</body>
+
+</html>
