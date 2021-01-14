@@ -78,15 +78,44 @@
         <div id="outputNaamCheck"></div>
 
         <script>
+
+
             function naamKnop() {
-                let nameText = (document.getElementById("text").value);
-                nameText = text.toUpperCase();
-                let outputNaamCheck = document.getElementById("outputNaamcheck");
-                
-                if (text == "JOHN") { document.getElementById("outputNaamCheck").innerHTML = "In database"; }
+                // let nameText = (document.getElementById("text"));
+                // nameText = text.toUpperCase();
+                // let outputNaamCheck = document.getElementById("outputNaamcheck");
+                let nameText = document.getElementById("nameText").value;
+                console.log("hoi");
+
+                // let naamText = "john";
+                if (nameText == "john") { document.getElementById("outputNaamCheck").innerHTML = "In database"; console.log("bye"); }
+
+                //                 if (nameText == "JOHN") { document.getElementById("outputNaamCheck").innerHTML = "In database"; }
                 // else if (inputNaam == 2) { document.getElementById("outputNaamCheck").innerHTML = "In database"; }
                 // else { document.getElementById("outputNaamCheck").innerHTML = ""; }
             }
+
+
+
+
+    //     function naamKnop(){
+    //         let name = prompt("Wie zoek je?").toLowerCase();
+    //         if (
+    //             name === "john" ||
+    //             name === "oly" ||
+    //             name === "mo" ||
+    //             name === "hendrik" ||
+    //             name === "tony" ||
+    //             name === "irus" ||
+    //             name === "jan" ||
+    //             name === "peter"
+    //         ) {
+    //             alert(`Dit is een bekende van ons: ${name}`);
+    //         } else {
+    //             alert("onbekend in ons systeem!");
+    //         }
+    //   }
+
         </script>
     </section>
 </body>
