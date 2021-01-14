@@ -7,18 +7,19 @@
 </head>
 <body>
     <p>Q6. Pas arrow function toe op vorige vraag, JS function q5b.</p>
-    <input type="number" name="number" id="inputNumberRandom">
+    <input type="text" name="text" id="textNaam">
     <button onclick="randomNaam()">Checknaam</button>
     <div id="outputRandomNaam"></div>
 
     <script>
-        function radomNaam() {
+     radomNaam = () => {
             let test = Math.round(Math.random() * 8);
             console.log(test);
             listName(test); // test basis getal vergelijken met  statements
         }
 
-        function listName(x) {
+        // function listName(x){} ---zie opdracht functoins 5a/5b
+         listName = (x) => {
             let number = "";
 
             switch (x) {
