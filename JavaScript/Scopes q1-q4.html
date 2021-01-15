@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Scopes q1 - q4 </title>
+</head>
+
+<body>
+    <h2>JS Scopes</h2>
+    <dd>Global scope = kan je variable gebruiken in hele document.</dd>
+    <dd>Local scope // Function scope = kan je variable enkel gebruiken in de function / function code block.</dd>
+    <section>
+        <p>Q1. Typ over de geven funcite en wat wordt er in de console gelogt + what voor scoping heb je te maken?</p>
+        <dd>Local scope // function scope // block scope = variable carBrand staat in de functie.</dd>
+        <script>
+            function princtCar() {
+                const carBrand = "Volvo";
+            }
+            console.log("carBrand"); //carBrand is printed.
+        </script>
+    </section>
+
+    <section>
+        <p>Q2. Typ over de geven funcite en wat wordt er in de console gelogt?</p>
+        <dd> CarBrand is printed.</dd>
+        <script>
+            let carName;
+            function princtCar() {
+                const carBrand = "Volvo";
+            }
+            console.log("carBrand"); //carBrand is printed.
+        </script>
+    </section>
+
+    <section>
+        <p>Q3. Typ over de geven funcite en wat wordt er in de console gelogt?</p>
+        <dd>CarBrand is printed</dd>
+        <script>
+            function printCar() {
+                const carBrand = "Volvo";
+            }
+            printCar();
+            console.log("carBrand"); //carBrand is printed
+        </script>
+    </section>
+
+    <section>
+        <p>Q4. Typ over de geven funcite en wat wordt er in de console gelogt?</p>
+        <dd>Volvo v40 is printed.</dd>
+        <script>
+            function printCar() {
+                const carBrand = "Volvo";
+                return function (type) {
+                    console.log(carBrand + " " + type);
+                }
+            }
+            const car = printCar();
+            car("v40");
+        </script>
+        <!-- noties hieronder -->
+        <script>
+            function printCar2() {
+                const newNaam = "Volvo";
+                return function (parameter) {
+                    console.log(newNaam + " " + parameter);
+                }
+            }
+            const newNaam = printCar2();
+            newNaam("v40");
+        </script>
+    </section>
+</body>
+
+</html>
