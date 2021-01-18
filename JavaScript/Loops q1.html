@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Loops & Iterations q1 - </title>
+</head>
+
+<body>
+    <h1>JS Loops & Iterations</h1>
+
+    <section>
+        <h3>Loops</h3>
+        <p>q1. Maak gebruik van een loop en itereer de sports array heen. Print het 1 voor 1 uit in console.</p>
+        <dd>console print:
+            <pre>
+            voetbal
+            basketbal
+            volleybal
+            hockey
+            honkbal
+            zwemmen
+            korfbal
+        </pre>
+        </dd>
+        <div class="answer1"></div>
+        <script>
+            const sports1 = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "korfbal"];
+            console.log(sports1.length);
+            console.log(sports1);
+
+            // const eenSport1 = sports1.slice(0, 1);
+            // console.log(eenSport1);
+
+            let outputAnswer1 = " ";
+            let i;
+            for (i = 0; i < sports1.length; i++) {
+                outputAnswer1 += sports1[i] + "\n"; // n staat voor een line break, dat het op volgende regel begint.
+            }
+            console.log(outputAnswer1);
+
+            // let index = 0;
+            // while (index < 3) { console.log(index); index++ }; // getallen 0, 1, 2, in console.log.
+        </script>
+    </section>
+
+    <section>
+        <p>q2.Maak een for-loop die alleen even getallen 0 - 20 in console uitprint.</p>
+        <dd>console print: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.</dd>
+        <script>
+            for (let i = 0; i <= 20; i++) {
+                if (i % 2 == 0) { console.log(i); }
+            }
+    //begin punt is index =  0, index moet onder/gelijk aan getal 20, remainder % 2 omdat je even getallen wilt.
+        </script>
+    </section>
+
+    <section>
+        <p>q3.Maak loop van sports en gebruik enkel even getallen print in console uit.</p>
+        <dd>console print [index nummer]: voetbal [0]
+            volleybal [2]
+            honkbal [4]
+            korfbal [6]</dd>
+        <script>
+            const sports3 = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "korfbal"];
+            //0, 1, 2, 3, 4, 5, 6 index nummer sports3
+            console.log(sports3);
+            console.log(sports3.length);
+
+            let outputAnswer2 = "";
+            let index;
+
+            for (index = 0; index <= 7; index++) {
+                if (index % 2 == 0) {
+                    outputAnswer2 += sports3[index] + "\n";
+                }
+            }
+            console.log(outputAnswer2);
+        </script>
+    </section>
+</body>
+
+</html>
