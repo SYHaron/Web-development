@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Array 6</title>
+</head>
+
+<body>
+    <section>
+        <p>q6.Zoek array functies, geeft voorbeeld en leg het uit.</p>
+        <dd>push() array function. Adds new item toe achteraan de array. Vooraan gebruik unshift() methode/functie.</dd>
+        <dd>console.log => (5) ["aarbei", "peer", "framboos", "kokosnoot", "blauwe bes"] // blauwe bes is toegevoegd aan
+            de array.</dd>
+        <script>
+            const pushFruit = ["aarbei", "peer", "framboos", "kokosnoot"];
+            pushFruit.push("blauwe bes");
+            console.log(pushFruit);
+        </script>
+        <br>
+
+        <dd>pop() verwijderd het laatste item in de array. Bij shift() is het eerste item in de array.</dd>
+        <dd>console.log => (3) ["aarbei", "peer", "framboos"] // kokosnoot is verwijderd.</dd>
+        <script>
+            const popFruit = ["aarbei", "peer", "framboos", "kokosnoot"];
+            popFruit.pop();
+            console.log(popFruit);
+        </script>
+        <br>
+
+        <dd>shift() verwijderdt het eerste item in de array. De pop() verwijdert het laatste item in de array.</dd>
+        <dd>console.log => (3) ["peer", "framboos", "kokosnoot"] // aardbei is verwijdert.</dd>
+        <script>
+            const shiftFruit = ["aarbei", "peer", "framboos", "kokosnoot"];
+            shiftFruit.shift();
+            console.log(shiftFruit);
+        </script>
+        <br>
+
+        <dd>slice() kan je items selecteren in de array. Maak er een var/let van.</dd>
+        <dd>console.log(new variable) => (2) ["aarbei", "peer"] //index 0 en index 2 gekozen.</dd>
+        <script>
+            const sliceFruit = ["aarbei", "peer", "framboos", "kokosnoot"];
+            const fruitslice = sliceFruit.slice(0, 2);
+            console.log(fruitslice);
+        </script>
+        <br>
+
+        <dd>splice() kan je items toevoegen & verwijderen aan een array.</dd>
+        <dd>console.log(splicefruit) => (3) ["citroen", "appel", "kokosnoot"] // aarbei/peer/fambroos verwijdert. citroen & appel toegevoed.
+            index gekozen nummer is van 0 tot 3. </dd>
+        <script>
+            const spliceFruit = ["aarbei", "peer", "framboos", "kokosnoot"];
+            spliceFruit.splice(0, 3, "citroen", "appel");
+            console.log(spliceFruit);
+        </script>
+        <br>
+
+        <dd>sort() arrays automatisch op alphabetische volgorde, maar kan ook bepaalde strings, up/down, nummers.</dd>
+        <dd> console.log(sortFruit) => (4) ["aarbei", "framboos", "kokosnoot", "peer"] // alphabetische volgorde.</dd>
+        <script>
+            const sortFruit = ["aarbei", "peer", "framboos", "kokosnoot"];
+            sortFruit.sort();
+            console.log(sortFruit);
+        </script>
+    </section>
+</body>
+
+</html>

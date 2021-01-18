@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Array q1 - q9</title>
+    <title>JS Array q1 - q5</title>
 </head>
 
 <body>
@@ -94,17 +94,32 @@
         <script>
             const randomNumber5 = [1, 4, 5, 6, 7, 2, 9, 3, 8, 10];
             const guessNumber5 = randomNumber5[Math.round(Math.random() * 10)];
-            console.log(randomNumber5.length); // tellen hoeveel items in een array voor het *getal in Math.random.
-            console.log(randomNumber5); // hele array van getallen
-            console.log(guessNumber5); // willekeurige nummer.
+            // console.log(randomNumber5.length); // tellen hoeveel items in een array voor het *getal in Math.random.
+            // console.log(randomNumber5); // hele array van getallen
+            // console.log(guessNumber5); // willekeurige nummer.
 
             const fruit5 = ["watermeloen", "citroen", "appel", "kiwi", "aardbei"];
-            const guessFruit5 = fruit5 [Math.round(Math.random()*5)];
-            console.log(fruit5); // helle array van fruit.
-            console.log(fruit5.length); // tellen hoeveel items in de array
-            console.log(guessFruit5); // willekeurig fruit.
+            const guessFruit5 = fruit5[Math.round(Math.random() * 5)];
+            // console.log(fruit5); // hele array van fruit.
+            // console.log(fruit5.length); // tellen hoeveel items in de array
+            // console.log(guessFruit5); // willekeurig fruit.
+
+            console.log(fruit5[guessNumber5 % 5]); // randomNummer wordt een fruit, maar ook undefined.
 
 
+            // const fruit55 = guessNumber5;
+            // console.log(fruit55); //willikeurig nummer
+
+            // const numberFruit = randomNumber5.concat(fruit5);
+            // console.log(numberFruit); // all twee de arrays volledig
+
+            // const randomNumberFruit = guessFruit5.concat(guessNumber5);
+            // console.log(randomNumberFruit); //twee array samen gevoegd
+
+            // console.log(fruit5 [guessNumber5]);
+
+            // const remainder = 10 % 3; //guessNumber5 has 10 getallen, 3 past er 3x in du remainder is 1
+            // console.log(remainder);
         </script>
     </section>
 </body>
