@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Array 6</title>
+    <title>JS Array q6 - q</title>
 </head>
 
 <body>
@@ -82,10 +82,23 @@
         <dd id="replace"></dd>
         <script>
             // var fruit = ["appel", "peer", "aardbei", "banaan"];
+            //use splice() or map() & filter().
 
-            var replaceFruit = "peer";
-            var replace = replaceFruit.replace("peer", "sinasappel");
+            const replaceFruit = "peer";
+            const replace = replaceFruit.replace("peer", "sinasappel");
             console.log(replace);
+        </script>
+    </section>
+
+    <section>
+        <p>q9.Gebruik van indices(index), Aardbei en manderijn van plaats verwisselen in array.</p>
+        <script>
+            const indexFruit = ["peer", "aardbei", "manderijn"];
+
+            const tmp = indexFruit[0];
+            indexFruit[0] = indexFruit[2];
+            indexFruit[2] = tmp;
+            console.log(indexFruit);
         </script>
     </section>
 </body>
