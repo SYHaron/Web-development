@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Loopes en Iterations q4 - q6</title>
+</head>
+
+<body>
+    <h2>Loops en Iterations</h2>
+    <section>
+        <a href="https://www.w3schools.com/js/js_loop_while.asp" title="w3schools" target="_blank">Uitleg while loop</a>
+        <a href="https://www.w3schools.com/js/js_loop_for.asp" title="w3schools" target="_blank">Uitleg for loop</a>
+        <p>q4. Maak dezelfde opdracht met 'while loop'. (array sports, 1 voor 1 in concole).</p>
+        <dd>Console.log:
+            <pre>
+                voetbal
+                basketbal
+                volleybal
+                hockey
+                honkbal
+                zwemmen
+                korfbal
+            </pre>
+        </dd>
+        <script>
+
+            const sport4 = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "korfbal"];
+            console.log(sport4.length);
+            console.log(sport4);
+
+            let outputSport4 = "";
+            let index4 = 0;
+            ////index4 variable moet je plaatsen in de const sport4 array, zodat die basis van index getallen de arrray laat zien.
+            while (sport4[index4]) {
+                outputSport4 += sport4[index4] + "\n"; index4++;
+            }
+            console.log(outputSport4);
+
+        </script>
+    </section>
+
+    <section>
+        <p>q5. Maak dezelfde opdracht met 'for...in loop'. (array sports, 1 voor 1 in concole).</p>
+        <script>
+            const sport5 = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "korfbal"];
+            console.log(sport5);
+            console.log(sport5.length);
+        </script>
+    </section>
+
+    <section>
+        <p>q6. Maak dezelfde opdracht met 'for...of loop'. (array sports, 1 voor 1 in concole).</p>
+        <script>
+
+        </script>
+    </section>
+</body>
+
+</html>
