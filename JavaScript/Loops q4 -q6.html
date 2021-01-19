@@ -46,12 +46,31 @@
             title="developer mozilla" target="_blank">Uitleg For...In loop met arrays.</a>
         <p>q5. Maak dezelfde opdracht met 'for...in loop'. (array sports, 1 voor 1 in concole).</p>
         <dd>For/in loop loops through the properties of an object.</dd>
+        <dd>syntax: for (variable/property in object) {statement}. //bij voorkeur niet gebruiken bij arrays.</dd>
+        <dd>variable/property ==> different property name is assinged to variable on each iteration.</dd>
+        <dd>object => object whose non-symbol enumerable properties are iterated over.</dd>
+        <dd>console.log:
+            <pre>
+                0: voetbal
+                1: basketbal
+                2: volleybal
+                3: hockey
+                4: honkbal
+                5: zwemmen
+                6: korfbal
+            </pre>
+        </dd>
         <script>
             const sport5 = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "korfbal"];
             console.log(sport5);
             console.log(sport5.length);
 
-            
+            for (const kip in sport5) {
+                console.log(`${kip}: ${sport5[kip]}`);
+            }
+            //object = sport5 waar de (string)array staat.
+            //kip  = property //index getal => dat die de verschillende sportnamen print, bijvoorbeeld voetbal, basketbal.
+
             // let outputSport5 = "";
             // let index5 = 0;
             // for (index5 in sport5) { outputSport5 += sport5[index5] + "\n"; }
@@ -60,7 +79,53 @@
 
     <section>
         <p>q6. Maak dezelfde opdracht met 'for...of loop'. (array sports, 1 voor 1 in concole).</p>
+        <dd>syntax: for (variable of iterable) {statement}.</dd>
+        <dd>variable => on each iteration a value of a different property is assigned to variable. Variable may be
+            declared with const, let/var.</dd>
+        <dd>iterable =>object whose iterable properties are iterated.</dd>
         <script>
+            const sport6 = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "korfbal"];
+            console.log(sport6);
+            console.log(sport6.length);
+
+            for (const kip of sport6) {
+                console.log(kip);
+            }
+            // for ... of  ==>moet erin staan voro de for/of loop.
+            //kip/element => verwijzing naar dingen in de array.
+            //const => variable declared als const/let/var.
+            //iterable =>sport6/arraynaam.
+        </script>
+    </section>
+
+    <section>
+        <p>q7.Maak verschillende iteraties in en loops.</p>
+        <dd>-Maak een 'while loop' die 3x itereert.</dd>
+        <dd>-Binnen de 'while loop' maak een 'for loop' die 10x itereert.</dd>
+        <dd>-1e 'while loop' gebruik getallen [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] in console print.</dd>
+        <dd>-2e 'while iteratie' gebruik getallen [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] // getallen % 2 ?? in console
+            uitprint. // getallen 1 t/m 20.</dd>
+        <dd>-3rde 'while loop' getallen [3, 6, 9, 12, 15, 18, 21, 24, 27, 30] // getallen % ? ?? in console
+            uitprint.//getallen 1 t/m 30.</dd>
+        <p>While loop 3x itereert : 1 2 3.</p>
+        <p>(While loop met erin) for loop 10x itereert : 0 1 2 3 4 5 6 7 8 9 10</p>
+        <script>
+            const getal7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+                21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+            console.log(getal7);
+            console.log(getal7.length); //30 items
+
+            let outputGetal7 = "";
+            let indexGetal7 = 0;
+            while (getal7[indexGetal7] <= 3) { outputGetal7 += getal7[indexGetal7] + " "; indexGetal7++; }
+            console.log(outputGetal7);
+
+            let outputGetal77 ="";
+            // while (getal7[indexGetal7]<=3) {
+                for(let i = 0; i<=10; i++){outputGetal77 = outputGetal77 + " " + i;}
+            console.log(outputGetal77);
+
+
 
         </script>
     </section>
