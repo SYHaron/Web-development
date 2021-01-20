@@ -172,15 +172,24 @@
         <script>
             let array9 = [2, 7, 5, 10, 4, 9, 3, 1, 8, 6];
 
-            let test9 = [5, 2, 1];
-            let index9 = 0;
+            let output9 = [];
+            let index9;
 
-            for (index9 = 0; index9 <= 10; index9++) {
-                console.log(index9);
+            for (index9 = 0; index9 < array9.length; index9++) {
+                array9.sort(function (a, b) { return a - b });
+                output9 += array9[index9] + "\n";
+
+                // console.log(output9); //telt van 1, - 1,2, - 1,2,3, - 1,2,3,4 - etc.
             }
+            console.log(output9);
+
             // vergelijk of 1e getal (5) > 2e getal (2) => so TRUE / YES ==> swap  = 2e getal (2), 1e getal (5).
             // vergelijk of 1e getal (1) > 2e getal (3) => so FALSE / NO ==> geen swap  = 1e getal(1), 2e getal(3).
 
+            // let output9 = " ";
+            // while (array9[index9] <= 7) {
+            //     output9 += array9[index9] + " "; + index9++;}
+            // console.log(output9);
         </script>
     </section>
 </body>
