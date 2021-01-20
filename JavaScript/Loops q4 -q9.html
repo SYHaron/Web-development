@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Loopes en Iterations q4 - q7</title>
+    <title>JS Loopes en Iterations q4 - q9</title>
 </head>
 
 <body>
@@ -138,13 +138,28 @@
 
     <section>
         <p>q8. Fibonacci reeks getallen 0 t/m 50</p>
-        eerste getal + volgende getal = nieuw getal => nieuw getal + volgende getal = etc. // 0+0=0 =>0+1=1
+        <dd>console moet tonen:fibonacci 0, 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, (getal 0 t/m 50).</dd>
+        <!-- eerste getal + volgende getal = nieuw getal => nieuw getal + volgende getal = etc. // 0+0=0 =>0+1=1 -->
         <script>
-            let a = 0;
-            let b = 1;
-            // for (let i = 0; i <= 50; i++) {
-            //     console.log(i);
-            // }
+            let startNrA = 1;
+            let prevNrB = 0;
+            let newNrC = startNrA + prevNrB;
+            
+            for (let i = 0; i <= 50; i++) {newNrC = startNrA + prevNrB;
+                
+                console.log(newNrC);
+
+                //A + b = c// c+ b = cc // 
+        }
+
+            // fibonacci 0, 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc.
+            // fibonacci 0, (0 + 0=) 0, (0 + 1=) 1, (0 + 1=) 1, (1 + 1=) 2, (1 + 2=) 3, (2 + 3=) 5, (3 + 5=) 8, (5 + 8=) 13, (8 + 13=) 21, (13 + 21=) 34, (21 + 34=) 55, etc.
+            // fibonacci 0, (prevNumber + currentNumber=) newNumber 0, (prevNumber + currentNumber) newNumber 1,
+            // fibonacci 0, (startNr 0 + currentNr 0 =) newNumber 0, (startNr 0 + prevNr 1 =) 1, (startNr 1 + prevNr 0)=1, (startNr 1 + prevNr 1 =) 2, etc.
+            //laatste 2 getallen bij elkaar optellen.
+
+            // for (startNr = 0; startNr <= 50; startNr++) {
+            //         console.log(startNr)}
         </script>
     </section>
 </body>
