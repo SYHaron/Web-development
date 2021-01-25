@@ -12,7 +12,7 @@
 <!-- link 'rel' = 1x woord (javascript, stylesheet), niet stylesheet_rekenmachine. -->
 
 <body>
-    <section>
+    <section id="section1">
         <h1>JavaScript eindopdracht</h1>
         <h2>Stappenplan</h2>
         <p>
@@ -22,14 +22,34 @@
 
         <pre>
         1.Uit tekenen van rekenmachine. //html structure.
-        1a. div container = gehele rekenmachine.
-        1b. div = scherm rekenmachine.
-        1c. button = 19x buttons.
-        1cc. 4 links/rechts X 5 top/down buttons.
-        1ccc. '=' knop groot, 2x knop breed.
-        1d. invoer getallen 1 t/m 9.
-        1e. speciale knoppen (/, X, -, +, =, +/-, modulo %,).
-        1ee. AC/C knop, ac=all clear, clear=ingevoerde in scherm.
+        1. div container = gehele rekenmachine.
+        2. div = scherm rekenmachine.
+        3a. div = daarin buttons, voor plaatsing.
+        3b. button = 19x buttons.
+        4a. 4 links/rechts X 5 top/down buttons.
+        4b. '=' knop groot, 2x knop breed.
+        4c. invoer getallen 1 t/m 9.
+        4d. speciale knoppen (/, X, -, +, =, +/-, modulo %,).
+        4e. AC/C knop, ac=all clear, clear=ingevoerde in scherm.
+        </pre>
+
+        <pre>
+        Functions
+        1a. + optellen / - minus / x keer / / gedeelt / % modulo.
+        2a. AC / C knop reset rekenmachine.
+        2b. AC => c wanneer getal ingevoerd.
+        3. Onclick kleur verandering bij knop drukken (speciale tekens).
+        4. getallen afronden 2 getallen na komma.
+        5. 5+ geeft 10 => 5+5
+        6. +/- knop veranderd getal van postief naar negatief vice versa.
+        7. % module getal
+    
+        </pre>
+
+        <pre>
+        Legenda rekenmachine
+        1. rkm_container = gehele rekenmachine
+        2. rkm_scherm = scherm van rekenmachine / ingevoerde calculatie.
         </pre>
 
         <pre>
@@ -38,21 +58,22 @@
         2. CSS aparte document.
         3. JavaScript aparte document.
         4. Stappenplan in aparte sectie in html.
-        </pre>
-
-        <pre>
-        Legenda rekenmachine
-        1. rkm_container = gehele rekenmachine
+        5. Dingen toevoegen aan lijst terwijl bezig.
         </pre>
         </p>
     </section>
 
 
-    <h2>Rekenmachine</h2>
+    <section id="section2">
+        <h2>Rekenmachine</h2>
 
-    <div id="rkm_container">
-
-    </div>
+        <div id="rkm_container">
+            <p id="rkm_scherm">Invoer scherm rekenmachine</p>
+            <div id="rkm_buttonbox">
+                
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

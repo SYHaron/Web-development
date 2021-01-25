@@ -1,4 +1,7 @@
-body {width: fit-content;
+body {
+    /* display: flex;
+    flex-flow:  wrap; */
+    width: fit-content;
     background-color: lightgoldenrodyellow;
 }
 
@@ -14,5 +17,22 @@ p {
     border: solid 1px black;
 }
 pre{
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+
+/*Rekenmachine styling */
+
+#rkm_container{
+    width: fit-content;
+    justify-content: center;
+    background-color: lightsteelblue;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+#rkm_scherm{
+    /* padding top, right, bottom, left // met klok mee.*/
+    padding: 20px 200px 20px 200px;
+    border: solid 1px red;
+    text-align: center;
+    background-color: yellow;
 }
