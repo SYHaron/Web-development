@@ -1,0 +1,18 @@
+body {width: fit-content;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    background-color: pink;
+}
+
+h2 {text-align: center;
+    background-color: pink;
+}
+
+p {
+    border: solid 1px black;
+}
+pre{
+    font-size: 1.5em;
+}
