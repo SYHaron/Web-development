@@ -1,7 +1,7 @@
 body {
     /* display: flex;
     flex-flow:  wrap; */
-    width: fit-content;
+    /* width: fit-content; */
     background-color: lightgoldenrodyellow;
 }
 
@@ -32,24 +32,23 @@ pre{
 
     background-color: lightsteelblue;
 
-    border: solid 1px black;
+    border: solid 5px black;
     border-radius: 10px;
     
-    box-shadow: 0 3px rebeccapurple;
-    margin-left: 100px;
+    margin-left: 30%;
 }
 #rkm_scherm{
     /* padding top, right, bottom, left // met klok mee.*/
     padding: 40px 150px 40px 150px;
     margin-bottom: 10px;
-    border: solid 1px red;
+    border: solid 1px yellow;
     text-align: center;
     font-size: 2em;
-    background-color: yellow;
+    background-color: lightgreen;
 }
 #rkm_buttonbox{
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 button{
     
@@ -60,17 +59,20 @@ button{
     padding: 25px;
     margin: 6px;
 
+    outline:none;
+
     background-color: limegreen;
     color: yellow;
     font-size: 2em;
     text-align: center;
 }
-
 button:hover{
     background-color: rebeccapurple;
 }
 
 /* individuele buttons */
-#calculateSign{
+
+#sb_calculateSign{
     padding: 20px 80px 20px 80px;
 }
+
