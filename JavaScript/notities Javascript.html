@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Notities JavaScript</h1>
+    <section>
+        <h3>Multiple functions on 1x button</h3>
+        <a href="https://www.tutorialrepublic.com/faq/how-to-call-multiple-javascript-functions-in-a-single-onclick-event.php"
+            title="uitleg multiple functions" target="_blank">Uitleg multiple functions 1x button</a>
+        <br><button type="button" id="myBtn">Example Click Me</button>
+
+        <script>
+            // Defining custom functions
+            function sayHello() {
+                alert("Hello World! sayHello() function executed successfully!");
+            }
+
+            function sayHi() {
+                alert("Hi There! sayHi() function executed successfully!");
+            }
+
+            // Selecting button element
+            var btn = document.getElementById("myBtn");
+
+            // Assigning event listeners to the button
+            btn.addEventListener("click", sayHello);
+            btn.addEventListener("click", sayHi);
+        </script>
+    </section>
+</body>
+
+</html>
