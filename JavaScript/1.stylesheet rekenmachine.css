@@ -28,7 +28,7 @@ pre{
 #rkm_small{
     display: inline-block;
     width: 250px;
-    height: 270px;
+    height: 300px;
     justify-content: center;
     background-color: lightsteelblue;
 
@@ -45,6 +45,18 @@ pre{
     margin-left: 0px;
     text-align: center;
 }
+.rkm_smallNumbers{
+    border: solid 1px black;
+
+    padding: 5px;
+    margin-left: 20px;
+    outline:none;
+    text-align: center;
+}
+.rkm_smallNumbers:hover{
+    background-color: rebeccapurple;
+}
+
 .rkm_smallButton{
     border: solid 1px black;
 

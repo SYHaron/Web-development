@@ -70,18 +70,25 @@
     <h2>Rekenmachine</h2>
     <section id="section2">
         <div id="rkm_small">
-            <h2 id="rkm_smallScherm"></h2>
-            Number:<input type="number" name="number" id="rkm_smallNr1">
-            <br><br>
-            Number:<input type="number" name="number" id="rkm_smallNr2">
-            <br><br>
+            <h2 id="rkm_smallScherm" value="">dfsf</h2>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">0</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">1</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">2</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">3</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">4</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">5</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">6</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">7</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">8</button>
+            <button class="rkm_smallNumbers" onclick="b_cijfer(this)">9</button>
+            <br><br><br>
             <button class="rkm_smallButton" onclick="b_ac()">ac</button>
             <button class="rkm_smallButton" onclick="b_plusMin()">+/-</button>
             <button class="rkm_smallButton" onclick="b_modulo()">%</button>
             <button class="rkm_smallButton" onclick="b_mulitply()">x</button>
             <br><br>
             <button class="rkm_smallButton" onclick="b_minus()">-</button>
-            <button class="rkm_smallButton" onclick="b_plus()">+</button>
+            <button class="rkm_smallButton" onclick="b_plus(this)">+</button>
             <button class="rkm_smallButton" onclick="b_dot()">.</button>
             <button class="rkm_smallButton" onclick="b_calc()">=</button>
         </div>
@@ -93,7 +100,7 @@
                 <button class="rkm_button" id="button_plusMin" onclick="sb_plusmin()">+/-</button>
                 <button class="rkm_button" id="button_modulo" onclick="sb_modulo()">%</button>
                 <button class="rkm_button" id="button_divided" onclick="sb_divided()">/</button>
-                <button class="rkm_button" id="button_7" onclick="sb_7()" value="7">7</button>
+                <button class="rkm_button" id="button_7" onclick="sb_7(this)" value="7">7</button>
                 <button class="rkm_button" id="button_8" onclick="sb_8()" value="8">8</button>
                 <button class="rkm_button" id="button_9" onclick="sb_9()" value="9">9</button>
                 <button class="rkm_button" id="button_multiply" onclick="sb_mulitply()">x</button>
@@ -106,7 +113,7 @@
                 <button class="rkm_button" id="button_3" onclick="sb_3()" value="3">3</button>
                 <button class="rkm_button" id="button_plus" onclick="sb_plus()">+</button>
                 <button class="rkm_button" id="button_0" onclick="sb_0()" value="0">0</button>
-                <button class="rkm_button" id="button_period" onclick="sb_period()">.</button>
+                <button class="rkm_button" id="button_period" onclick="sb_decimal()">.</button>
                 <button class="rkm_button" id="button_calculateSign" onclick="sb_calculatesign()">=</button>
             </div>
         </div>
