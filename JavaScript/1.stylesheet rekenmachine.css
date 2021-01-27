@@ -73,13 +73,13 @@ pre{
 
 
 
-/*Rekenmachine styling */
+/*grote Rekenmachine styling */
 #rkm_container{
     display: inline-block;
     position: relative;
 
     width: 400px;
-    height: fit-content;
+    height: 650px;
     justify-content: center;
 
     background-color: lightsteelblue;
@@ -91,7 +91,7 @@ pre{
 }
 #rkm_scherm{
     /* padding top, right, bottom, left // met klok mee.*/
-    padding: 40px 150px 40px 150px;
+    padding: 30px 150px 30px 150px;
     margin-bottom: 10px;
     border: solid 1px yellow;
     text-align: center;

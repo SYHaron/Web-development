@@ -14,7 +14,7 @@ function b_operator_ac() {
     // let currentNr1 = getal1.value;
     // let currentNr2 = getal2.value;
 
-    let ac = "not defined."
+    let ac = "AC not defined."
     // let ac = eval(parseFloat(currentNr1) * parseFloat(currentNr2));
     console.log(ac);
     document.getElementById("rkm_smallScherm").innerHTML = ac;
@@ -28,7 +28,7 @@ function b_operator_plusMin() {
 
 
     // let plusMin = eval(parseFloat(currentNr1) + parseFloat(currentNr2));
-    let plusMinExtra = "not defined."
+    let plusMinExtra = "+/- not defined."
     console.log(plusMinExtra);
     document.getElementById("rkm_smallScherm").innerHTML = plusMinExtra;
 }
@@ -108,12 +108,12 @@ function b_operator_minus() {
 
 //nog niet operationeel
 function b_operator_decimal(){
-    let decimal = "not in use."
+    let decimal = ". not in use."
     document.getElementById("rkm_smallScherm").innerHTML = decimal;
 
 }
 function b_operator_calc(){
-    let calc = "not defined."
+    let calc = "= not defined."
     document.getElementById("rkm_smallScherm").innerHTML = calc;
 
 }
