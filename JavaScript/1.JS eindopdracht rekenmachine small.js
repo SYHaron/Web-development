@@ -44,6 +44,18 @@ function b_operator_modulo() {
     console.log(modulo);
     document.getElementById("rkm_smallScherm").innerHTML = modulo;
 }
+function b_operator_divided() {
+    let getal1 = (document.getElementById("number1"));
+    let getal2 = (document.getElementById("number2"));
+
+    let currentNr1 = getal1.value;
+    let currentNr2 = getal2.value;
+
+    //12 % remainder modulo 5 = 2 // check if correct.
+    let divided = eval(parseFloat(currentNr1) / parseFloat(currentNr2));
+    console.log(divided);
+    document.getElementById("rkm_smallScherm").innerHTML = divided;
+}
 function b_operator_multiply() {
     let getal1 = (document.getElementById("number1"));
     let getal2 = (document.getElementById("number2"));
