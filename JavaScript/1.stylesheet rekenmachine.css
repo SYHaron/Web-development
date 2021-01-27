@@ -99,7 +99,7 @@ pre{
     justify-content: center;
     margin-left: 10px;
 }
-.rkm_button{
+.rkm_operator, .rkm_button{
     
     border-radius: 50%;
     border:hidden;
@@ -115,7 +115,7 @@ pre{
     font-size: 2em;
     text-align: center;
 }
-.rkm_button:hover{
+.rkm_operator:hover, .rkm_button:hover{
     background-color: rebeccapurple;
 }
 

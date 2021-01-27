@@ -1,8 +1,16 @@
 
 
 
+//getallen knoppen
+function sb_cijfer(waarde) {
+    console.log(waarde.value);
+    document.getElementById("rkm_scherm").innerHTML = waarde.value;
 
+}
 
+function sb_(waarde) {
+    console.log(waarde.innerText);
+}
 // Functions cijfers 1 t/m 9
 // function sb_0(){
 //     number = 0;
