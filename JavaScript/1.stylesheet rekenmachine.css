@@ -20,8 +20,45 @@ pre{
     font-size: 1.3em;
 }
 
-/*Rekenmachine styling */
+#section2{
+    display: flex;
+}
 
+/* Kleine rekenmachine styling */
+#rkm_small{
+    display: inline-block;
+    width: 250px;
+    height: 270px;
+    justify-content: center;
+    background-color: lightsteelblue;
+
+    margin-left: 2%;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+#rkm_smallScherm{
+    background-color: lightgreen;
+    border: solid 1px yellow;
+    padding: 10px;
+}
+#rkm_smallNr1, #rkm_smallNr2{
+    margin-left: 0px;
+    text-align: center;
+}
+.rkm_smallButton{
+    border: solid 1px black;
+
+    padding: 10px;
+    margin-left: 20px;
+    outline:none;
+    text-align: center;
+}
+.rkm_smallButton:hover{
+    background-color: rebeccapurple;
+}
+
+
+/*Rekenmachine styling */
 #rkm_container{
     display: inline-block;
     position: relative;
@@ -35,7 +72,7 @@ pre{
     border: solid 5px black;
     border-radius: 10px;
     
-    margin-left: 30%;
+    margin-left: 10%;
 }
 #rkm_scherm{
     /* padding top, right, bottom, left // met klok mee.*/

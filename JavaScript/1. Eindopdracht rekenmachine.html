@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS eindopdracht Rekenmachine</title>
     <link rel="stylesheet" href="1.stylesheet rekenmachine.css">
-    <script type="text/javascript" src="1.JS eindopdracht.js"></script>
+    <script type="text/javascript" src="1.JS eindopdracht rekenmachine big.js"></script>
+    <script type="text/javascript" src="1.JS eindopdracht rekenmachine small.js"></script>
+
 </head>
 <!--link 'rel' =  specifies teh relationship between curren document and linked document/source. -->
 <!-- link 'rel' = 1x woord (javascript, stylesheet), niet stylesheet_rekenmachine. -->
@@ -65,9 +67,25 @@
         </pre>
         </p>
     </section>
-
+    <h2>Rekenmachine</h2>
     <section id="section2">
-        <h2>Rekenmachine</h2>
+        <div id="rkm_small">
+            <h2 id="rkm_smallScherm"></h2>
+            Number:<input type="number" name="number" id="rkm_smallNr1">
+            <br><br>
+            Number:<input type="number" name="number" id="rkm_smallNr2">
+            <br><br>
+            <button class="rkm_smallButton" onclick="b_ac()">ac</button>
+            <button class="rkm_smallButton" onclick="b_plusMin()">+/-</button>
+            <button class="rkm_smallButton" onclick="b_modulo()">%</button>
+            <button class="rkm_smallButton" onclick="b_mulitply()">x</button>
+            <br><br>
+            <button class="rkm_smallButton" onclick="b_minus()">-</button>
+            <button class="rkm_smallButton" onclick="b_plus()">+</button>
+            <button class="rkm_smallButton" onclick="b_dot()">.</button>
+            <button class="rkm_smallButton" onclick="b_calc()">=</button>
+        </div>
+
         <div id="rkm_container">
             <p id="rkm_scherm"></p>
             <div id="rkm_buttonbox">
