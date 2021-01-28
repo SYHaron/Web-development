@@ -16,7 +16,6 @@ function sb_cijfer(waarde) {
 
 
 
-
 // Functions cijfers 1 t/m 9
 // function sb_0(){
 //     number = 0;
