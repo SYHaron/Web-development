@@ -79,7 +79,8 @@ pre{
     position: relative;
 
     width: 400px;
-    height: 650px;
+    /* height:650px; */
+    height: fit-content;
     justify-content: center;
 
     background-color: lightsteelblue;
@@ -91,12 +92,12 @@ pre{
 }
 #rkm_scherm{
     /* padding top, right, bottom, left // met klok mee.*/
+    background-color: lightgreen;
     padding: 30px 150px 30px 150px;
     margin-bottom: 10px;
     border: solid 1px yellow;
     text-align: center;
     font-size: 2em;
-    background-color: lightgreen;
 }
 #rkm_buttonbox{
     justify-content: center;
