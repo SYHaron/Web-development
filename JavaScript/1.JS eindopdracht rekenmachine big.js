@@ -33,6 +33,15 @@ function sb_operator_equal(){
     document.getElementById("rkm_scherm").innerHTML = equal;
     console.log(rkm_scherm);
 }
+function sb_operator_plusMinus(){
+    let x = document.getElementById("rkm_scherm").value;
+    let result = -x;
+    
+    // let plusMin = (document.getElementById("rkm_smallScherm").innerText)*(-1);
+
+    //laat op scherm zien,
+    document.getElementById("rkm_scherm").innerHTML = result;
+}
 
 
 

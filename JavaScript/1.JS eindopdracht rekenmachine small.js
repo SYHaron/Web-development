@@ -28,7 +28,7 @@ function b_operator_plusMin() {
 
 
     // let plusMin = eval(parseFloat(currentNr1) + parseFloat(currentNr2));
-    let plusMinExtra = "+/- not defined."
+    let plusMinExtra = (document.getElementById("rkm_smallScherm").innerHTML)*(-1);
     console.log(plusMinExtra);
     document.getElementById("rkm_smallScherm").innerHTML = plusMinExtra;
 }
@@ -69,7 +69,7 @@ function b_operator_multiply() {
     document.getElementById("rkm_smallScherm").innerHTML = multiply;
 }
 
-
+// function b_operator_plus => only extra notes
 function b_operator_plus() {
     let getal1 = (document.getElementById("number1"));
     let getal2 = (document.getElementById("number2"));
