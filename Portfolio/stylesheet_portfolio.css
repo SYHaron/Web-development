@@ -2,8 +2,10 @@
 
 
 
-General styling
-
+/* General styling */
+body{
+    margin: 0;
+}
 /* styling navigation bar */
 .topnav{
     background-color: gray;
