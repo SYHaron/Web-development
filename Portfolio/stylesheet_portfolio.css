@@ -1,0 +1,29 @@
+/* media queries */
+
+
+
+General styling
+
+/* styling navigation bar */
+.topnav{
+    background-color: gray;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: pink;
+    background-color: gray;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover, .active{
+    background-color: blue;
+    color: white;
+}
+/* 3xstreepjes navbar knop */
+/* display non => element weg op browser */
+.topnav .icon{
+    display: none;
+}
