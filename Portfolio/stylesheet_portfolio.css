@@ -24,6 +24,7 @@
 /* General styling */
 body{
     margin: 0;
+    background-color: yellow;
 }
 
 
@@ -76,6 +77,9 @@ body{
     background-color: pink;
     color: gray;
     padding-left: 20px;
+}
+.cont_hidden{
+    visibility: hidden;
 }
 /* paragraphs */
 .container p {
