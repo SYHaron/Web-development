@@ -25,6 +25,7 @@
 body{
     margin: 0;
     background-color: yellow;
+    /* maybe blue? */
 }
 
 
@@ -66,12 +67,6 @@ body{
     text-align: left;
     background-color: gray;
 }
-.container_footer{
-    text-align: center;
-    background-color: gray;
-    color: pink;
-    padding: 20px;
-}
 /* headings*/
 .container h1{
     background-color: pink;
@@ -85,4 +80,19 @@ body{
 .container p {
     padding-left: 20px;
     color: pink;
+}
+
+
+/* specefieke styling */
+.container_footer{
+    text-align: center;
+    background-color: gray;
+    color: pink;
+    padding: 20px;
+}
+.container_contact{
+    display: flex;
+}
+.cont_contact + .cont_contact{
+margin-left: 5%;
 }
