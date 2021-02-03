@@ -25,11 +25,14 @@
 body{
     margin: 0;
 }
+
+
 /* styling navigation bar */
 .topnav{
     background-color: gray;
     overflow: hidden;
 }
+/* topnav menu button styling */
 .topnav a{
     float: left;
     color: pink;
@@ -39,14 +42,43 @@ body{
     text-decoration: none;
     font-size: 20px;
 }
+/* menu tab hover not clicked */
 .topnav a:hover{
     background-color: blue;
     color: white;
 }
-/* 3xstreepjes navbar knop */
-/* display non => element weg op browser */
+/* menu tab clicked */
+.topnav a:focus{
+    background-color: pink;
+    color: gray;
+}
+/* 3xstreepjes navbar knop, display non => element weg op browser */
 .topnav .icon{
     display: none;
     color: white;
     background-color: blue;
+}
+
+
+/* styling section, container, h1, p, */
+.container{
+    text-align: left;
+    background-color: gray;
+}
+.container_footer{
+    text-align: center;
+    background-color: gray;
+    color: pink;
+    padding: 20px;
+}
+/* headings*/
+.container h1{
+    background-color: pink;
+    color: gray;
+    padding-left: 20px;
+}
+/* paragraphs */
+.container p {
+    padding-left: 20px;
+    color: pink;
 }
