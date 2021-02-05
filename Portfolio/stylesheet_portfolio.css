@@ -83,16 +83,44 @@ body{
 }
 
 
-/* specefieke styling */
+/* specefieke styling per section / menuknop */
+.container_about{
+    display: flex;
+}
+.container_about div{
+    margin-left: 5%;
+}
+
+/* menuknop blog */
+.container_blog{
+    display: flex;
+}
+.container_blog div{
+    margin-left: 5%;
+}
+
+/* menuknop project */
+.container_project{
+    display: flex;
+}
+.container_project div{
+    margin-left: 5%;
+}
+
+/* menuknop contact */
+.container_contact{
+    display: flex;
+}
+.container_contact div{
+    margin-left: 5%;
+}
+
+/* credits / footer display */
 .container_footer{
     text-align: center;
     background-color: gray;
     color: pink;
     padding: 20px;
 }
-.container_contact{
-    display: flex;
-}
-.cont_contact + .cont_contact{
-margin-left: 5%;
-}
+
+
