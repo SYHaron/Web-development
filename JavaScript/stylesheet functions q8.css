@@ -1,3 +1,25 @@
-#table_section {
+/* styling tabellen wiskunde, natuurkunde, nederlands, engels */
+#table_section1{
+    background-color: gray;
+    display: flex;
+}
+#table_section1 .table_tabel{
+    background-color: pink;
+    margin-left: 5%;
+}
+#table_section1 th {
+    font-size: 2em;
+}
 
+/* styling tabel resultaat gemiddeldes */
+#table_section2{
+    background-color: gray;
+    display: flex;
+}
+#table_section2 .table_tabel{
+    background-color: pink;
+    
+}
+#table_section2 th {
+    font-size: 2em;
 }
