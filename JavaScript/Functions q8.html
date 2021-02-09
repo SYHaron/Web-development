@@ -26,28 +26,28 @@
                 </tr>
                 <tr>
                     <td>Klaas</td>
-                    <td><input type="text" class="wis_grade" value="3" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="wis_grade" value="3" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Jennis</td>
-                    <td><input type="text" class="wis_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="wis_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Kim</td>
-                    <td><input type="text" class="wis_grade" value="10" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="wis_grade" value="10" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Samantha</td>
-                    <td><input type="text" class="wis_grade" value="4" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="wis_grade" value="4" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Joyce</td>
-                    <td><input type="text" class="wis_grade" value="5.5" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="wis_grade" value="5.5" oninput="checkCijfer(this)"></td>
 
                 </tr>
                 <tr>
                     <td>Gareth</td>
-                    <td><input type="text" class="wis_grade" value="1" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="wis_grade" value="1" oninput="checkCijfer(this)"></td>
                 </tr>
             </tbody>
         </table>
@@ -65,27 +65,27 @@
                 </tr>
                 <tr>
                     <td>Klaas</td>
-                    <td><input type="text" class="physics_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="physics_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Jennis</td>
-                    <td><input type="text" class="physics_grade" value="5" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="physics_grade" value="5" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Kim</td>
-                    <td><input type="text" class="physics_grade" value="8" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="physics_grade" value="8" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Samantha</td>
-                    <td><input type="text" class="physics_grade" value="6" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="physics_grade" value="6" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Joyce</td>
-                    <td><input type="text" class="physics_grade" value="9" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="physics_grade" value="9" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Gareth</td>
-                    <td><input type="text" class="physics_grade" value="5.5" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="physics_grade" value="5.5" oninput="checkCijfer(this)"></td>
                 </tr>
             </tbody>
         </table>
@@ -103,27 +103,27 @@
                 </tr>
                 <tr>
                     <td>Klaas</td>
-                    <td><input type="text" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Jennis</td>
-                    <td><input type="text" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Kim</td>
-                    <td><input type="text" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Samantha</td>
-                    <td><input type="text" class="dutch_grade" value="8" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="dutch_grade" value="8" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Joyce</td>
-                    <td><input type="text" class="dutch_grade" value="8.5" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="dutch_grade" value="8.5" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Gareth</td>
-                    <td><input type="text" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
+                    <td><input type="number" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
                 </tr>
             </tbody>
         </table>
@@ -221,8 +221,22 @@
         </table>
     </section>
     <script>
+        function checkCijfer() {
+            let wiskundeGrade = document.getElementsByClassName("wis_grade");
+            let physicsGrade = document.getElementsByClassName("physics_grade");
+            let dutchGrade = document.getElementsByClassName("dutch_grade");
+            let englishGrade = document.getElementsByClassName("english_grade");
 
+        }
     </script>
+
+    <!-- rood = lager dan 5.5
+    lime = hoger / gelijk 5.5
+    groen = hoger / gelijk 7.5
+
+    -cijfer veranderd, veranderd kleur/gemiddelde/wel niet Geslaagd
+    -gemiddelde van beta + talen boven 6.5 is door nieuwe klas
+    --gemiddelde cijfers beta, talen -->
 </body>
 
 </html>
