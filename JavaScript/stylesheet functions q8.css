@@ -4,7 +4,7 @@
     display: flex;
 }
 #table_section1 .table_tabel{
-    background-color: pink;
+    background-color: rgb(245, 212, 218);
     margin-left: 5%;
 }
 #table_section1 th {
@@ -17,9 +17,27 @@
     display: flex;
 }
 #table_section2 .table_tabel{
-    background-color: pink;
-    
+    background-color: rgb(245, 212, 218);
+    margin-left: 15%;
 }
 #table_section2 th {
     font-size: 2em;
+}
+
+
+/* styling voor alles hetzelfde */
+.table_td{
+    background-color: blue;
+    color: white;
+}
+input {
+    background-color: rgb(247, 226, 230);
+    text-align: center;
+}
+span {
+    background-color: rgb(247, 226, 230);
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 1px;
+    margin-left: 10px;
 }
