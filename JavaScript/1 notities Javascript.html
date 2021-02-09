@@ -49,6 +49,45 @@
         console.log("datatype" + typeof datatype);
 
     </script>
+
+    <section>
+        <script>
+
+            //   3 functies - showOff , oplossing en clr
+
+            // Nog 1 functie voor de som
+            // function som (){
+            //     // ??
+            // }
+            // Deze functie laat zien wat je in het display-venster ziet.
+            function showOff(val) {
+                // je wil cijfers aan blijven geven totdat jij een operator aanklikt
+                // hoe voeg jij info toe aan een array?
+                //    let som =[i=0 , i=9999999 ]
+                document.getElementById("invoer").value += val
+                    ;
+                // console.log(val);
+            }
+            // Deze functie geeft de de oplossing/het antwoord op de som.
+            // function oplossing (eersteInvoer,tweedeInvoer) {
+            //     return  eersteInvoer * tweedeInvoer ;
+
+
+            // }
+
+            function oplossing() {
+                let x = document.getElementById("invoer").value
+                let y = eval(x)
+                document.getElementById("invoer").value = y
+            }
+            // Deze functie maakt het scherm weer leeg, clear of all-clear. ???
+            function clr() {
+                document.getElementById("invoer").value = ""
+            }
+
+        </script>
+
+    </section>
 </body>
 
 </html>
