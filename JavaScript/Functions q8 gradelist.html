@@ -3,13 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS functions q8</title>
-    <link rel="stylesheet" href="./stylesheet functions q8.css">
+    <title>Functions q8 gradelist / cijferlijst</title>
+    <link rel="stylesheet" href="stylesheet functions q8.css">
 </head>
+<!-- <style>
+    #table_section1 {
+        background-color: gray;
+        display: flex;
+    }
+
+    #table_section1 .table_tabel {
+        background-color: rgb(245, 212, 218);
+        margin-left: 5%;
+    }
+
+    #table_section1 th {
+        font-size: 2em;
+    }
+
+    /* styling tabel resultaat gemiddeldes */
+    #table_section2 {
+        background-color: gray;
+        display: flex;
+    }
+
+    #table_section2 .table_tabel {
+        background-color: rgb(245, 212, 218);
+        margin-left: 15%;
+    }
+
+    #table_section2 th {
+        font-size: 2em;
+    }
+
+
+    /* styling voor alles hetzelfde */
+    .table_td {
+        background-color: blue;
+        color: white;
+    }
+
+    input {
+        background-color: rgb(247, 226, 230);
+        text-align: center;
+    }
+
+    span {
+        background-color: rgb(247, 226, 230);
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 1px;
+        margin-left: 10px;
+    }
+</style> -->
 
 <body>
-    <h2>JS Functions: prerequisites</h2>
+    <h2>JS Function  prerequisites</h2>
     <p>Q8. Maak een cijferlijst, waarbij bepaalde cijfers een gekleurde achtergrond krijgen als cijfer
         voldoende/onvoldoende is.</p>
     <section id="table_section1">
@@ -26,28 +77,28 @@
                 </tr>
                 <tr>
                     <td>Klaas</td>
-                    <td><input type="number" class="wis_grade" value="3" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="wis_grade" value="3" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Jennis</td>
-                    <td><input type="number" class="wis_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="wis_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Kim</td>
-                    <td><input type="number" class="wis_grade" value="10" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="wis_grade" value="10" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Samantha</td>
-                    <td><input type="number" class="wis_grade" value="4" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="wis_grade" value="4" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Joyce</td>
-                    <td><input type="number" class="wis_grade" value="5.5" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="wis_grade" value="5.5" oninput="checkCijfer(this)"></td>
 
                 </tr>
                 <tr>
                     <td>Gareth</td>
-                    <td><input type="number" class="wis_grade" value="1" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="wis_grade" value="1" oninput="checkCijfer(this)"></td>
                 </tr>
             </tbody>
         </table>
@@ -65,27 +116,27 @@
                 </tr>
                 <tr>
                     <td>Klaas</td>
-                    <td><input type="number" class="physics_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="physics_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Jennis</td>
-                    <td><input type="number" class="physics_grade" value="5" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="physics_grade" value="5" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Kim</td>
-                    <td><input type="number" class="physics_grade" value="8" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="physics_grade" value="8" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Samantha</td>
-                    <td><input type="number" class="physics_grade" value="6" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="physics_grade" value="6" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Joyce</td>
-                    <td><input type="number" class="physics_grade" value="9" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="physics_grade" value="9" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Gareth</td>
-                    <td><input type="number" class="physics_grade" value="5.5" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="physics_grade" value="5.5" oninput="checkCijfer(this)"></td>
                 </tr>
             </tbody>
         </table>
@@ -103,27 +154,27 @@
                 </tr>
                 <tr>
                     <td>Klaas</td>
-                    <td><input type="number" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Jennis</td>
-                    <td><input type="number" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="dutch_grade" value="7" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Kim</td>
-                    <td><input type="number" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Samantha</td>
-                    <td><input type="number" class="dutch_grade" value="8" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="dutch_grade" value="8" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Joyce</td>
-                    <td><input type="number" class="dutch_grade" value="8.5" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="dutch_grade" value="8.5" oninput="checkCijfer(this)"></td>
                 </tr>
                 <tr>
                     <td>Gareth</td>
-                    <td><input type="number" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
+                    <td><input type="text" class="dutch_grade" value="4" oninput="checkCijfer(this)"></td>
                 </tr>
             </tbody>
         </table>
@@ -221,16 +272,19 @@
         </table>
     </section>
     <script>
-        function checkCijfer() {
-            // wis/physics/dutch/english = arrays, want verschillende student met cijfers.
-            let wiskundeGrade = document.getElementsByClassName("wis_grade");
-            let physicsGrade = document.getElementsByClassName("physics_grade");
-            let dutchGrade = document.getElementsByClassName("dutch_grade");
-            let englishGrade = document.getElementsByClassName("english_grade");
+        // wis/physics/dutch/english = arrays, want verschillende student met cijfers.
+        //global scope variables
+        let wiskundeGrade = document.getElementsByClassName("wis_grade");
+        let physicsGrade = document.getElementsByClassName("physics_grade");
+        let dutchGrade = document.getElementsByClassName("dutch_grade");
+        let englishGrade = document.getElementsByClassName("english_grade");
 
-            // reading student's grade and give a color depending on grade ( for example, red/lime/green)
-            function checkCijfer(){
-                
+        // reading student's grade and give a color depending on grade ( for example, red/lime/green)
+        function checkCijfer(obj) {
+            if (obj.value) {
+                if (obj.value = 5.5) {
+                    obj.style.backgroundColor = "red";
+                }
             }
         }
     </script>
