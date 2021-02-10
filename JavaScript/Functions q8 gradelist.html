@@ -60,7 +60,7 @@
 </style> -->
 
 <body>
-    <h2>JS Function  prerequisites</h2>
+    <h2>JS Function prerequisites</h2>
     <p>Q8. Maak een cijferlijst, waarbij bepaalde cijfers een gekleurde achtergrond krijgen als cijfer
         voldoende/onvoldoende is.</p>
     <section id="table_section1">
@@ -279,15 +279,35 @@
         let dutchGrade = document.getElementsByClassName("dutch_grade");
         let englishGrade = document.getElementsByClassName("english_grade");
 
-        
+        // gemiddelde talen, beta vakken, talen+beta vakken=>next class yes/no
+        let averageLanguages = document.getElementsByClassName("language_grade");
+        let averageBeta = document.getElementsByClassName("beta_grade");
+        let averageGrade = document.getElementsByClassName("nextClass_yesNo");
 
 
 
         // reading student's grade and give a color depending on grade ( for example, red/lime/green)
         function checkCijfer(obj) {
             if (obj.value) {
-                if (obj.value = 5.5) {
+                if (obj.value < 5.5) {
                     obj.style.backgroundColor = "red";
+                }
+                else if (obj.value >= 5.5) {
+                    obj.style.backgroundColor = "lime";
+                }
+                else (obj.value >= 7.5) {
+                    obj.style.backgroundColor = "green";
+                }
+            }
+            else if (obj.innerText){
+                if (obj.innerText < 5.5){
+                    obj.style.backgroundColor = "red";
+                }
+                else if (obj.innerText >= 5.5){
+                    obj.style.backgroundColor = "lime";
+                }
+                else if (obj.innerText >= 7.5){
+                    obj.style.backgroundColor= "green";
                 }
             }
         }
