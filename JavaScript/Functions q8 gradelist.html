@@ -234,39 +234,39 @@
                 </tr>
                 <tr>
                     <td>Klaas</td>
-                    <td><span class="language_grade">gemiddelde cijfer</span></td>
-                    <td><span class="beta_grade">gemiddelde cijfer</span></td>
-                    <td><span class="nextClass_yesNo">Ja/Nee Geslaagd</span></td>
+                    <td><span class="grade language_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade beta_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade nextClass_yesNo">Ja/Nee Geslaagd</span></td>
                 </tr>
                 <tr>
                     <td>Jennis</td>
-                    <td><span class="language_grade">gemiddelde cijfer</span></td>
-                    <td><span class="beta_grade">gemiddelde cijfer</span></td>
-                    <td><span class="nextClass_yesNo">Ja/Nee Geslaagd</span></td>
+                    <td><span class="grade language_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade beta_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade nextClass_yesNo">Ja/Nee Geslaagd</span></td>
                 </tr>
                 <tr>
                     <td>Kim</td>
-                    <td><span class="language_grade">gemiddelde cijfer</span></td>
-                    <td><span class="beta_grade">gemiddelde cijfer</span></td>
-                    <td><span class="nextClass_yesNo">Ja/Nee Geslaagd</span></td>
+                    <td><span class="grade language_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade beta_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade nextClass_yesNo">Ja/Nee Geslaagd</span></td>
                 </tr>
                 <tr>
                     <td>Samantha</td>
-                    <td><span class="language_grade">gemiddelde cijfer</span></td>
-                    <td><span class="beta_grade">gemiddelde cijfer</span></td>
-                    <td><span class="nextClass_yesNo">Ja/Nee Geslaagd</span></td>
+                    <td><span class="grade language_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade beta_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade nextClass_yesNo">Ja/Nee Geslaagd</span></td>
                 </tr>
                 <tr>
                     <td>Joyce</td>
-                    <td><span class="language_grade">gemiddelde cijfer</span></td>
-                    <td><span class="beta_grade">gemiddelde cijfer</span></td>
-                    <td><span class="nextClass_yesNo">Ja/Nee Geslaagd</span></td>
+                    <td><span class="grade language_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade beta_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade nextClass_yesNo">Ja/Nee Geslaagd</span></td>
                 </tr>
                 <tr>
                     <td>Gareth</td>
-                    <td><span class="language_grade">gemiddelde cijfer</span></td>
-                    <td><span class="beta_grade">gemiddelde cijfer</span></td>
-                    <td><span class="nextClass_yesNo">Ja/Nee Geslaagd</span></td>
+                    <td><span class="grade language_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade beta_grade">gemiddelde cijfer</span></td>
+                    <td><span class="grade nextClass_yesNo">Ja/Nee Geslaagd</span></td>
                 </tr>
             </tbody>
         </table>
@@ -282,40 +282,99 @@
         // gemiddelde talen, beta vakken, talen+beta vakken=>next class yes/no
         let averageLanguages = document.getElementsByClassName("language_grade");
         let averageBeta = document.getElementsByClassName("beta_grade");
-        let averageGrade = document.getElementsByClassName("nextClass_yesNo");
+        let averageTotalGrade = document.getElementsByClassName("nextClass_yesNo");
 
+        // alle getallen (cijfers, gemiddelde cijfers) in de tabellen
+        let allGrades = document.getElementsByClassName("grade");
 
+        // function voor gemiddelde talen en gemiddelde beta vakken per student
+        // gebruik van een loop, omdat je meerdere studenten heb.
+        function averageLanguageBeta() {
+            for (index = 0; index < wiskundeGrade.length; index++) {
+                averageBeta[index].innerText = (parseInt(wiskundeGrade[index].value) + parseInt(physicsGrade[index].value)) / 2;
+                averageLanguages[index].innerText = (parseInt(dutchGrade[index].value) + parseInt(englishGrade[index].value)) / 2;
+            }
 
+            checkvalue();
+            nextclass();
+        }
+
+        // functie of iemand well of niet door is naar de volgende klas / volgend jaar.
+        // pass or fail the schoolyear.
+        function nextclass() {
+            for (index = 0; index < averageTotalGrade.length; index++) {
+                let averageGradeBetaLanguages = (parseInt(averageLanguages[index].innerText) + parseInt(averageBeta[index].innerText)) / 2;
+                if (averageGradeBetaLanguages < 6.5) {
+                    averageTotalGrade[index].textContent = "Nee, niet geslaagd.";
+                    averageTotalGrade[index].style.backgroundColor = "red";
+                }
+                else {
+                    averageTotalGrade[index].textContent = "Ja, geslaagd door naar volgende klas";
+                    averageTotalGrade[index].style.backgroundColor = "green";
+                    averageTotalGrade[index].style.color = "white";
+                }
+            }
+        }
+
+        // functie checkCijfer ingevoerd, voor beta vakken enkel
+        function checkvalue() {
+            for (index = 0; index < allGrades.length; index++) {
+                checkCijfer(allGrades[index]);
+            }
+            // for wiskunde grades pass or NO pass
+            for (index = 0; index < wiskundeGrade.length; index++) {
+                checkCijfer(wiskundeGrade[index]);
+            }
+            // for natuurkunde grades pass or NO pass
+            for (index = 0; index < physicsGrade.length; index++) {
+                checkCijfer(physicsGrade[index]);
+            }
+            // for Nederlands / dutch grades pass or NO pass
+            for (index = 0; index < dutchGrade.length; index++) {
+                checkCijfer(dutchGrade[index]);
+            }
+            // for engels / english grades pass or NO pass
+            for (index = 0; index < englishGrade.length; index++) {
+                checkCijfer(englishGrade[index]);
+            }
+        }
+
+        //functie zorgt dat alles word berekend.
+        averageLanguageBeta();
+
+        // console.log(wiskundeGrade.length); ==> Use specific courses otherwise lenght will be 18 not 6.
         // reading student's grade and give a color depending on grade ( for example, red/lime/green)
         function checkCijfer(obj) {
             if (obj.value) {
                 if (obj.value < 5.5) {
                     obj.style.backgroundColor = "red";
                 }
+                else if (obj.value > 7.5) {
+                    obj.style.backgroundColor = "green";
+                    obj.style.color = 'white';
+                }
                 else if (obj.value >= 5.5) {
                     obj.style.backgroundColor = "lime";
                 }
-                else (obj.value >= 7.5) {
-                    obj.style.backgroundColor = "green";
-                }
             }
-            else if (obj.innerText){
-                if (obj.innerText < 5.5){
+            else if (obj.innerText) {
+                if (obj.innerText < 5.5) {
                     obj.style.backgroundColor = "red";
                 }
-                else if (obj.innerText >= 5.5){
-                    obj.style.backgroundColor = "lime";
+                else if (obj.innerText > 7.5) {
+                    obj.style.backgroundColor = "green";
+                    obj.style.color = 'white';
                 }
-                else if (obj.innerText >= 7.5){
-                    obj.style.backgroundColor= "green";
+                else if (obj.innerText >= 5.5) {
+                    obj.style.backgroundColor = "lime";
                 }
             }
         }
     </script>
 
     <!-- rood = lager dan 5.5
-    lime = hoger / gelijk 5.5
     groen = hoger / gelijk 7.5
+    lime = hoger / gelijk 5.5
 
     -cijfer veranderd, veranderd kleur/gemiddelde/wel niet Geslaagd
     -gemiddelde van beta + talen boven 6.5 is door nieuwe klas
