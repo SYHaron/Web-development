@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS part 1 Q6</title>
 </head>
-    <style>
-        p:first-child{ color: red; } 
-    
-        div + p {background-color: yellow;}
-    
-        #general{ color: green;
-            background-color: black;}
-            
-        ul { list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333; }
-    
-        li {float: left; }
-    
-        li a { display: block;
+<style>
+    p:first-child {
+        color: red;
+    }
+
+    div+p {
+        background-color: yellow;
+    }
+
+    #general {
+        color: green;
+        background-color: black;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
         color: white;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;}
-    
-        li a:hover { background-color: #111;}
-    </style>
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+</style>
+
 <body>
     <header>
 
-    </header> 
+    </header>
     <main>
         <h1>CSS onderdeel 1 Selectors & Visual ruler</h1>
         <h2>Q6. Maak een apart HTML bestand. Voeg 3x selectors (child, adjacent, general), toe met de voordelen.</h2>
@@ -42,28 +58,30 @@
             <li><a href="./">Opdracht 7</a></li>
             <li><a href="./">Opdracht 8</a></li>
         </ul>
-            <h1>Opdracht 6</h1>
-          
-            <h3>Adjacent Selectors & Child selector</h3>
-            <p>
-              De adjacent sibling selector (+) selecteert alle elementen die de adjacent sibling zijn van een gespecificeerd element.
-            </p>
-         
-            <div>
-              <p>Paragraph 1 in the div.(1st child)</p>
-              <p>Paragraph 2 in the div.</p>
-            </div>
-            
-            <p>Paragraph 3. Not in a div.</p>
-            <p>Paragraph 4. Not in a div.</p>
-          
-          <div>
+        <h1>Opdracht 6</h1>
+
+        <h3>Adjacent Selectors & Child selector</h3>
+        <p>
+            De adjacent sibling selector (+) selecteert alle elementen die de adjacent sibling zijn van een
+            gespecificeerd element.
+        </p>
+
+        <div>
+            <p>Paragraph 1 in the div.(1st child)</p>
+            <p>Paragraph 2 in the div.</p>
+        </div>
+
+        <p>Paragraph 3. Not in a div.</p>
+        <p>Paragraph 4. Not in a div.</p>
+
+        <div>
             <h3>General Selector</h3>
             <p id="general">ID selector </p>
-          </div>       
+        </div>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>

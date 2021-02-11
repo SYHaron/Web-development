@@ -1,34 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS weken theorie</title>
 </head>
 <style>
-    .box-model-diagram {text-align: center;
-                        }
+    .box-model-diagram {
+        text-align: center;
+    }
 </style>
+
 <body>
     <nav>
 
     </nav>
     <main>
-<!-- Onderdeel 1. Selectors & Visual ruler -->
+        <!-- Onderdeel 1. Selectors & Visual ruler -->
         <section>
             <h1>Theorie CSS</h1>
             <H2>Onderdeel 1. Selectors & Visual ruler</H2>
-                <article> CSS selector = eerste deel van een CSS-regel.
-                    <br>
-                        Het is een patron van elementen en andere termen die de browser vertellen welke HTML elementen moeten worden geselecteerd om
-                        de CSS-eigenschappen binnen de regel toe te passen.
-                </article>
+            <article> CSS selector = eerste deel van een CSS-regel.
+                <br>
+                Het is een patron van elementen en andere termen die de browser vertellen welke HTML elementen moeten
+                worden geselecteerd om
+                de CSS-eigenschappen binnen de regel toe te passen.
+            </article>
             <br>
-                <article>
-                    Het element of de elementen die door de selector worden geselecteerd, worden 'The subject of the selector' genoemd.
-                        Bijvoorbeeld:
-                        <pre>
+            <article>
+                Het element of de elementen die door de selector worden geselecteerd, worden 'The subject of the
+                selector' genoemd.
+                Bijvoorbeeld:
+                <pre>
                         h1 {
                             color: blue;
                             background-color: yellow;
@@ -38,59 +42,65 @@
                             color: red;
                                 }
                         </pre>
-                </article>
+            </article>
             <br>
-                <article>
-                    <p>Styling die toegepast wordt toegepast in een bepaalde volgorde.</p>
-                    <p>Het kan voorkomen dat je styling toegepast en vervolgens niet het gewenste resultaat ziet.</p>
-                    <p>Cascade en Inheritance zijn belangrijke concepten om te begrijpen hoe styling werkt.</p>
-                    <p>
-                        Styling die toegepast wordt toegepast in een bepaalde volgorde.<br>
-                        Het kan voorkomen dat je styling toegepast en vervolgens niet het gewenste resultaat ziet.
-                        Cascade en Inheritance zijn belangrijke concepten om te begrijpen hoe styling werkt.
-                    </p>
+            <article>
+                <p>Styling die toegepast wordt toegepast in een bepaalde volgorde.</p>
+                <p>Het kan voorkomen dat je styling toegepast en vervolgens niet het gewenste resultaat ziet.</p>
+                <p>Cascade en Inheritance zijn belangrijke concepten om te begrijpen hoe styling werkt.</p>
+                <p>
+                    Styling die toegepast wordt toegepast in een bepaalde volgorde.<br>
+                    Het kan voorkomen dat je styling toegepast en vervolgens niet het gewenste resultaat ziet.
+                    Cascade en Inheritance zijn belangrijke concepten om te begrijpen hoe styling werkt.
+                </p>
 
-                </article>
+            </article>
         </section>
-<!-- Onderdeel 2. Het box model -->
+        <!-- Onderdeel 2. Het box model -->
         <section>
             <h2>Onderdeel 2. Het box model</h2>
-                <article>
-                    <p>Alles in CSS heeft een zogenaamde 'box' eromheen het begrijpen van de boxen is sleutel naar lay-outs
-                        met CSS te kunnen maken of om items met andere items uit te lijnen.</p>
-                    <p>Term 'box model' gebruikt wanneer we het hebben over ontwerpt en layout.
-                        Elke box in CSS bestaat uit 'margins', 'border', 'padding' en 'content' oftwel de inhoud.</p>
-                    <p>Als de box-sizing: border-box gebruikt = dan werkt alles in de box, dus wordt die niet groter naar buiten toe.</p>
-                </article>
-                <p class="box-model-diagram"><strong>Het box model</strong></p>
-                <img src="./Images css/box-model-diagram.jpg" width="1000px" height="auto">
+            <article>
+                <p>Alles in CSS heeft een zogenaamde 'box' eromheen het begrijpen van de boxen is sleutel naar lay-outs
+                    met CSS te kunnen maken of om items met andere items uit te lijnen.</p>
+                <p>Term 'box model' gebruikt wanneer we het hebben over ontwerpt en layout.
+                    Elke box in CSS bestaat uit 'margins', 'border', 'padding' en 'content' oftwel de inhoud.</p>
+                <p>Als de box-sizing: border-box gebruikt = dan werkt alles in de box, dus wordt die niet groter naar
+                    buiten toe.</p>
+            </article>
+            <p class="box-model-diagram"><strong>Het box model</strong></p>
+            <img src="./Images css/box-model-diagram.jpg" width="1000px" height="auto">
         </section>
-<!-- Onderdeel 3.Display & Positioning -->
+        <!-- Onderdeel 3.Display & Positioning -->
         <section>
             <h2>Onderdeel 3.Display & Positioning</h2>
             <article>
-                    <p>CSS position property bepaalt hoe een HTML element in een document wordt gepositioneerd.</p>
-                    <p>Je kan elk HTML element op elke gewenste locatie plaatsen.</p>
-                    <p>De top, right, bottom, left properties bepalen de uiteindelijke locatie van geplaatste elementen.</p>
+                <p>CSS position property bepaalt hoe een HTML element in een document wordt gepositioneerd.</p>
+                <p>Je kan elk HTML element op elke gewenste locatie plaatsen.</p>
+                <p>De top, right, bottom, left properties bepalen de uiteindelijke locatie van geplaatste elementen.</p>
             </article>
             <dl>
                 <strong>Postioning values</strong>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank" title="Developer mozzila CSS position">Uitleg CSS postioning</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank"
+                    title="Developer mozzila CSS position">Uitleg CSS postioning</a>
                 <dt>Static</dt>
                 <dd>Postioning volgens normal flow document.</dd>
                 <dd>Top, right, bottom, left, z-index properties have no effect>>default value.</dd>
 
                 <dt>Relative</dt>
-                <dd>Postioning volgens normal flow document, offset relative to itself based on values (top, right, bottom, left).</dd>
-                <dd>Offset beinvloedt niet de positie van andere elementen, space gegeven voor een element in page layout blijft hetzelfde als static.</dd>
+                <dd>Postioning volgens normal flow document, offset relative to itself based on values (top, right,
+                    bottom, left).</dd>
+                <dd>Offset beinvloedt niet de positie van andere elementen, space gegeven voor een element in page
+                    layout blijft hetzelfde als static.</dd>
 
                 <dt>Absolute</dt>
-                <dd>Element verwijdert van normal flow document, geen space gemaakt voor het element in pagina layout.</dd>
+                <dd>Element verwijdert van normal flow document, geen space gemaakt voor het element in pagina layout.
+                </dd>
                 <dd>Positie is relatief aan de initial containing block.</dd>
                 <dd>Final positie is bepaald door values (top, right, bottom, left).</dd>
 
                 <dt>Fixed</dt>
-                <dd>Dit value, fixed, maakt een new stacking context. In geprinte documenten, element is gepositioneerd op dezelfde plek op elke pagina.</dd>
+                <dd>Dit value, fixed, maakt een new stacking context. In geprinte documenten, element is gepositioneerd
+                    op dezelfde plek op elke pagina.</dd>
                 <dd>Element is verwijderd van normal flow document, geen space gemaakt ervoor in pagina layout.</dd>
                 <dd>Positie is relatief aan de intial containing block bepaald door viewport, behalve als
                     als het ancestors (transform, perspective, filter) property set is to something other than none.
@@ -100,10 +110,13 @@
 
                 <dt>Sticky</dt>
                 <dd>Postioning volgens normal flow.</dd>
-                <dd>Offset is relatief aan zijn dichtsbijzijnde scrolling ancestor en containing block (nearset block-level ancestor).</dd>
-                <dd>Incl. table-related elements, gebaseerd op values (top, right, bottom, left). Offset beinvloed niet de positie van andere elementen.</dd>
+                <dd>Offset is relatief aan zijn dichtsbijzijnde scrolling ancestor en containing block (nearset
+                    block-level ancestor).</dd>
+                <dd>Incl. table-related elements, gebaseerd op values (top, right, bottom, left). Offset beinvloed niet
+                    de positie van andere elementen.</dd>
                 <dd>Deze value maakt een new stacking context.</dd>
-                <dd>Sticky element plakt aan de dichtsbijzijnde ancestor en heeft scrolling mechanisme (gemaakt overflow is hidden, scroll,
+                <dd>Sticky element plakt aan de dichtsbijzijnde ancestor en heeft scrolling mechanisme (gemaakt overflow
+                    is hidden, scroll,
                     auto, overlay), zelfs als dichtsbijzijnde ancester geen dichtsbijzijnde scrolling ancestor is.
                 </dd>
                 <dd>Effectively inhibits any sticky behaviour.</dd>
@@ -121,45 +134,56 @@
             Sticky: Het element wordt gepositioneerd op basis van de scrollpositie van de gebruiker.
             </pre>
         </section>
-<!-- Onderdeel 4. Pseudo elements -->
+        <!-- Onderdeel 4. Pseudo elements -->
         <section>
             <h2>Onderdeel 4. Pseudo elements</h2>
             <div>
-                <p>Met CSS kan je stijlen definieren op basis van elementen. Maar soms is het niet genoeg om het gewenste resultaat te krijgen.
-                    Als je alleen over element- of attribuut- selectors hebt, bijvoorbeeld opmaak eerste letter/regel van inhoud elementen.
+                <p>Met CSS kan je stijlen definieren op basis van elementen. Maar soms is het niet genoeg om het
+                    gewenste resultaat te krijgen.
+                    Als je alleen over element- of attribuut- selectors hebt, bijvoorbeeld opmaak eerste letter/regel
+                    van inhoud elementen.
                 </p>
                 <p>Om dit mogelijk te maken zijn Pseudo-elementen geintorduceerd.</p>
-                <p>Je kan ze zien als een denkbeeldig element die niet in je document voorkomt, maar wel kan 'stijlen'.</p>
-                <p>Je tal van interessante ontwerpmogelijkheden toepassen zonder de senmatiek van de opmaak negatief te beinvloeden.</p>
+                <p>Je kan ze zien als een denkbeeldig element die niet in je document voorkomt, maar wel kan 'stijlen'.
+                </p>
+                <p>Je tal van interessante ontwerpmogelijkheden toepassen zonder de senmatiek van de opmaak negatief te
+                    beinvloeden.</p>
                 <p>De meest gebruikte pseudo-elementen zijn: "::before en ::after".</p>
-                <img src="./Images css/pseudoelementbeforeafter.jpg" alt="pseudo element before en after" width="500px" height="auto">
-                <p>Pseudo elementen kan je position: absolute, relative t.o.v. parent element, kan je ze zien als twee extra lagen waar je me kunt spelen.</p>
+                <img src="./Images css/pseudoelementbeforeafter.jpg" alt="pseudo element before en after" width="500px"
+                    height="auto">
+                <p>Pseudo elementen kan je position: absolute, relative t.o.v. parent element, kan je ze zien als twee
+                    extra lagen waar je me kunt spelen.</p>
                 <p>Tal van toepassingen mogelijk, zoals meervoudige borders, achtergronden, allerlei vormen.</p>
-                <a href="http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/" title="Nicolas gallagher uitleg pseudo elementen">Uitleg meerdere achtergrondne en borders (niet beveiligd).</a>
+                <a href="http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/"
+                    title="Nicolas gallagher uitleg pseudo elementen">Uitleg meerdere achtergrondne en borders (niet
+                    beveiligd).</a>
             </div>
-<!-- Pseudo classes en elements -->
+            <!-- Pseudo classes en elements -->
             <div>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" title="Developer Mozilla Pseudo classes">Uitleg pseudo classes</a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" title="Developer Mozilla Pseudo elements">Uitleg pseudo elements</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"
+                    title="Developer Mozilla Pseudo classes">Uitleg pseudo classes</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements"
+                    title="Developer Mozilla Pseudo elements">Uitleg pseudo elements</a>
             </div>
             <dl>
                 <dt>Pseudo-element</dt>
                 <dd>::after (2x ::)</dd>
                 <dt>Pseudo-class</dt>
                 <dd>:after (1x : )</dd>
-                
+
                 <dt>Pseudo-elements</dt>
                 <dd>Keyword added to a selector that lets you style a specific part of the selected element(S).</dd>
                 <dd>Bijvoorbeel: p::first-line{____} = verandert eerste regel font van een paragraaf</dd>
-                
+
                 <dt>Syntax pseudo-elements</dt>
                 <dd>Selector::pseudo-element{ property:value; }</dd>
                 <dd>Bijvoorbeeld: ::after (:after), ::backdrop, ::before (:before), ::cue,::cue-region, </dd>
-                <dd>::first-letter (:first-letter), ::first-line (:first-line), ::file-selector-button, ::grammar-error </dd>
-                <dd>::marker, ::part(), ::placeholder, ::selection, ::slotted(), ::spelling-error  </dd>
+                <dd>::first-letter (:first-letter), ::first-line (:first-line), ::file-selector-button, ::grammar-error
+                </dd>
+                <dd>::marker, ::part(), ::placeholder, ::selection, ::slotted(), ::spelling-error </dd>
 
                 <dt>Syntax pseudo-classes</dt>
-                <dd>selector:pseudo-class {  property: value; }</dd>
+                <dd>selector:pseudo-class { property: value; }</dd>
             </dl>
 
             <div>
@@ -167,11 +191,13 @@
                 <dl>
                     <dt>Pseudo Classes</dt>
                     <dd>A keyword added toa selector that specifies a special state of the selected element(S).</dd>
-                    <dd>Can apply a style to an element not only in relation to the content of the document tree, but also in relation
-                        to external factors like history of the navigator (:visitied), status of content checked (:checked) or
+                    <dd>Can apply a style to an element not only in relation to the content of the document tree, but
+                        also in relation
+                        to external factors like history of the navigator (:visitied), status of content checked
+                        (:checked) or
                         position of the mouse (:hover).
                     </dd>
-                    
+
                     <p style="background-color: yellow;"><strong>Linguistic pseudo-class</strong></p>
                     <dt>:dir</dt>
                     <dd>Selects a element based on its directionality as determined by document language.</dd>
@@ -187,13 +213,15 @@
                     <dd>Matches links that have not yet been visited.</dd>
 
                     <dt>:local-link</dt>
-                    <dd>Matches links whose absolute URL is the same as target URL, for example anchor links to the same page.</dd>
+                    <dd>Matches links whose absolute URL is the same as target URL, for example anchor links to the same
+                        page.</dd>
 
                     <dt>:target</dt>
                     <dd>Matches the element which is the target of the document URL.</dd>
 
                     <dt>:target-within</dt>
-                    <dd>Matches elements which are the target of the document URL, but also elmeents which have a descendant
+                    <dd>Matches elements which are the target of the document URL, but also elmeents which have a
+                        descendant
                         which is the target of the document URL.
                     </dd>
 
@@ -202,8 +230,9 @@
 
                     <p style="background-color: yellow;"><strong>User-Action pseudo-class</strong></p>
                     <dt>:hover</dt>
-                    <dd>Matches when a user designates an item with a pointing device, for example holding the mouse pointer over it.</dd>
-                
+                    <dd>Matches when a user designates an item with a pointing device, for example holding the mouse
+                        pointer over it.</dd>
+
                     <dt>:active</dt>
                     <dd>Matches when an item is being activated by the user, for example clicked on.</dd>
 
@@ -211,10 +240,12 @@
                     <dd>Matches when an element has focus.</dd>
 
                     <dt>:focus-visible</dt>
-                    <dd>Matches when an element has focus and the user agent identifies that the element should be visibly focused. </dd>
-                    
+                    <dd>Matches when an element has focus and the user agent identifies that the element should be
+                        visibly focused. </dd>
+
                     <dt>:focus-within</dt>
-                    <dd>Matches an element to which :focus applies, plus any element that has a descendant to which :focus applies.</dd>
+                    <dd>Matches an element to which :focus applies, plus any element that has a descendant to which
+                        :focus applies.</dd>
 
                     <p style="background-color: yellow;"><strong>Time-dimensional pseudo-class</strong></p>
                     <dt>:current</dt>
@@ -225,7 +256,7 @@
 
                     <dt>:future</dt>
                     <dd>Represents an element that occurs entirely after the :current element.</dd>
-                    
+
                     <p style="background-color: yellow;"><strong>Resource state pseudo-class</strong></p>
                     <dt>:playing</dt>
                     <dd>Represents a media element that is capable of playing when that element is playing.</dd>
@@ -249,7 +280,7 @@
                     <dt>:placeholder-shown</dt>
                     <dd>Matches an input element that is displaying placeholder text,
                         for example from the HTML5 placeholder attribute.</dd>
-                    
+
                     <dt>:default</dt>
                     <dd>Matches one or more UI elements that are the default among a set of elements.</dd>
 
@@ -260,19 +291,22 @@
                     <dd>Matches when UI elements are in an undeterminate state.</dd>
 
                     <dt>:blank</dt>
-                    <dd>Matches a user-input element which is empty, containing an empty string or other null input.</dd>
+                    <dd>Matches a user-input element which is empty, containing an empty string or other null input.
+                    </dd>
 
                     <dt>:valid</dt>
                     <dd>Matches an element with valid contents.
-                        For example an input element with type 'email' which contains a validly formed email address.</dd>
+                        For example an input element with type 'email' which contains a validly formed email address.
+                    </dd>
 
                     <dt>:invalid</dt>
-                    <dd>Matches an element with invalid contents. For example an input element with type 'email' with a name entered.</dd>
-                        
+                    <dd>Matches an element with invalid contents. For example an input element with type 'email' with a
+                        name entered.</dd>
+
                     <dt>in-range</dt>
                     <dd>Applies to elements with range limitations,
                         for example a slider control, when the selected value is in the allowed range.</dd>
-                    
+
                     <dt>:out-of-range</dt>
                     <dd>Applies to elements with range limitations, for example a slider control, when
                         the selected value is outside the allowed range.</dd>
@@ -288,7 +322,8 @@
 
                     <p style="background-color: yellow;"><strong>Tree-structural pseudo-class</strong></p>
                     <dt>:root</dt>
-                    <dd>Represents an element that is the root of the document. In HTML this is usually the <html> element.</dd>
+                    <dd>Represents an element that is the root of the document. In HTML this is usually the <html>
+                        element.</dd>
 
                     <dt>:empty</dt>
                     <dd>Represents an element with no children other than white-space characters.</dd>
@@ -297,8 +332,9 @@
                     <dd>Uses An+B notation to select elements from a list of sibling elements.</dd>
 
                     <dt>:nth-last-child</dt>
-                    <dd>Uses An+B notation to select elements from a list of sibling elements, counting backwards from the end of the list.</dd>
-                
+                    <dd>Uses An+B notation to select elements from a list of sibling elements, counting backwards from
+                        the end of the list.</dd>
+
                     <dt>:first-child</dt>
                     <dd>Matches an element that is the first of its siblings.</dd>
 
@@ -306,8 +342,9 @@
                     <dd>Matches an element that is the last of its siblings.</dd>
 
                     <dt>only-child</dt>
-                    <dd>Matches an element that has no siblings. For example a list item with no other list items in that list.</dd>
-                    
+                    <dd>Matches an element that has no siblings. For example a list item with no other list items in
+                        that list.</dd>
+
                     <dt>:nth-of-type</dt>
                     <dd>Uses An+B notation to select elements from a list of sibling elements
                         that match a certain type from a list of sibling elements.</dd>
@@ -317,21 +354,25 @@
                         a certain type from a list of sibling elements counting backards from the end of the list.</dd>
 
                     <dt>:first-of-type</dt>
-                    <dd>Matches an element that is the first of its siblings, and also matches a certain type selector.</dd>
+                    <dd>Matches an element that is the first of its siblings, and also matches a certain type selector.
+                    </dd>
 
                     <dt>:last-of-type</dt>
-                    <dd>Matches an element that is the last of its siblings, and also matches a certain type selector.</dd>
+                    <dd>Matches an element that is the last of its siblings, and also matches a certain type selector.
+                    </dd>
 
                     <dt>:only-of-type</dt>
                     <dd>Matches an element that has no siblings of the chosen type selector.</dd>
                 </dl>
             </div>
         </section>
-<!-- Onderdeel 5. Flexbox  -->
+        <!-- Onderdeel 5. Flexbox  -->
         <section>
             <h2>Onderdeel 5. Flexbox </h2>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank" title="Developer Mozilla">Uitleg CSS flex</a>
-        <br><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" title="CSS-Tricks guide flexbox">Uitleg complete gids Flexbox</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank"
+                title="Developer Mozilla">Uitleg CSS flex</a>
+            <br><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"
+                title="CSS-Tricks guide flexbox">Uitleg complete gids Flexbox</a>
             <dl>
                 <dt>Flexbox</dt>
                 <dd>Is CSS model voor het positioneren van HTML elementen.</dd>
@@ -343,24 +384,30 @@
                 <dd>Bijvoorbeeld, uitlijning/sortering van HTML elementen.</dd>
 
                 <dt>Flex container</dt>
-                <dd>Idee erachter is om de container de mogelijkheid te geven de breedte- /hoogte (en volgorde) van de items te wijzigen
+                <dd>Idee erachter is om de container de mogelijkheid te geven de breedte- /hoogte (en volgorde) van de
+                    items te wijzigen
                     om de beschikbare ruimte zo goed mogelijk te vullen (voor alle schermformaten en displays).
                 </dd>
-                <dd>Belangrijkste is dat de lay-out van de flexbox niet richtingsafhankelijk is, in tegenstelling toegepas
-                    tot reguliere lay-outs (block dat verticaal is gebaseerd en inline block dat horizontaal is gebaseerd.)
+                <dd>Belangrijkste is dat de lay-out van de flexbox niet richtingsafhankelijk is, in tegenstelling
+                    toegepas
+                    tot reguliere lay-outs (block dat verticaal is gebaseerd en inline block dat horizontaal is
+                    gebaseerd.)
                 </dd>
             </dl>
         </section>
-<!-- Onderdeel 6. Transitions -->
+        <!-- Onderdeel 6. Transitions -->
         <section>
             <h2>Onderdeel 6. Transitions</h2>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions" target="_blank" title="Developer Mozilla CSS transitions">Uitleg CSS transitions</a>
-        <br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties" target="_blank" title="Developer Mozilla CSS properties">Uitleg Animatable CSS properties</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions"
+                target="_blank" title="Developer Mozilla CSS transitions">Uitleg CSS transitions</a>
+            <br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties" target="_blank"
+                title="Developer Mozilla CSS properties">Uitleg Animatable CSS properties</a>
             <dl>
                 <dt>CSS transitions</dt>
                 <dd>Biedt een manier om animatiesnelheid te regelen bij het wijzigen van CSS-properties.</dd>
                 <dd>Zorg ervoor dat bepaalde CSS/styling niet onmiddelijk worden toegepast.</dd>
-                <dd>Toegpast: zorg voor wijzigen plaats met tijdsintervallen die een versnellingscurve volgen, die allemaal kunnen
+                <dd>Toegpast: zorg voor wijzigen plaats met tijdsintervallen die een versnellingscurve volgen, die
+                    allemaal kunnen
                     worden aangepast naar wens.
                 </dd>
                 <dt>Implicit transitions</dt>
@@ -369,7 +416,8 @@
                 <dt>Notes</dt>
                 <dd>hoelang transitie zal duren (duration instellen) en hoe transitie zal verlopen
                     (timing function te definieren, bijvoorbeeld ease-in-out).</dd>
-                <dd>Je kan zelf beslissen welke properties jij wilt animeren (expliciet vermelden), wanneer de animatie zal starten
+                <dd>Je kan zelf beslissen welke properties jij wilt animeren (expliciet vermelden), wanneer de animatie
+                    zal starten
                     (delay instellen).</dd>
         </section>
     </main>
@@ -377,6 +425,5 @@
 
     </footer>
 </body>
+
 </html>
-
-

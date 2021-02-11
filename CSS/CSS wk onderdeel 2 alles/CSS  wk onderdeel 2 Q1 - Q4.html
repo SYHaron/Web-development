@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS wk onderdeel 2 Q1 Q2 Q3 Q4</title>
 </head>
 <style>
-    #Q2 {background-color: green;
-            
+    #Q2 {
+        background-color: green;
+
     }
-    span { background-color: white;
-/* Display: block = alle boxes onder elkaar, inline-block= boxes waar toepassing in dezelfde regel // */
-            display: inline-block;
-            border: 2px solid red;
+
+    span {
+        background-color: white;
+        /* Display: block = alle boxes onder elkaar, inline-block= boxes waar toepassing in dezelfde regel // */
+        display: inline-block;
+        border: 2px solid red;
     }
-/* Border: dikte van de rand, zichtbaarheid, kleur */
-    .q2paragraaf { border: 2px solid red;
-/* Margin: grenzen tussen elementen raken of niet / ruimte ertussen */
+
+    /* Border: dikte van de rand, zichtbaarheid, kleur */
+    .q2paragraaf {
+        border: 2px solid red;
+        /* Margin: grenzen tussen elementen raken of niet / ruimte ertussen */
         margin: 0px;
- /* Width: de beschikbare ruimte ten opzichte van de (inline direction wordt verkleind) // blokje staat grotendeels links */
+        /* Width: de beschikbare ruimte ten opzichte van de (inline direction wordt verkleind) // blokje staat grotendeels links */
         width: 50%;
- /* Height: hoogte van het block, zonder invloed op elementen//kunnen erbuiten vallen */
+        /* Height: hoogte van het block, zonder invloed op elementen//kunnen erbuiten vallen */
         height: auto;
- /* Margin: ruimte tussen block en outer display/vorige buiten block element; // */
-  /*-----------------------procenten?; ruimte tussen elementen in block; ruimte van tussen element in block en de 'begin-punt' */
+        /* Margin: ruimte tussen block en outer display/vorige buiten block element; // */
+        /*-----------------------procenten?; ruimte tussen elementen in block; ruimte van tussen element in block en de 'begin-punt' */
         margin: 0px 0 10px 10px;
- /* Box-sizing: defines width & height van element berekent als ze wel/niet padding, borders hebben. // */
+        /* Box-sizing: defines width & height van element berekent als ze wel/niet padding, borders hebben. // */
         box-sizing: border-box;
     }
-    span {height: 100px;
+
+    span {
+        height: 100px;
         width: 100px;
     }
 </style>
+
 <body>
     <header>
 
-    </header> 
+    </header>
     <main>
         <h1>CSS onderdeel 2 Het box model</h1>
-<!-- Vraag 1  --------------->
+        <!-- Vraag 1  --------------->
         <section>
             <h2>Q1. Wat zijn de eigenschappen van block boxes en inline boxes?</h2>
             <dl>
@@ -47,66 +56,75 @@
                     <br>Spreidt zich uit op de gehele regel binnen de container, 100% van beschikbare ruimte.
                     <br>Breedte en Hoogte wordt aangehouden/gerespecteerd.
                     <br>Padding, Margin, Border duwen andere elementen weg van de block box.
-                    <br>Het besluit van de verandering van 'display type to inline', elements gebruiken dan het block als hun 'outer display' by default.  
+                    <br>Het besluit van de verandering van 'display type to inline', elements gebruiken dan het block
+                    als hun 'outer display' by default.
                 </dd>
-            <br>
+                <br>
                 <dt>Inline boxes eigenschappen:</dt>
                 <dd>Start niet op een nieuwe regel.
                     <br>Breedte & Hoogte instelling geldt niet.
                     <br>Verticale padding, margin, borders gelden wel, maar duwt andere elementen niet weg.
-                    <br>Horizontale padding, margin, borders gelden wel, maar kan andere 'inline boxes' wegduwen van de box.
+                    <br>Horizontale padding, margin, borders gelden wel, maar kan andere 'inline boxes' wegduwen van de
+                    box.
                 </dd><br>
                 <dd>
-                    Bijvoorbeeld: &lt;a&gt;&lt;/a&gt;, &lt;span&gt;&lt;/span&gt;, &lt;em&gt;&lt;/em&gt;, &lt;strong&gt;&lt;/strong&gt;
-                        zijn elementen die 'Inline' verschijnen by default.
+                    Bijvoorbeeld: &lt;a&gt;&lt;/a&gt;, &lt;span&gt;&lt;/span&gt;, &lt;em&gt;&lt;/em&gt;,
+                    &lt;strong&gt;&lt;/strong&gt;
+                    zijn elementen die 'Inline' verschijnen by default.
                 </dd><br>
                 <dd>
-                    Het type box gebruikt voor bepaalde element is beinvloed door 'display property values' (block / inline)
+                    Het type box gebruikt voor bepaalde element is beinvloed door 'display property values' (block /
+                    inline)
                     en relateerd aan de 'outer value of display'.
                 </dd>
             </dl>
         </section>
-<!-- Vraag 2  --------------->
+        <!-- Vraag 2  --------------->
         <section>
             <h2>Q2. Maak het gegeven voorbeeld na met de tags &lt;span&gt;&lt;/span&gt; en &lt;p&gt;&lt;/p&gt;.</h2>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow" 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow"
                 target="_blank" title="Developer Mozilla US"> Uitleg Block / Inline box </a>
             <div id="Q2">
                 <p class="q2paragraaf">
                     Dit is een block box en neemt de hele breedte in waardoor de volgende box op de volgende regel zit.
                 </p>
                 <p class="q2paragraaf">
-                    In dit block zit <span>Inline tekst</span> in wat dus niet op de volgende regel komt te <span>staan</span>.
+                    In dit block zit <span>Inline tekst</span> in wat dus niet op de volgende regel komt te
+                    <span>staan</span>.
                 </p>
             </div>
         </section>
-<!-- Vraag 3  --------------->
+        <!-- Vraag 3  --------------->
         <section>
             <h2>Q3. Wat gebeurt er als je width & height toevoegt aan &lt;span&gt;&lt;/span&gt; tag van vraag 2?</h2>
             <p class="q3paragraaf"> Enkel de hoogte & breedte van het SPAN element verandert van formaat.</p>
         </section>
-<!-- Vraag 4  --------------->
+        <!-- Vraag 4  --------------->
         <section>
             <h2>Q4. Leg de volgende termen uit: content, padding, margin, border.</h2>
             <dl>
                 <dt>Content</dt>
                 <dd>De inhoud van het element. &lt;p&gt;&lt;/p&gt; = de tekst/paragraaf inhoud.</dd>
-            <br>
+                <br>
                 <dt>Padding:</dt>
-                <dd>De ruimte tussen content en padding border. De ruimte om de content heen binnen specifieke grenzen.</dd>
+                <dd>De ruimte tussen content en padding border. De ruimte om de content heen binnen specifieke grenzen.
+                </dd>
                 <dd>Je hebt padding-top, padding-right, padding-bottom, padding-left.</dd>
-                <dd>Padding shortkey = padding: 100px, 50px, 20px, 30px (ook procenten etc.). Dat is top, right, bottom, left.</dd>
+                <dd>Padding shortkey = padding: 100px, 50px, 20px, 30px (ook procenten etc.). Dat is top, right, bottom,
+                    left.</dd>
                 <dd>1x value in padding = (alles hetzelfde) top & bottom & right & left </dd>
                 <dd>2x value in padding = top & bottom, right & left </dd>
-                <dd>3x value in padding = top,  bottom, right & left </dd>
-                
+                <dd>3x value in padding = top, bottom, right & left </dd>
+
                 <dt>Margin:</dt>
                 <dd>Ruimte tussen de grens/border edge en elementen buiten het block/box.</dd>
                 <dd>De ruimte om elementen heen.</dd>
-                <dd>Bijvoorbeeld: 1x box hebt, eerst Paragraaf element hebt, is het de ruimte tussen paragraaf element en box element.</dd>
+                <dd>Bijvoorbeeld: 1x box hebt, eerst Paragraaf element hebt, is het de ruimte tussen paragraaf element
+                    en box element.</dd>
 
                 <dt>Border:</dt>
-                <a href="https://www.w3schools.com/css/css_border.asp" target="_blank" title= "W3Schools border"> Uitleg border</a>
+                <a href="https://www.w3schools.com/css/css_border.asp" target="_blank" title="W3Schools border"> Uitleg
+                    border</a>
                 <dd>De rand om de block/box heen. Ruimte tussen padding & margin.</dd>
                 <dd>Border kan je een specifieke style, breedte, kleur geven.</dd>
             </dl>
@@ -116,4 +134,5 @@
 
     </footer>
 </body>
+
 </html>

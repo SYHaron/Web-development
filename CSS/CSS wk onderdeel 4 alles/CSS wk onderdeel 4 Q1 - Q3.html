@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS wk part 4 Q1 Q2 Q3</title>
     <link rel="stylesheet" href="./Stylesheet css part4 q1-q3.css">
 </head>
+
 <body>
     <header>
 
-    </header> 
+    </header>
     <main>
-<!-- Vraag 1 & 2 ---------->
+        <!-- Vraag 1 & 2 ---------->
         <section>
             <h2>Q1/Q2. Kan je 14 voorbeelden geven van pseudo-elementen en leg ze uit.</h2>
             <dl>
@@ -25,7 +27,8 @@
                 <dd>Inline bij default. Maakt een pseudo-element, laaste kind van een selected element.
                     Vaak gebruikt voor toevoeging van cosmetisch content aan element with content property.
                 </dd>
-                <dd>Enkel te gebruiken bij boxed elementen/specifieke elementen, niet vervaning boxes/element img, br elementen.</dd>
+                <dd>Enkel te gebruiken bij boxed elementen/specifieke elementen, niet vervaning boxes/element img, br
+                    elementen.</dd>
 
                 <dt>::before</dt>
                 <dd>Syntax: ::before = toegepast op 1e kind van selected element.</dd>
@@ -35,15 +38,18 @@
                 <dd>Syntax: ::backdrop = toegepast als een box met dezelfde maten als viewport.</dd>
                 <dd>Komt automatisch onder elk element dat in full-screen mode.</dd>
                 <dd>Incl. elementen met FullscreenAPI, dialog elements</dd>
-                <dd>Full screen element worden Lifo (last in-first out) geplaatst, speciale laag in viewport, komt als laaste (dus bovenaan) voor viewport dingen.</dd>
-                <dd>Neither inherits from of omgekeerd van andere lementen. Geen limitaties voor welke property je het kan gebruiken.</dd>
+                <dd>Full screen element worden Lifo (last in-first out) geplaatst, speciale laag in viewport, komt als
+                    laaste (dus bovenaan) voor viewport dingen.</dd>
+                <dd>Neither inherits from of omgekeerd van andere lementen. Geen limitaties voor welke property je het
+                    kan gebruiken.</dd>
 
                 <dt>::cue</dt>
-                <dd>syntax: ::cue { selector } = matches WebVTT cues, binnne een element. Kan je de style cpations en andere cues in media met VTT tracks stijlen.</dd>
+                <dd>syntax: ::cue { selector } = matches WebVTT cues, binnne een element. Kan je de style cpations en
+                    andere cues in media met VTT tracks stijlen.</dd>
                 <dd>Properties toegepast op alle cues, alsof ze één zijn.</dd>
-               <dd>De uitzondering is background en longhand properties geldt per cue zelfstandig, ter verkomen
-                   dat created boxes, onbedoelde verberging van grote gebieden van media te verwijden.
-               </dd>
+                <dd>De uitzondering is background en longhand properties geldt per cue zelfstandig, ter verkomen
+                    dat created boxes, onbedoelde verberging van grote gebieden van media te verwijden.
+                </dd>
 
                 <dt>::cue-region { }</dt>
                 <dd>Syntax: ::cue-region | ::cue-region { selector } </dd>
@@ -52,7 +58,8 @@
                 <dt>::first-letter (:first-letter)</dt>
                 <dd>Syntax: ::first-letter </dd>
                 <dd>Toepast een stijl aan de eerste letter van eerste regel in een block element.</dd>
-                <dd>1e letter niet altijd makkelijk te zien, puntuation (Pi, elke stijl open, close, intial quote, final quote, andere punctuatie).</dd>
+                <dd>1e letter niet altijd makkelijk te zien, puntuation (Pi, elke stijl open, close, intial quote, final
+                    quote, andere punctuatie).</dd>
                 <dd>Bepaalde talen, NL = IJS... ijs.</dd>
                 <dd>Gebruik van PE-::before, neemt 1e letter eerste stukje content.</dd>
 
@@ -77,25 +84,28 @@
                 <dd>Kan je de 'bullet-points' stijlen van een lijst.</dd>
 
                 <dt>::part() </dt>
-                <dd>Syntax:  ::part( &lt;ident&gt;+ ) </dd>
+                <dd>Syntax: ::part( &lt;ident&gt;+ ) </dd>
                 <dd>Represents any element binnen een shadow tree dat een matching part attribute.</dd>
 
                 <dt>::placeholder </dt>
-                <dd>Syntax:  ::placeholder </dd>
+                <dd>Syntax: ::placeholder </dd>
                 <dd>Staat voor placeholder text in input-tag of textarea-tag element.</dd>
-                <dd>Enkel de subset CSS properties dat ::first-line pseudo-element gebruiken, kan je gebruiken 
+                <dd>Enkel de subset CSS properties dat ::first-line pseudo-element gebruiken, kan je gebruiken
                     in combinatie van ::placeholder pseudo-element in zijn selector.
                 </dd>
 
                 <dt>::selection</dt>
-                <dd>Syntax:  ::-moz-selection  //  ::selection</dd>
-                <dd>Applies style aan het gedeelte van het document dat is highlighted bij de gebruiker (muis klik-sleep).</dd>
+                <dd>Syntax: ::-moz-selection // ::selection</dd>
+                <dd>Applies style aan het gedeelte van het document dat is highlighted bij de gebruiker (muis
+                    klik-sleep).</dd>
 
                 <dt>::slotted()</dt>
                 <dd>Syntax: ::slotted()</dd>
                 <dd>Toepasbaar op elk element met locatie in een slot binnen een HTML template.</dd>
-                <dd>Dit werkt enkel binnen CSS geplaatst in een Shadow DOM. Het targets enkel elementen niet text node.</dd>
-                <dd><pre>
+                <dd>Dit werkt enkel binnen CSS geplaatst in een Shadow DOM. Het targets enkel elementen niet text node.
+                </dd>
+                <dd>
+                    <pre>
                 ::slotted( &lt;compound-selector-list&gt; )
                     where 
                         &lt;compound-selector-list&gt; = &lt;compound-selector&gt;#
@@ -119,39 +129,42 @@
                     where 
                         &lt;attr-matcher&gt; = [ &apos;~&apos; |  |  | &apos;^&apos; | &apos;$&apos; | &apos;*&apos; ]? &apos;=&apos;
                         &lt;attr-modifier&gt; = i | s
-                </pre></dd>
+                </pre>
+                </dd>
 
                 <dt>::spelling-error </dt>
-                <dd>Syntax: ::spelling-error  </dd>
+                <dd>Syntax: ::spelling-error </dd>
                 <dd>Een text gedeelte dat wordt onderstreept als het incorrect spelling is.</dd>
-                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color, outline en zijn longhands,
+                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color, outline en zijn
+                    longhands,
                     text-decoration en zijn bijbehorende propeties, text-emphasis-color, text-shadow.
                 </dd>
                 <dd>Nog NIET werkende in webbrowers.</dd>
             </dl>
         </section>
-<!-- vraag 3 ------>
+        <!-- vraag 3 ------>
         <section>
             <h2>Q3. Kan je van de opgezochte 14 pseudo-elementen voorbeelden maken.</h2>
-                <p>:: after - pseudo element</p>
-            <dt><strong>'Simpel' gebruikt</strong></strong></dt> 
+            <p>:: after - pseudo element</p>
+            <dt><strong>'Simpel' gebruikt</strong></strong></dt>
             <div class="pe_after">
-                    <p class="boring-text">Here is some plain old boring text.</p>
-                    <p>Here is some normal text that is neither boring nor exciting.</p>
-                    <p class="exciting-text">Contributing to MDN is easy and fun.</p>  
-                <dt><strong>Decoratief gebruik</strong></dt>  
-                    <span class="ribbon">Look at the orange box after this text. </span>
-                    <dd>-Het oranje text staat er dubbel achter ('nep' element) door ::after pseudo element. Zonder zou het bestaande
-                        overschrijven als zelfstandige element die je styled.
-                        (hetzelfde geldt voor de "boring en exciting!" text.)
-                    </dd>
-            <dt><strong>Tooltip gebruik</strong></dt> 
+                <p class="boring-text">Here is some plain old boring text.</p>
+                <p>Here is some normal text that is neither boring nor exciting.</p>
+                <p class="exciting-text">Contributing to MDN is easy and fun.</p>
+                <dt><strong>Decoratief gebruik</strong></dt>
+                <span class="ribbon">Look at the orange box after this text. </span>
+                <dd>-Het oranje text staat er dubbel achter ('nep' element) door ::after pseudo element. Zonder zou het
+                    bestaande
+                    overschrijven als zelfstandige element die je styled.
+                    (hetzelfde geldt voor de "boring en exciting!" text.)
+                </dd>
+                <dt><strong>Tooltip gebruik</strong></dt>
                 <p>Here we have some
                     <span tabindex="0" data-descr="collection of words and punctuation">text</span> with a few
                     <span tabindex="0" data-descr="small popups that appear when hovering">tooltips</span>.
                 </p>
             </div>
-        <br>
+            <br>
             <div class="pe_before">
                 <p>::before - pseudo element</p>
                 <p>Gebruik: quote marks, decoratief, to-do lijst (met java kunnen afvinken), special characters</p>
@@ -165,22 +178,22 @@
                     <li>Write code</li>
                     <li>Play music</li>
                     <li>Relax</li>
-                  </ul>
+                </ul>
                 <P>Special characters, zoals letters dikgedrukt, symbool pijltje.</P>
             </div>
-        <br>
+            <br>
             <div class="pe_backdrop">
                 <p>::backdrop - pseudo element</p>
                 <dd>Gebruikt worden bij het stylen van de achtergrond van een geplaatste video.
                     I.p.v. standaard zwarte achtergrond, bijvoorbeeld rood te maken.
                 </dd>
             </div>
-        <br>
+            <br>
             <div class="pe_cue">
                 <p>::cue - pseudo element</p>
                 <P>Text is wit met doorzichtige zwarte achtergrond.</P>
                 <p>Enkel gebruik van volgende CSS property:</p>
-    <pre>background,cbackground-attachment, background-clip, background-color,background-image,
+                <pre>background,cbackground-attachment, background-clip, background-color,background-image,
         background-origin, background-position, background-repeat, background-size, color,
         font, font-family, font-size, font-stretch, font-style, font-variant, font-weight,
         line-height, opacity,  outline, outline-color, outline-style, outline-width, ruby-position,
@@ -188,88 +201,99 @@
         text-decoration-style,  text-decoration-thickness, text-shadow, visibility, white-space
     </pre>
             </div>
-        <br>
+            <br>
             <div class="pe_cue-region">
                 <p>::cue-region - pseudo element</p>
                 <dd>Geldt hetzelfde als ::cue enkel pseudo-element.</dd>
             </div>
-        <br>
+            <br>
             <div class="pe_first-letter">
                 <p>::first-letter - pseudo element</p>
-                <dd>Toepasbaar: All font properties, all background properties, all margin properties, all padding properties,
+                <dd>Toepasbaar: All font properties, all background properties, all margin properties, all padding
+                    properties,
                     all border properties, color property, text-properties (enkel float:none).
                 </dd>
-                <dd>Voorbeeld: 1x Grote Letter (boek) / Simple drop cap; Effect on speciale punctuatie/non-latin characters (JP,CH,KR).</dd>
+                <dd>Voorbeeld: 1x Grote Letter (boek) / Simple drop cap; Effect on speciale punctuatie/non-latin
+                    characters (JP,CH,KR).</dd>
             </div>
-        <br>
+            <br>
             <div class="pe_:::first-line (:first-line)">
                 <p>::first-line (:first-line) - pseudo element</p>
-                <dd>Toepasbaar: All font properties, all background properties, color property, text-decoration(-color/-inline/-style).
+                <dd>Toepasbaar: All font properties, all background properties, color property,
+                    text-decoration(-color/-inline/-style).
                     word-spacing, letter-spacing, text-decoration, text-transform, line-height.
                 </dd>
-            </div>  
-        <br>
+            </div>
+            <br>
             <div class="pe_file-selector-button">
                 <p>selector::file-selector-button- pseudo element</p>
-                <dd>Voordbeeld: De 'bestand kiezen' knop, dat je erop klikt en bestand(en) kan selecteren in het popup-scherm.</dd>
-            </div> 
-        <br>
+                <dd>Voordbeeld: De 'bestand kiezen' knop, dat je erop klikt en bestand(en) kan selecteren in het
+                    popup-scherm.</dd>
+            </div>
+            <br>
             <div class="pe_grammar-error ">
-                <p>::grammar-error  - pseudo element</p>
+                <p>::grammar-error - pseudo element</p>
                 <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color,
                     outline en zijn longhands, text-decoration en zijn bijhoren properties, text-emphasis-color,
                     text-shadow.
                 </dd>
                 <dd>Voorbeeld: grammatisch error =rood onderstreept.</dd>
             </div>
-        <br>
+            <br>
             <div class="pe_marker">
                 <p>::marker - pseudo element</p>
                 <dd>Toepasbaar op CSS properties: all font properties, white-space, color, text-combine-upricht,
                     unicode-bidi, direction, content, all animation, all transition.
                 </dd>
             </div>
-        <br>
+            <br>
             <div class="pe_part(ident=)">
                 <p>::part( &lt;ident&gt;+ ) - pseudo element</p>
-                <dd>Voorbeeld met JavaScript: Tab1 Tab2 Tab3 = elk wordt dan zwart+text blauw als je muis-hover doet.</dd>
+                <dd>Voorbeeld met JavaScript: Tab1 Tab2 Tab3 = elk wordt dan zwart+text blauw als je muis-hover doet.
+                </dd>
                 <dd>Dus dat je kan zien wat je gaat 'selecteren'. CSS om de tabs naast elkaar te zetten.</dd>
             </div>
-        <br>
+            <br>
             <div class="pe_placeholder ">
-                <p>:::placeholder  - pseudo element</p>
+                <p>:::placeholder - pseudo element</p>
                 <dd>Voorbeelden: </dd>
-                <dd>Color contrast = text leesbaar maken, door kleur-verschil/contrast. Gebruik: dat je bepaalde informatie kan blijven hebben, maar toch iets kan typen.</dd>
-                <dd>Windows high contrast mode = placeholder text heeft dezelfde style als user-getypte text. Kan in 
+                <dd>Color contrast = text leesbaar maken, door kleur-verschil/contrast. Gebruik: dat je bepaalde
+                    informatie kan blijven hebben, maar toch iets kan typen.</dd>
+                <dd>Windows high contrast mode = placeholder text heeft dezelfde style als user-getypte text. Kan in
                     deze modus leesbaarheid beinvloeden.
                 </dd>
-                <dd>Labels = Geen vervanging voor label-tag. Zonder label kunnen screenreader programmes geen text lezen.</dd>
+                <dd>Labels = Geen vervanging voor label-tag. Zonder label kunnen screenreader programmes geen text
+                    lezen.</dd>
                 <dd>Style placeholders: text is rood.</dd>
                 <dd>Opaque text = opacity tot welk level element achter text is ontzichtbaar.</dd>
-                    <input placeholder="Default opacity...">
-                    <input placeholder="Full opacity..." class="force-opaque">
-                </div>
+                <input placeholder="Default opacity...">
+                <input placeholder="Full opacity..." class="force-opaque">
             </div>
-        <br>
+            </div>
+            <br>
             <div class="pe_selection">
                 <p>::selection - pseudo element</p>
                 <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color,
                     outline en zijn longhands, text-decoration en bijbehorende properties,
                     text-shadow (background-image is ignored).
                 </dd>
-                <dd class="selection_example">Voorbeeld: dat je text wordt highlighted in kleur naar keuze als je met muis klik-sleep doet.</dd>
-                <dd>Deze regel tekst is rood/goud als je klikt-sleep, omdat het CSS selection hele document is en niet specifieke class/id naam.</dd> 
+                <dd class="selection_example">Voorbeeld: dat je text wordt highlighted in kleur naar keuze als je met
+                    muis klik-sleep doet.</dd>
+                <dd>Deze regel tekst is rood/goud als je klikt-sleep, omdat het CSS selection hele document is en niet
+                    specifieke class/id naam.</dd>
             </div>
-        <br>
+            <br>
             <div class="pe_slotted()">
                 <p>::slotted() - pseudo element</p>
                 <dd>Voorbeeld Developer Mozilla:</dd>
-                <dd><a href="https://mdn.github.io/web-components-examples/slotted-pseudo-element/" target="_blank">Voorbeeld/example</a></dd>
+                <dd><a href="https://mdn.github.io/web-components-examples/slotted-pseudo-element/"
+                        target="_blank">Voorbeeld/example</a></dd>
             </div>
-        <br>
+            <br>
             <div class="pe_spelling-error ">
                 <p>::spelling-error - pseudo element</p>
-                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color, outline en zijn longhands,
+                <dd>Toepasbaar op CSS properties: color, background-color, cursor, caret-color, outline en zijn
+                    longhands,
                     text-decoration en zijn bijbehorende propeties, text-emphasis-color, text-shadow.
                 </dd>
                 <dd>Voorbeeld: incorrect spelling wordt rood highlighted.</dd>
@@ -280,4 +304,5 @@
 
     </footer>
 </body>
+
 </html>
