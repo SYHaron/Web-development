@@ -65,7 +65,7 @@ Week 7 - 10 JavaScript
     - 7.Classes
     - 8.Final Assignment
 
-Week 11 / 12 / 13
+Week 11 t/m 13
 * wk
     - Portfolio
     - Updating assignments

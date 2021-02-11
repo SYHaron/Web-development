@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Functions q6</title>
 </head>
+
 <body>
     <h2>JS Functions: prerequisites</h2>
     <p>Q6. Pas arrow function toe op vorige vraag, JS function q5b.</p>
@@ -13,14 +15,14 @@
     <div id="outputRandomNaam"></div>
 
     <script>
-     radomNaam = () => {
+        radomNaam = () => {
             let test = Math.round(Math.random() * 8);
             console.log(test);
             listName(test); // test basis getal vergelijken met  statements
         }
 
         // function listName(x){} ---zie opdracht functoins 5a/5b
-         listName = (x) => {
+        listName = (x) => {
             let number = "";
 
             switch (x) {
@@ -43,8 +45,9 @@
                 default: number = "Niet in database / gelijk.";
             }
             console.log(listName);
-            outputRandomNaam.innerHTML= number;
+            outputRandomNaam.innerHTML = number;
         }
     </script>
 </body>
+
 </html>
