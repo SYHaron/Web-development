@@ -65,50 +65,15 @@ Week 7 - 10 JavaScript
     - 7.Classes
     - 8.Final Assignment
 
-Week 11
-tba
+Week 11 / 12 / 13
+* wk
+    - Portfolio
+    - Updating assignments
 
-Week 12
-tba
-
-Week 13
-tba
-
-Week 14
-tba
-
-Week 15
-tba
-
-Week 16
-tba
-
-Week 17
-tba
-
-Week 18
-tba
-
-Week 19
-tba
-
-Week 20
-tba
-
-Week 21
-tba
-
-Week 22
-tba
-
-Week 23
-tba
-
-Week 24
-tba
-
-Week 25
-tba
-
-Week 26
-tba
+Week 14 t/m 26
+* wk
+    - WordPress
+    - Soft skills
+    - Hard skills
+    - Extra cursus
+    - Updating assignments
