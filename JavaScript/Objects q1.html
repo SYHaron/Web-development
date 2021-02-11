@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS objects q1 - </title>
 </head>
+
 <body>
     <h2>JS Objecten</h2>
-
+    <a href="https://stackoverflow.com/questions/6843951/which-way-is-best-for-creating-an-object-in-javascript-is-var-necessary-befor#:~:text=There%20is%20no%20best%20way,is%20called%20the%20constructor%20function."
+        title="3x variations objects uitleg" target="_blank">Uitleg objects javascript</a>
     <section>
         <div id="clubs1" class="clubs1"> </div>
         <p>1.Maak een Object die club informatie bijhoudt: Naam van de club, Type sport, Aantal leden.</p>
         <script>
-            
+            // version 1 ....gebruik van function syntaxt style
+            function Info (clubName, typeSport, Members) {
+                this.nameclub = clubName;
+                this.sportType = typeSport;
+                this.totalMembers = Members;
+            }
+            //info dat in elk van de 'this' qua waarde,value/inhoud wordt gegeven.
+            clubInfo = new Info("Kip", "Hockey", 20);
+            //printen van de informatie op de webpagina.
+            document.write(clubInfo.nameclub + ", " + clubInfo.sportType + ", aantal leden:" + clubInfo.totalMembers);
+
+
+            //version 2 ...gebruik 
         </script>
     </section>
 </body>
+
 </html>
