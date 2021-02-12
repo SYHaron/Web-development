@@ -25,13 +25,23 @@
             //info dat in elk van de 'this' qua waarde,value/inhoud wordt gegeven.
             clubInfo = new Info("Kip", "Hockey", 20);
             //printen van de informatie op de webpagina.
-            document.write(clubInfo.nameclub + ", " + clubInfo.sportType + ", aantal leden:" + clubInfo.totalMembers);
+            document.write("methode 1:" + clubInfo.nameclub + ", " + clubInfo.sportType + ", aantal leden:" + clubInfo.totalMembers);
 
 
-            //version 2 ...gebruik
+            //version 2 ...gebruik 1x object/singleton
             //gebruik voor als je 1x object van iets nodig hebt (singleton)
-            
-
+            let clubInformatie = {
+                nameClub: "Paard",
+                sportTypes: "Tennis",
+                aantalLeden: 20,
+                // clubData: function(){
+                //     alert("Welcome");
+                // }
+            };
+            // clubInformatie.clubData();
+            console.log(clubInformatie);
+            document.write(",\n" + "method 2: " + clubInformatie.nameClub + ", " + clubInformatie.sportTypes + ", " + clubInformatie.aantalLeden);
+            console.log(clubInformatie.nameClub);
 
             //version 3 ...gebruik
             //initialize properties of objects depending on other properties of it OR when using dynamic property names
