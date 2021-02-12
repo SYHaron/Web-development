@@ -79,11 +79,37 @@
             // alles in 1
             console.log(IDclub.getFullIDclub());
             document.write(IDclub.getFullIDclub());
+
+
+
+            // version 2
+            function Info(clubName, typeSport, Members) {
+                this.nameclub = clubName;
+                this.sportType = typeSport;
+                this.totalMembers = Members;
+                Info2();
+            }
+            function Info2(Adres, Telefoon, ContactPersoon) {
+                this.adres = Adres;
+                this.telefoon = Telefoon;
+                this.contact = ContactPersoon;
+            }
+
+            //info dat in elk van de 'this' qua waarde,value/inhoud wordt gegeven.
+            clubInfo1 = new Info("Kipp", "Hockeyy", 200);
+            clubInfo2 = new Info2("secret-road 422", 0070225301, "MR & MRS Does");
+
+            //printen van de informate op de webpagina.
+            console.log("methode 1:" + clubInfo1.nameclub + ", " + clubInfo1.sportType + ", aantal leden:" + clubInfo1.totalMembers);
+            console.log("methode 1:" + clubInfo2.adres + ", " + clubInfo2.telefoon + ", " + clubInfo2.contact);
+
         </script>
     </section>
-    
+
 
     <section>
-        <p>3. </p>
+        <p>3.Maak een lijst + 4x objecten aantoe, itereer eroverheend lijst en print verschillende clubnamen uit</p>
+
     </section>
+
 </html>
