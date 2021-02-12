@@ -52,13 +52,12 @@
         <p>2. Maak een object van contactgegevens (adres, telefoon, contactpersoon) en voeg dat ook toe aan de club
             object.</p>
         <script>
-
             let IDclub = {
                 clubNaam: "Kip & Paard",
                 sport: "Hockey & Tennis",
                 leden: 40,
                 adres: "secret-road 42, Nowhere",
-                telefoon: 007022530,
+                telefoon: 1007022530,
                 contactPerson: "MR & MRS Doe",
                 getFullIDclub: function () {
                     return this.clubNaam + "\n" + this.sport + "\n" + this.leden + "\n" + this.adres + "\n" + this.telefoon + "\n" + this.contactPerson
@@ -81,13 +80,11 @@
             document.write(IDclub.getFullIDclub());
 
 
-
             // version 2
             function Info(clubName, typeSport, Members) {
                 this.nameclub = clubName;
                 this.sportType = typeSport;
                 this.totalMembers = Members;
-                Info2();
             }
             function Info2(Adres, Telefoon, ContactPersoon) {
                 this.adres = Adres;
@@ -97,19 +94,35 @@
 
             //info dat in elk van de 'this' qua waarde,value/inhoud wordt gegeven.
             clubInfo1 = new Info("Kipp", "Hockeyy", 200);
-            clubInfo2 = new Info2("secret-road 422", 0070225301, "MR & MRS Does");
+            clubInfo2 = new Info2("secret-road 422", 1007022530, "MR & MRS Does");
+            // clubInfo2 = new Info2("secret-road 4", 0070, "MR & MRS");  ===>net als bij CSS laatste/onderste is nieuwste versie values.
+            //007022530 octal value....=>dit wordt ander getal.
 
             //printen van de informate op de webpagina.
             console.log("methode 1:" + clubInfo1.nameclub + ", " + clubInfo1.sportType + ", aantal leden:" + clubInfo1.totalMembers);
             console.log("methode 1:" + clubInfo2.adres + ", " + clubInfo2.telefoon + ", " + clubInfo2.contact);
-
         </script>
     </section>
 
-
     <section>
-        <p>3.Maak een lijst + 4x objecten aantoe, itereer eroverheend lijst en print verschillende clubnamen uit</p>
+        <p>3.Maak een lijst + 4x objecten aantoe, itereer eroverheen lijst en print verschillende clubnamen uit</p>
+        <script>
+            let club = {
+                clubNaam: "Kip & Paard",
+                sport: "Hockey & Tennis",
+                leden: 40,
+                adres: "secret-road 42, Nowhere",
+                telefoon: 1007022530,
+                contactPerson: "MR & MRS Doe",
+                getFullIDclub: function () {
+                    return this.clubNaam + "\n" + this.sport + "\n" + this.leden + "\n" + this.adres + "\n" + this.telefoon + "\n" + this.contactPerson
+                }
+            };
 
+            // alles in 1
+            console.log(club.getFullIDclub());
+            document.write(club.getFullIDclub());
+        </script>
     </section>
 
 </html>
