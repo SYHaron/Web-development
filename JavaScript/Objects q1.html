@@ -24,16 +24,19 @@
             }
             //info dat in elk van de 'this' qua waarde,value/inhoud wordt gegeven.
             clubInfo = new Info("Kip", "Hockey", 20);
-            //printen van de informatie op de webpagina.
+            //printen van de informate op de webpagina.
             document.write("methode 1:" + clubInfo.nameclub + ", " + clubInfo.sportType + ", aantal leden:" + clubInfo.totalMembers);
 
 
             //version 2 ...gebruik 1x object/singleton
             //gebruik voor als je 1x object van iets nodig hebt (singleton)
+            //object with properties +  method
             let clubInformatie = {
                 nameClub: "Paard",
                 sportTypes: "Tennis",
                 aantalLeden: 20,
+
+                //object with single method
                 // clubData: function(){
                 //     alert("Welcome");
                 // }
@@ -42,13 +45,45 @@
             console.log(clubInformatie);
             document.write(",\n" + "method 2: " + clubInformatie.nameClub + ", " + clubInformatie.sportTypes + ", " + clubInformatie.aantalLeden);
             console.log(clubInformatie.nameClub);
-
-            //version 3 ...gebruik
-            //initialize properties of objects depending on other properties of it OR when using dynamic property names
-
-
         </script>
     </section>
-</body>
 
+    <section>
+        <p>2. Maak een object van contactgegevens (adres, telefoon, contactpersoon) en voeg dat ook toe aan de club
+            object.</p>
+        <script>
+
+            let IDclub = {
+                clubNaam: "Kip & Paard",
+                sport: "Hockey & Tennis",
+                leden: 40,
+                adres: "secret-road 42, Nowhere",
+                telefoon: 007022530,
+                contactPerson: "MR & MRS Doe",
+                getFullIDclub: function () {
+                    return this.clubNaam + "\n" + this.sport + "\n" + this.leden + "\n" + this.adres + "\n" + this.telefoon + "\n" + this.contactPerson
+                }
+            };
+            console.log(IDclub.clubNaam);
+            console.log(IDclub.sport);
+            console.log("Aantal leden: " + IDclub.leden);
+            console.log(IDclub.adres);
+            console.log(IDclub.telefoon);
+            console.log(IDclub.adres);
+            console.log(IDclub.contactPerson);
+
+            //vice versa als enkel IDclub["XXXXXX"] invuld met gevenste key (key:value) invuld.
+            console.log(IDclub["clubNaam"]);
+            console.log(IDclub["leden"]);
+
+            // alles in 1
+            console.log(IDclub.getFullIDclub());
+            document.write(IDclub.getFullIDclub());
+        </script>
+    </section>
+    
+
+    <section>
+        <p>3. </p>
+    </section>
 </html>
