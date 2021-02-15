@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>q6. Maak dezelfde opdracht met 'for...of loop'. (array sports, 1 voor 1 in concole).</p>
+    <dd>syntax: for (variable of iterable) {statement}.</dd>
+    <dd>variable => on each iteration a value of a different property is assigned to variable. Variable may be
+        declared with const, let/var.</dd>
+    <dd>iterable =>object whose iterable properties are iterated.</dd>
+    <script>
+        const sport6 = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "korfbal"];
+        console.log(sport6);
+        console.log(sport6.length);
+
+        for (const kip of sport6) {
+            console.log(kip);
+        }
+        // for ... of  ==>moet erin staan voro de for/of loop.
+        //kip/element => verwijzing naar dingen in de array.
+        //const => variable declared als const/let/var.
+        //iterable =>sport6/arraynaam.
+    </script>
+</body>
+</html>
