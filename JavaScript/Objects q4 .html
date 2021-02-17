@@ -11,16 +11,16 @@
 <body>
     <h2>JS Objecten</h2>
     <section>
-        <p>Q4</p>
+        <p>Q4 Sorteer de persons van klein naar groot.</p>
 
         <script>
-            //variables, object
+            //variables, object constructor
             const Person = function (name, age) {
                 this.name = name;
                 this.age = age;
             }
-            //variables, object - array
-            const persons = {
+            //variables, object - array //oo
+            const persons = [
                 new Person("Jan", 24),
                 new Person("Klaas", 15),
                 new Person("Yanis", 42),
@@ -28,8 +28,13 @@
                 new Person("Hendrik", 32),
                 new Person("Mono", 28),
                 new Person("West", 23),
-            }
-
+            ]
+            //sort by value
+            //verander . XXX => naar de parameters die je gebruikt
+            persons.sort(function (a, b) {
+                return a.age - b.age;
+            });
+            console.log(persons);
         </script>
     </section>
 </body>

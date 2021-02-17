@@ -52,6 +52,7 @@
         <p>2. Maak een object van contactgegevens (adres, telefoon, contactpersoon) en voeg dat ook toe aan de club
             object.</p>
         <script>
+            //version 2
             let IDclub = {
                 clubNaam: "Kip & Paard",
                 sport: "Hockey & Tennis",
@@ -80,7 +81,7 @@
             document.write(IDclub.getFullIDclub());
 
 
-            // version 2
+            // version 1
             function Info(clubName, typeSport, Members) {
                 this.nameclub = clubName;
                 this.sportType = typeSport;
@@ -101,9 +102,9 @@
             //printen van de informate op de webpagina.
             console.log("methode 1:" + clubInfo1.nameclub + ", " + clubInfo1.sportType + ", aantal leden:" + clubInfo1.totalMembers);
             console.log("methode 1:" + clubInfo2.adres + ", " + clubInfo2.telefoon + ", " + clubInfo2.contact)
-        
-        let all = function (clubName, typeSport, Members, Adres, Telefoon, ContactPersoon);
-        console.log(all)
+
+            let all = function (clubName, typeSport, Members, Adres, Telefoon, ContactPersoon);
+            console.log(all)
         </script>
     </section>
 
@@ -122,9 +123,9 @@
                 object3: "object3",
                 object4: "object4",
                 getFullIDclub: function () {
-                    return this.clubNaam + "\n" + this.sport + "\n" + this.leden + "\n" + this.adres + "\n" + 
-                    this.telefoon + "\n" + this.contactPerson + "\n" + this.object1 + "\n" + this.object2 + "\n" 
-                    + this.object3 + "\n" + this.object4
+                    return this.clubNaam + "\n" + this.sport + "\n" + this.leden + "\n" + this.adres + "\n" +
+                        this.telefoon + "\n" + this.contactPerson + "\n" + this.object1 + "\n" + this.object2 + "\n"
+                        + this.object3 + "\n" + this.object4
                 }
             };
 
