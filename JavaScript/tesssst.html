@@ -15,34 +15,22 @@
     <!-- todo hightlighted text -->
 
     <script>
-        let clubInformatie = {
-            nameClub: "-Paard",
-            sportTypes: "Tennis",
-            aantalLeden: 20,
+           let IDclub = {
+                clubNaam: "Kip & Paard",
+                sport: "Hockey & Tennis",
+                leden: 40,
+                adres: "secret-road 42, Nowhere",
+                telefoon: 1007022530,
+                contactPerson: "MR & MRS Doe",
+                getFullIDclub: function () {
+                    return this.clubNaam + "\n" + this.sport + "\n" + this.leden + "\n" + this.adres + "\n" + this.telefoon + "\n" + this.contactPerson
+                }
+            };
+          
 
-            //object with single method
-            // clubData: function(){
-            //     alert("Welcome");
-            // }
-        };
-        let clubInformatie2 = {
-            nameClub2: "Paard",
-            sportTypes2: "Tennis",
-            aantalLeden2: 20,
-
-            //object with single method
-            // clubData: function(){
-            //     alert("Welcome");
-            // }
-        };
-
-        let alles = (clubInformatie.nameClub + clubInformatie.sportTypes + clubInformatie.aantalLeden) +
-            (clubInformatie2.nameClub2 + clubInformatie2.sportTypes2 + clubInformatie2.aantalLeden2);
-        // clubInformatie.clubData();
-        console.log(clubInformatie);
-        document.write(",\n" + "method 2: " + clubInformatie.nameClub + ", " + clubInformatie.sportTypes + ", " + clubInformatie.aantalLeden);
-        console.log(clubInformatie.nameClub);
-        document.write(alles);
+            // alles in 1
+            console.log(IDclub.getFullIDclub());
+            document.write(IDclub.getFullIDclub());
     </script>
 </body>
 

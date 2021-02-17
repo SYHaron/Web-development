@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS objects q4 - q</title>
+    <title>JS objects q4 - q5</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                 this.name = name;
                 this.age = age;
             }
-            //variables, object - array //oo
+            //variables, object - array
             const persons = [
                 new Person("Jan", 24),
                 new Person("Klaas", 15),
@@ -36,6 +36,29 @@
             });
             console.log(persons);
         </script>
+    </section>
+
+    <section>
+        <p>Q5. Maak een person object door gebruik van object initializers</p>
+        <dd></dd>
+        <pre>
+        Object constructor // method
+        function person = (name, age){
+            this.name = name;
+            this.age = age;
+        }
+        var myCar = new Object();
+        myCar.make = 'Ford';
+        myCar.model = 'Mustang';
+        myCar.year = 1969;
+
+        Object initializers
+        var myCar = {
+            make: 'Ford',
+            model: 'Mustang',
+            year: 1969
+        };
+        </pre>
     </section>
 </body>
 
