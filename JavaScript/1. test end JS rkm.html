@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindopdracht JS rekenmachine</title>
+</head>
+<style>
+    body {
+        /* display: flex;
+    flex-flow:  wrap; */
+        /* width: fit-content; */
+        background-color: lightgoldenrodyellow;
+    }
+
+    h1 {
+        background-color: pink;
+    }
+
+    h2 {
+        text-align: center;
+        background-color: pink;
+    }
+
+    p {
+        border: solid 1px black;
+    }
+
+    pre {
+        font-size: 1.3em;
+    }
+
+    #section2 {
+        display: flex;
+    }
+
+    /* Kleine rekenmachine styling */
+    #rkm_small {
+        display: inline-block;
+        width: 270px;
+        height: 400px;
+        justify-content: center;
+        background-color: lightsteelblue;
+
+        margin-left: 2%;
+        border: solid 5px black;
+        border-radius: 10px;
+    }
+
+    #rkm_smallScherm {
+        background-color: lightgreen;
+        border: solid 1px yellow;
+        padding: 10px;
+    }
+
+    #rkm_smallNr1,
+    #rkm_smallNr2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .rkm_smallButton {
+        border: solid 1px black;
+        border-radius: 2px;
+        box-shadow: 0 4px brown;
+        padding: 10px;
+        margin-left: 30px;
+        outline: none;
+        text-align: center;
+    }
+
+    .rkm_smallButton:hover {
+        background-color: rebeccapurple;
+    }
+</style>
+
+<body>
+    <div id="rkm_small">
+        <h2 id="rkm_smallScherm"></h2>
+
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">0</button>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">1</button>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">2</button>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">3</button>
+        <br><br>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">4</button>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">5</button>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">6</button>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">7</button>
+        <br><br>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">8</button>
+        <button class="rkm_smallButton" onclick="b_cijfer(this)">9</button>
+        <br><br>
+        <button class="rkm_smallButton" onclick="b_operator_ac(this)">ac</button>
+        <button class="rkm_smallButton" onclick="b_operator_plusMin(this)">+/-</button>
+        <button class="rkm_smallButton" onclick="b_operator_modulo(this)">%</button>
+        <br><br>
+        <button class="rkm_smallButton" onclick="b_operator_divided(this)">/</button>
+        <button class="rkm_smallButton" onclick="b_operator_multiply(this)">x</button>
+        <button class="rkm_smallButton" onclick="b_operator_minus(this)">-</button>
+        <br><br>
+        <button class="rkm_smallButton" onclick="b_operator_plus(this)">+</button>
+        <button class="rkm_smallButton" onclick="b_operator_decimal(this)">.</button>
+        <button class="rkm_smallButton" onclick="b_operator_calc(this)">=</button>
+    </div>
+    <script>
+        //De getallen op het scherm, zoveel als je wilt.
+        function scherm(obj) {
+            document.getElementsByClassName("rkm_smallButton").value += obj;
+            console.log(obj);
+        }
+
+        function calculate() {
+        //Hetgeen dat je het invoert in het scherm, door op cijferknoppen te drukken.
+            let x = document.getElementsByClassName("rkm_smallScherm").value;
+        //calculates/berekend wat in het scherm wordt weergeven.
+            let y = eval(x);
+        //.value zodat cijfer is, dat berekening oplossing in het scherm te recht komt.
+            document.getElementsByClassName("rkm_smallScherm").value = y;
+        }
+        //scherm leeg te maken.
+        function clear(){
+            document.getElementsByClassName("rkm_smallScherm").value ="";
+        }
+    </script>
+</body>
+
+</html>
