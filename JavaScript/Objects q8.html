@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Objects q8 JSON object</title>
+</head>
+
+<body>
+    <h1>JS JSON data, object, array </h1>
+    <p>q8. Zoek op wat JSON inhoud. Verzamel informatie.</p>
+    <pre>
+        w3schools: https://www.w3schools.com/js/js_json.asp
+
+        JSON = JavaScript Object Notation.
+
+        Bijvoorbeeld:
+        JSON data
+        name: value ==>  "firstname" : "John"
+
+        JSON object
+        { "name" : "value",  "name" : "value" }
+        { "firstname" : "John",  "lastname" : "Doe" }
+
+        JSON array
+        //object "employees" => array/lijst, + binnenIN 3x objects {"name" : "value", "name" : "value"}
+        "employees":[
+                        {"firstName":"John", "lastName":"Doe"},
+                        {"firstName":"Anna", "lastName":"Smith"},
+                        {"firstName":"Peter", "lastName":"Jones"}
+                    ]
+
+
+        JavaScript Object
+        //naar JS string met JSON erin
+        var text = '{ "employees" : [' +
+                        '{ "firstName":"John" , "lastName":"Doe" },' +
+                        '{ "firstName":"Anna" , "lastName":"Smith" },' +
+                        '{ "firstName":"Peter" , "lastName":"Jones" } ]
+                    }';
+        var object = JSON.parse(text);
+
+        //gebruiken op je pagina.
+        <script>
+            document.write(obj.employees[1].firstName + " " + obj.employees[1].lastName);
+        </script>
+    </pre>
+</body>
+
+</html>

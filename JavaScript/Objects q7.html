@@ -7,20 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS objects q7</title>
 </head>
+<style>
+    #container_game {
+        background-color: yellow;
+        width: 200px;
+        padding: 20px;
+        margin-left: 10px;
+    }
+    .chooseButton{
+        color:white;
+        background-color: blue;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 5px rgb(180, 78, 78);
+    }
+    .chooseButton:hover{
+        color:pink;
+        background-color: gray;
+        box-shadow: 0 5px pink;
+    }
+    .scoreBoard{
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+</style>
 
 <body>
     <h1>JS Objects q7</h1>
     <p>Q7 Maak spel rock/paper/sciccors </p>
 
     <div id="container_game">
-        <button id="rock" onclick="playerChoice(this)" class="choose">Steen</button>
-        <button id="paper" onclick="playerChoice(this)" class="choose">Papier</button>
-        <button id="scissors" onclick="playerChoice(this)" class="choose">Schaar</button>
+        <button id="rock" onclick="playerChoice(this)" class="chooseButton">Steen</button>
+        <button id="paper" onclick="playerChoice(this)" class="chooseButton">Papier</button>
+        <button id="scissors" onclick="playerChoice(this)" class="chooseButton">Schaar</button>
+    
+    <br><br>
+        <div class="scoreBoard" id="computerScore"></div>
+        <div class="scoreBoard" id="playerScore"></div>
+        <div class="scoreBoard" id="drawScore"></div>
     </div>
-
-    <div id="computerScore"></div>
-    <div id="playerScore"></div>
-    <div id="drawScore"></div>
 
     <script>
         //knoppen van steen, papier, schaar 
