@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Objects q6</title>
 </head>
+
 <body>
-    //variables, object constructor
-    const Person = function (name, age) {
-        this.name = name;
-        this.age = age;
-    }
-    //variables, object - array
-    const persons = [
-        new Person("Jan", 24),
-        new Person("Klaas", 15),
-        new Person("Yanis", 42),
-        new Person("Rupel", 55),
-        new Person("Hendrik", 32),
-        new Person("Mono", 28),
-        new Person("West", 23),
-    ]
-    //sort by value
-    //verander . XXX => naar de parameters die je gebruikt
-    persons.sort(function (a, b) {
-        return a.age - b.age;
-    });
-    console.log(persons);
+    <h1>JS object q6 - classes object</h1>
+    <p>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes</p>
+    <p>Q6. Gebruik dezelfde informatie als voorgaande opdracht voorbeeld en gebruik classes objecten.</p>
     <script>
-        
+        // variable + class & naam + daarbinnenIN object ocnsturctor
+        //class + naam of class
+        //daarbinnenIN object constructor function (zonder naam/enkel constructor part
+        let IDs = class {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+        }
+        console.log(IDs.name); //OUTPUT : IDs
+
+        //met Classes naam
+        let IDss = class persons2 {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+
+        }
+        let de = new IDs("bucky", 20);
+        console.log(IDss.name); //OUTPUT : persons2
+        console.log(de); //OUTPUT : name: bucky, age:20
+
+        //opdracht, assignment
+        class people {
+            constructor(names, ages) {
+                this.names = names;
+                this.ages = ages;
+            }
+        }
+        let peopleID1 = new people("Jan", 24);
+        let peopleID2 = new people("klaas", 15);
+        let peopleID3 = new people("yanis", 42);
+        let peopleID4 = new people("Rupel", 55);
+        let peopleID5 = new people("hendrik", 32);
+        let peopleID6 = new people("Mono", 28);
+        let peopleID7 = new people("West", 32);
+
+        console.log(peopleID1.names + " " + peopleID1.ages);
+        console.log(peopleID2.names + " " + peopleID2.ages);
     </script>
 </body>
+
 </html>
