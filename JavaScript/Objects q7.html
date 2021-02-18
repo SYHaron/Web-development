@@ -1,13 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS objects q7</title>
 </head>
+
 <body>
     <h1>JS Objects q7</h1>
-    <p>Q7. </p>
+    <p>Q7 Maak spel rock/paper/sciccors </p>
+
+    <div id="container_game">
+        <button id="rock" onclick="playerChoice(this)" class="choose">Steen</button>
+        <button id="paper" onclick="playerChoice(this)" class="choose">Papier</button>
+        <button id="scissors" onclick="playerChoice(this)" class="choose">Schaar</button>
+    </div>
+
+    <div id="computerScore"></div>
+    <div id="playerScore"></div>
+    <div id="drawScore"></div>
+
+    <script>
+        //knoppen van steen, papier, schaar 
+        const Rock = document.getElementById("rock").innerText;
+        const Paper = document.getElementById("paper").innerText;
+        const Scissors = document.getElementById("scissors").innerText;
+
+        //scores bijhouden
+        let player1Win = 0;
+        let computerWin = 0;
+        let draw = 0;
+
+        //scores in webpagina
+        let htmlScorePlayer = "Speler 1 score: ";
+        let htmlScoreComputer = "Computer score: ";
+        let htmlScoreDraw = "Draw: ";
+
+        //keuze computer en speler
+        function playerChoice(playerChoice) {
+            let choices = ["Steen", "Papier", "Schaar"];
+            let computer = Math.floor(Math.random() * choices.length);
+            let computerChoice = choices[computer];
+            let player = playerChoice.innerText;
+
+            console.log("Computer keuze: " + computerChoice + "\n Speler keuze: " + player);
+        }
+
+        //wanneer iemand wint, verliest of gelijkspel speelt
+        //vanuit computerKeuze perspectief
+        //case " ...." => wat computer heeft gekozen, papier, steen, schaar.
+        //if statements / conditions is welke speler heeft gekozen, schaar, papier, steen.
+        switch (computerChoice) {
+            case "papier":
+                if (player === "schaar") {
+                    ++player1Win
+                    document.getElementById("playerScore").innerHTML = htmlScorePlayer + player1Win;
+                    console.log("Speler 1 heeft gewonnen!");
+                }
+                else if (player === computerChoice) {
+                    ++draw
+                    document.getElementById("drawScore").innerHTML = htmlScoreDraw + draw;
+                    console.log("Gelijkspel.");
+                }
+                else {
+                    ++computerWin
+                    document.getElementById("computerScore").innerHTML = htmlScoreComputer + computerWin;
+                    console.log("Computer heeft gewonnen!");
+                }
+
+            case "steen":
+                if (player === "papier") {
+                    ++player1Win
+                    document.getElementById("playerScore").innerHTML = htmlScorePlayer + player1Win;
+                    console.log("Speler 1 heeft gewonnen!");
+                }
+                else if (player === computerChoice) {
+                    ++draw
+                    document.getElementById("drawScore").innerHTML = htmlScoreDraw + draw;
+                    console.log("Gelijkspel.");
+                }
+                else {
+                    ++computerWin
+                    document.getElementById("computerScore").innerHTML = htmlScoreComputer + computerWin;
+                    console.log("Computer heeft gewonnen!");
+                }
+
+            case "schaar":
+                if (player === "steeb") {
+                    ++player1Win
+                    document.getElementById("playerScore").innerHTML = htmlScorePlayer + player1Win;
+                    console.log("Speler 1 heeft gewonnen!");
+                }
+                else if (player === computerChoice) {
+                    ++draw
+                    document.getElementById("drawScore").innerHTML = htmlScoreDraw + draw;
+                    console.log("Gelijkspel.");
+                }
+                else {
+                    ++computerWin
+                    document.getElementById("computerScore").innerHTML = htmlScoreComputer + computerWin;
+                    console.log("Computer heeft gewonnen!");
+                }
+        }
+        console.log("Speler heeft " + player1Win + " keer gewonnen.");
+        console.log("Computer heeft " + computerWin + " keer gewonnen.");
+        console.log("Gelijkspel is " + draw + " aantal keer voorgekomen.");
+
+
+    </script>
 </body>
+
 </html>
