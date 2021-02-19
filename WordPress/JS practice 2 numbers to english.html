@@ -7,14 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WordPress Numbers to English</title>
 </head>
+<style>
+
+</style>
 
 <body>
     <div>
         <h1>WordPress: Numbers to English</h1>
         <br><a href="https://edabit.com/challenge/PFH9yEZXSbAngQm7T" target="_blank"
             title=" Numbers to English:">Numbers to English:</a>
-
+        <p>Write a function that accepts a positive integer between 0 and 999 inclusive and returns a string
+            representation of that integer written in English.</p>
     </div>
+    <div>
+        Kies een getal: <input type="number" name="number" id="number" min="0" max="999" placeholder="getal">
+        <button id="button" onclick="checkNumber()">check</button>
+        <div class="result"></div>
+    </div>
+    <script>
+        // let number = document.getElementById("number").value;
+        // let result = document.getElementsByClassName("result").innerHTML;
+
+        function checkNumber() {
+            let number = document.getElementById("number").value;
+            let inwords = numToWords(number);
+            let result = document.getElementsByClassName("result").innerHTML;
+
+            console.log("nummer in woorden: " + result);//undefined
+            console.log("ingevoerde getal: " + number)//ingevoerde getal
+            
+            if (number <= 999){
+                result = "Het nummer in woorden: " + inwords;
+            }
+        
+        }
+    </script>
 </body>
 
 </html>
