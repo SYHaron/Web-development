@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.6.2" created="2021-02-26 13:06" -->
+	<!-- generator="WordPress/5.7" created="2021-03-12 09:45" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>demoBvBempty</title>
 	<link>http://demobvbempty.local</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 26 Feb 2021 13:06:49 +0000</pubDate>
+	<pubDate>Fri, 12 Mar 2021 09:45:31 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://demobvbempty.local</wp:base_site_url>
@@ -193,7 +193,7 @@
 	<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-menu]]></wp:term_slug><wp:term_name><![CDATA[Main menu]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<generator>https://wordpress.org/?v=5.7</generator>
 
 <image>
 	<url>http://demobvbempty.local/wp-content/uploads/2021/02/Boerenvoorburen-logo-e1591970129128-100x100.png</url>
@@ -204,7 +204,7 @@
 </image> 
 
 		<item>
-		<title>5kg</title>
+		<title><![CDATA[5kg]]></title>
 		<link>http://demobvbempty.local/?attachment_id=5</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:09 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -215,6 +215,8 @@
 		<wp:post_id>5</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:09]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 09:22:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 09:22:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[5kg]]></wp:post_name>
@@ -235,7 +237,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>10kg</title>
+		<title><![CDATA[10kg]]></title>
 		<link>http://demobvbempty.local/10kg/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:15 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -246,6 +248,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:15]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[10kg]]></wp:post_name>
@@ -266,7 +270,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>16kg</title>
+		<title><![CDATA[16kg]]></title>
 		<link>http://demobvbempty.local/16kg/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:20 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -277,6 +281,8 @@
 		<wp:post_id>7</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:20]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:20]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[16kg]]></wp:post_name>
@@ -297,7 +303,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Aardappel &amp; Ui</title>
+		<title><![CDATA[Aardappel & Ui]]></title>
 		<link>http://demobvbempty.local/aardappel-ui/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:26 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -308,6 +314,8 @@
 		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:26]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:26]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:26]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[aardappel-ui]]></wp:post_name>
@@ -328,7 +336,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Afbeelding123-1</title>
+		<title><![CDATA[Afbeelding123-1]]></title>
 		<link>http://demobvbempty.local/afbeelding123-1/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:31 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -339,6 +347,8 @@
 		<wp:post_id>9</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[afbeelding123-1]]></wp:post_name>
@@ -359,7 +369,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>boerenvoorburen-favicon</title>
+		<title><![CDATA[boerenvoorburen-favicon]]></title>
 		<link>http://demobvbempty.local/boerenvoorburen-favicon/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:31 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -370,6 +380,8 @@
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[boerenvoorburen-favicon]]></wp:post_name>
@@ -390,7 +402,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Boerenvoorburen-logo-e1591970129128</title>
+		<title><![CDATA[Boerenvoorburen-logo-e1591970129128]]></title>
 		<link>http://demobvbempty.local/boerenvoorburen-logo-e1591970129128/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:31 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -401,6 +413,8 @@
 		<wp:post_id>11</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[boerenvoorburen-logo-e1591970129128]]></wp:post_name>
@@ -421,7 +435,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Fruit</title>
+		<title><![CDATA[Fruit]]></title>
 		<link>http://demobvbempty.local/fruit/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:31 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -432,6 +446,8 @@
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:31]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[fruit]]></wp:post_name>
@@ -452,7 +468,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Groente</title>
+		<title><![CDATA[Groente]]></title>
 		<link>http://demobvbempty.local/groente/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:36 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -463,6 +479,8 @@
 		<wp:post_id>13</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:36]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:36]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:36]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:36]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[groente]]></wp:post_name>
@@ -483,7 +501,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>JDP_0476martin topper</title>
+		<title><![CDATA[JDP_0476martin topper]]></title>
 		<link>http://demobvbempty.local/jdp_0476martin-topper/</link>
 		<pubDate>Mon, 22 Feb 2021 13:50:42 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -494,6 +512,8 @@
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:50:42]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:50:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:50:42]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:50:42]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[jdp_0476martin-topper]]></wp:post_name>
@@ -514,7 +534,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>woocommerce-placeholder</title>
+		<title><![CDATA[woocommerce-placeholder]]></title>
 		<link>http://demobvbempty.local/woocommerce-placeholder/</link>
 		<pubDate>Wed, 24 Feb 2021 14:51:15 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -525,6 +545,8 @@
 		<wp:post_id>564</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 14:51:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 14:51:15]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 14:51:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-24 14:51:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[woocommerce-placeholder]]></wp:post_name>
@@ -545,7 +567,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Seizoensspecial</title>
+		<title><![CDATA[Seizoensspecial]]></title>
 		<link>http://demobvbempty.local/bestellen/seizoensspecial/</link>
 		<pubDate>Thu, 25 Feb 2021 10:55:41 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -556,6 +578,8 @@
 		<wp:post_id>780</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 10:55:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 10:55:41]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 10:55:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 10:55:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[seizoensspecial]]></wp:post_name>
@@ -576,7 +600,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>seizoens-assortiment-</title>
+		<title><![CDATA[seizoens-assortiment-]]></title>
 		<link>http://demobvbempty.local/seizoens-assortiment/</link>
 		<pubDate>Thu, 25 Feb 2021 12:22:54 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -587,6 +611,8 @@
 		<wp:post_id>826</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 12:22:54]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 12:22:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 12:22:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 12:22:54]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[seizoens-assortiment]]></wp:post_name>
@@ -603,7 +629,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>seizoens-assortiment-1-1</title>
+		<title><![CDATA[seizoens-assortiment-1-1]]></title>
 		<link>http://demobvbempty.local/link-pdf-seizoen-producten/seizoens-assortiment-1-1/</link>
 		<pubDate>Thu, 25 Feb 2021 12:45:57 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -614,6 +640,8 @@
 		<wp:post_id>841</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 12:45:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 12:45:57]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 12:45:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 12:45:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[seizoens-assortiment-1-1]]></wp:post_name>
@@ -630,7 +658,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>seizoens-assortiment-1-2</title>
+		<title><![CDATA[seizoens-assortiment-1-2]]></title>
 		<link>http://demobvbempty.local/link-pdf-seizoen-producten/seizoens-assortiment-1-2/</link>
 		<pubDate>Thu, 25 Feb 2021 12:54:23 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -641,6 +669,8 @@
 		<wp:post_id>856</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 12:54:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 12:54:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 12:54:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 12:54:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[seizoens-assortiment-1-2]]></wp:post_name>
@@ -657,7 +687,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Flevofood-Logo-300x173</title>
+		<title><![CDATA[Flevofood-Logo-300x173]]></title>
 		<link>http://demobvbempty.local/flevofood-logo-300x173/</link>
 		<pubDate>Thu, 25 Feb 2021 16:46:06 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -668,6 +698,8 @@
 		<wp:post_id>1192</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 16:46:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 16:46:06]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 16:46:06]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 16:46:06]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[flevofood-logo-300x173]]></wp:post_name>
@@ -688,7 +720,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Gemeente-Amsterdam-Logo-300x173</title>
+		<title><![CDATA[Gemeente-Amsterdam-Logo-300x173]]></title>
 		<link>http://demobvbempty.local/gemeente-amsterdam-logo-300x173/</link>
 		<pubDate>Thu, 25 Feb 2021 16:46:06 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -699,6 +731,8 @@
 		<wp:post_id>1193</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 16:46:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 16:46:06]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 16:46:06]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 16:46:06]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[gemeente-amsterdam-logo-300x173]]></wp:post_name>
@@ -719,7 +753,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Logo-Rai-Amsterdam-1</title>
+		<title><![CDATA[Logo-Rai-Amsterdam-1]]></title>
 		<link>http://demobvbempty.local/logo-rai-amsterdam-1/</link>
 		<pubDate>Thu, 25 Feb 2021 16:46:06 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -730,6 +764,8 @@
 		<wp:post_id>1194</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 16:46:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 16:46:06]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 16:46:06]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 16:46:06]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[logo-rai-amsterdam-1]]></wp:post_name>
@@ -750,7 +786,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Rabobank-Logo-300x173</title>
+		<title><![CDATA[Rabobank-Logo-300x173]]></title>
 		<link>http://demobvbempty.local/rabobank-logo-300x173/</link>
 		<pubDate>Thu, 25 Feb 2021 16:46:07 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -761,6 +797,8 @@
 		<wp:post_id>1195</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 16:46:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 16:46:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 16:46:07]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 16:46:07]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[rabobank-logo-300x173]]></wp:post_name>
@@ -781,7 +819,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Studiezalen-Logo-300x173</title>
+		<title><![CDATA[Studiezalen-Logo-300x173]]></title>
 		<link>http://demobvbempty.local/studiezalen-logo-300x173/</link>
 		<pubDate>Thu, 25 Feb 2021 16:46:07 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -792,6 +830,8 @@
 		<wp:post_id>1196</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 16:46:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 16:46:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 16:46:07]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 16:46:07]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[studiezalen-logo-300x173]]></wp:post_name>
@@ -812,7 +852,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Default Kit</title>
+		<title><![CDATA[Default Kit]]></title>
 		<link>http://demobvbempty.local/?elementor_library=default-kit</link>
 		<pubDate>Mon, 22 Feb 2021 14:01:36 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -823,6 +863,8 @@
 		<wp:post_id>34</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:01:36]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:01:36]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 17:26:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 17:26:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[default-kit]]></wp:post_name>
@@ -858,7 +900,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Elementor #238</title>
+		<title><![CDATA[Elementor #238]]></title>
 		<link>http://demobvbempty.local/?post_type=e-landing-page&#038;p=238</link>
 		<pubDate></pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -869,6 +911,8 @@
 		<wp:post_id>238</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 08:51:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 08:51:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-24 08:51:08]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[]]></wp:post_name>
@@ -925,7 +969,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>astra</title>
+		<title><![CDATA[astra]]></title>
 		<link>http://demobvbempty.local/astra/</link>
 		<pubDate>Thu, 25 Feb 2021 08:13:29 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -936,6 +980,8 @@
 		<wp:post_id>672</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 08:13:29]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 08:13:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 20:38:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 20:38:47]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[astra]]></wp:post_name>
@@ -947,7 +993,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
-		<title>Techgrounds-logo-300x53</title>
+		<title><![CDATA[Techgrounds-logo-300x53]]></title>
 		<link>http://demobvbempty.local/techgrounds-logo-300x53/</link>
 		<pubDate>Thu, 25 Feb 2021 16:46:07 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -958,6 +1004,8 @@
 		<wp:post_id>1197</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 16:46:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 16:46:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 16:46:07]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 16:46:07]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[techgrounds-logo-300x53]]></wp:post_name>
@@ -978,7 +1026,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>AD-Logo-1-oxhh0l0vbmxyqpqa4mmsleitj8zha38lh1vl8ni728</title>
+		<title><![CDATA[AD-Logo-1-oxhh0l0vbmxyqpqa4mmsleitj8zha38lh1vl8ni728]]></title>
 		<link>http://demobvbempty.local/media/ad-logo-1-oxhh0l0vbmxyqpqa4mmsleitj8zha38lh1vl8ni728/</link>
 		<pubDate>Thu, 25 Feb 2021 19:19:07 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -989,6 +1037,8 @@
 		<wp:post_id>1437</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:19:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:19:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:19:07]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:19:07]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[ad-logo-1-oxhh0l0vbmxyqpqa4mmsleitj8zha38lh1vl8ni728]]></wp:post_name>
@@ -1009,7 +1059,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>parool-logo-oxhh0l0wjhq22rhfxwahl7v6ca4l6b9lsr626a2fo0</title>
+		<title><![CDATA[parool-logo-oxhh0l0wjhq22rhfxwahl7v6ca4l6b9lsr626a2fo0]]></title>
 		<link>http://demobvbempty.local/media/parool-logo-oxhh0l0wjhq22rhfxwahl7v6ca4l6b9lsr626a2fo0/</link>
 		<pubDate>Thu, 25 Feb 2021 19:19:08 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1020,6 +1070,8 @@
 		<wp:post_id>1438</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:19:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:19:08]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:19:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:19:08]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[parool-logo-oxhh0l0wjhq22rhfxwahl7v6ca4l6b9lsr626a2fo0]]></wp:post_name>
@@ -1040,7 +1092,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>nh-nieuws</title>
+		<title><![CDATA[nh-nieuws]]></title>
 		<link>http://demobvbempty.local/media/nh-nieuws/</link>
 		<pubDate>Thu, 25 Feb 2021 19:19:08 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1051,6 +1103,8 @@
 		<wp:post_id>1439</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:19:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:19:08]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:19:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:19:08]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[nh-nieuws]]></wp:post_name>
@@ -1071,7 +1125,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>1280px-NOS_logo.svg</title>
+		<title><![CDATA[1280px-NOS_logo.svg]]></title>
 		<link>http://demobvbempty.local/media/1280px-nos_logo-svg/</link>
 		<pubDate>Thu, 25 Feb 2021 19:19:09 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1082,6 +1136,8 @@
 		<wp:post_id>1440</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:19:09]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:19:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:19:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:19:09]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[1280px-nos_logo-svg]]></wp:post_name>
@@ -1102,7 +1158,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Bepofte-biet-min-300x150</title>
+		<title><![CDATA[Bepofte-biet-min-300x150]]></title>
 		<link>http://demobvbempty.local/community/bepofte-biet-min-300x150/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:40 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1113,6 +1169,8 @@
 		<wp:post_id>1506</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:40]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:40]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:40]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[bepofte-biet-min-300x150]]></wp:post_name>
@@ -1133,7 +1191,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>hete-bliksem-300x225</title>
+		<title><![CDATA[hete-bliksem-300x225]]></title>
 		<link>http://demobvbempty.local/community/hete-bliksem-300x225/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:40 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1144,6 +1202,8 @@
 		<wp:post_id>1507</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:40]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:40]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:40]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[hete-bliksem-300x225]]></wp:post_name>
@@ -1164,7 +1224,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Hutspot-min-300x200</title>
+		<title><![CDATA[Hutspot-min-300x200]]></title>
 		<link>http://demobvbempty.local/community/hutspot-min-300x200/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:41 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1175,6 +1235,8 @@
 		<wp:post_id>1508</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:41]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[hutspot-min-300x200]]></wp:post_name>
@@ -1195,7 +1257,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Oosterse-pompoensoep-300x145</title>
+		<title><![CDATA[Oosterse-pompoensoep-300x145]]></title>
 		<link>http://demobvbempty.local/community/oosterse-pompoensoep-300x145/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:41 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1206,6 +1268,8 @@
 		<wp:post_id>1509</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:41]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[oosterse-pompoensoep-300x145]]></wp:post_name>
@@ -1226,7 +1290,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Pompoensoep-min-300x200</title>
+		<title><![CDATA[Pompoensoep-min-300x200]]></title>
 		<link>http://demobvbempty.local/community/pompoensoep-min-300x200/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:42 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1237,6 +1301,8 @@
 		<wp:post_id>1510</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:42]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:42]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:42]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[pompoensoep-min-300x200]]></wp:post_name>
@@ -1257,7 +1323,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>stoofpeer-min-285x300</title>
+		<title><![CDATA[stoofpeer-min-285x300]]></title>
 		<link>http://demobvbempty.local/community/stoofpeer-min-285x300/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:42 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1268,6 +1334,8 @@
 		<wp:post_id>1511</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:42]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:42]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:42]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[stoofpeer-min-285x300]]></wp:post_name>
@@ -1288,7 +1356,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Stoofpot-boeren-voor-buren-300x200</title>
+		<title><![CDATA[Stoofpot-boeren-voor-buren-300x200]]></title>
 		<link>http://demobvbempty.local/community/stoofpot-boeren-voor-buren-300x200/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:43 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1299,6 +1367,8 @@
 		<wp:post_id>1512</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:43]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:43]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[stoofpot-boeren-voor-buren-300x200]]></wp:post_name>
@@ -1319,7 +1389,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>tarte-1-300x135</title>
+		<title><![CDATA[tarte-1-300x135]]></title>
 		<link>http://demobvbempty.local/community/tarte-1-300x135/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:43 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1330,6 +1400,8 @@
 		<wp:post_id>1513</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:43]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:43]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[tarte-1-300x135]]></wp:post_name>
@@ -1350,7 +1422,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>vega-pizz-300x200</title>
+		<title><![CDATA[vega-pizz-300x200]]></title>
 		<link>http://demobvbempty.local/community/vega-pizz-300x200/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:44 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1361,6 +1433,8 @@
 		<wp:post_id>1514</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:44]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[vega-pizz-300x200]]></wp:post_name>
@@ -1381,7 +1455,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Witte-bonen-tomaten-soep--300x200</title>
+		<title><![CDATA[Witte-bonen-tomaten-soep--300x200]]></title>
 		<link>http://demobvbempty.local/community/witte-bonen-tomaten-soep-300x200/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:44 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1392,6 +1466,8 @@
 		<wp:post_id>1515</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:44]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[witte-bonen-tomaten-soep-300x200]]></wp:post_name>
@@ -1412,7 +1488,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Zuurkool-300x200</title>
+		<title><![CDATA[Zuurkool-300x200]]></title>
 		<link>http://demobvbempty.local/community/zuurkool-300x200/</link>
 		<pubDate>Thu, 25 Feb 2021 19:44:44 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1423,6 +1499,8 @@
 		<wp:post_id>1516</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 19:44:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 19:44:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:44:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:44:44]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[zuurkool-300x200]]></wp:post_name>
@@ -1443,7 +1521,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Knipsel1</title>
+		<title><![CDATA[Knipsel1]]></title>
 		<link>http://demobvbempty.local/vacatures/knipsel1/</link>
 		<pubDate>Thu, 25 Feb 2021 20:50:09 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1454,6 +1532,8 @@
 		<wp:post_id>1581</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 20:50:09]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 20:50:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 20:50:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 20:50:09]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[knipsel1]]></wp:post_name>
@@ -1474,7 +1554,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/58/</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:46 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1485,6 +1565,8 @@
 		<wp:post_id>58</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:46]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:46]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:31:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[58]]></wp:post_name>
@@ -1529,7 +1611,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/63/</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1540,6 +1622,8 @@
 		<wp:post_id>63</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:32:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:32:12]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[63]]></wp:post_name>
@@ -1584,7 +1668,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/64/</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1595,6 +1679,8 @@
 		<wp:post_id>64</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:31:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[64]]></wp:post_name>
@@ -1639,7 +1725,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/65/</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1650,6 +1736,8 @@
 		<wp:post_id>65</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-26 09:23:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-26 09:23:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[65]]></wp:post_name>
@@ -1694,7 +1782,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/151/</link>
 		<pubDate>Tue, 23 Feb 2021 12:33:14 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1705,6 +1793,8 @@
 		<wp:post_id>151</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-23 12:33:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-23 12:33:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 10:09:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 10:09:24]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[151]]></wp:post_name>
@@ -1749,8 +1839,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>section1</title>
-		<link>http://demobvbempty.local/?elementor_library=__trashed</link>
+		<title><![CDATA[section1]]></title>
+		<link>http://demobvbempty.local/?post_type=elementor_library&#038;p=193</link>
 		<pubDate>Tue, 23 Feb 2021 14:58:26 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
 		<guid isPermaLink="false">http://demobvbempty.local/?post_type=elementor_library&#038;p=193</guid>
@@ -1761,6 +1851,8 @@
 		<wp:post_id>193</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-23 14:58:26]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-23 14:58:26]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-23 14:58:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-23 14:58:26]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[__trashed]]></wp:post_name>
@@ -1829,7 +1921,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/247/</link>
 		<pubDate>Wed, 24 Feb 2021 09:09:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1840,6 +1932,8 @@
 		<wp:post_id>247</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 09:09:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 09:09:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 09:09:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-24 09:09:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[247]]></wp:post_name>
@@ -1884,7 +1978,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/248/</link>
 		<pubDate>Wed, 24 Feb 2021 09:09:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1895,6 +1989,8 @@
 		<wp:post_id>248</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 09:09:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 09:09:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 09:09:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-24 09:09:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[248]]></wp:post_name>
@@ -1939,7 +2035,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/250/</link>
 		<pubDate>Wed, 24 Feb 2021 09:09:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -1950,6 +2046,8 @@
 		<wp:post_id>250</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 09:09:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 09:09:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 09:09:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-24 09:09:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[250]]></wp:post_name>
@@ -1994,7 +2092,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/352/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2005,6 +2103,8 @@
 		<wp:post_id>352</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:31:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[352]]></wp:post_name>
@@ -2049,7 +2149,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/353/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2060,6 +2160,8 @@
 		<wp:post_id>353</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:31:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[353]]></wp:post_name>
@@ -2104,7 +2206,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/354/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2115,6 +2217,8 @@
 		<wp:post_id>354</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:31:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[354]]></wp:post_name>
@@ -2159,7 +2263,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/355/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2170,6 +2274,8 @@
 		<wp:post_id>355</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:31:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[355]]></wp:post_name>
@@ -2214,7 +2320,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/356/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2225,6 +2331,8 @@
 		<wp:post_id>356</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:31:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[356]]></wp:post_name>
@@ -2269,7 +2377,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/362/</link>
 		<pubDate>Wed, 24 Feb 2021 12:17:20 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2280,6 +2388,8 @@
 		<wp:post_id>362</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:17:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:17:20]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-26 09:23:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-26 09:23:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[362]]></wp:post_name>
@@ -2324,7 +2434,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/363/</link>
 		<pubDate>Wed, 24 Feb 2021 12:17:20 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2335,6 +2445,8 @@
 		<wp:post_id>363</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:17:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:17:20]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-26 09:23:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-26 09:23:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[363]]></wp:post_name>
@@ -2379,7 +2491,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/?p=479</link>
 		<pubDate></pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2390,6 +2502,8 @@
 		<wp:post_id>479</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 14:08:42]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 14:08:42]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[]]></wp:post_name>
@@ -2437,7 +2551,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/?p=480</link>
 		<pubDate></pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2448,6 +2562,8 @@
 		<wp:post_id>480</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 14:09:48]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 14:09:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[]]></wp:post_name>
@@ -2495,7 +2611,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/mijn-account/</link>
 		<pubDate>Thu, 25 Feb 2021 09:32:54 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2506,6 +2622,8 @@
 		<wp:post_id>686</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 09:32:54]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 09:32:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-26 09:23:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-26 09:23:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[mijn-account]]></wp:post_name>
@@ -2550,7 +2668,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/692/</link>
 		<pubDate>Thu, 25 Feb 2021 10:09:24 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2561,6 +2679,8 @@
 		<wp:post_id>692</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 10:09:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 10:09:24]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-26 09:23:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-26 09:23:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[692]]></wp:post_name>
@@ -2605,7 +2725,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Privacy Policy</title>
+		<title><![CDATA[Privacy Policy]]></title>
 		<link>http://demobvbempty.local/?page_id=3</link>
 		<pubDate>Mon, 22 Feb 2021 13:47:31 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2616,6 +2736,8 @@
 		<wp:post_id>3</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 13:47:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 13:47:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-22 13:47:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-22 13:47:31]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[privacy-policy]]></wp:post_name>
@@ -2631,7 +2753,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Community</title>
+		<title><![CDATA[Community]]></title>
 		<link>http://demobvbempty.local/community/</link>
 		<pubDate>Mon, 22 Feb 2021 14:20:25 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2689,6 +2811,8 @@
 		<wp:post_id>49</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:20:25]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:20:25]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 20:34:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 20:34:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[community]]></wp:post_name>
@@ -2752,7 +2876,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Bestellen</title>
+		<title><![CDATA[Bestellen]]></title>
 		<link>http://demobvbempty.local/bestellen/</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2806,6 +2930,8 @@
 		<wp:post_id>53</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 15:12:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 15:12:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[bestellen]]></wp:post_name>
@@ -2877,7 +3003,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Over Boeren voor Buren</title>
+		<title><![CDATA[Over Boeren voor Buren]]></title>
 		<link>http://demobvbempty.local/over-boeren-voor-buren/</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2903,6 +3029,8 @@
 		<wp:post_id>54</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 18:42:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 18:42:40]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[over-boeren-voor-buren]]></wp:post_name>
@@ -2966,7 +3094,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Contact</title>
+		<title><![CDATA[Contact]]></title>
 		<link>http://demobvbempty.local/contact/</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -2978,6 +3106,8 @@
 		<wp:post_id>55</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 20:36:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 20:36:21]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -3041,7 +3171,7 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Home</title>
+		<title><![CDATA[Home]]></title>
 		<link>http://demobvbempty.local/</link>
 		<pubDate>Tue, 23 Feb 2021 09:56:18 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3096,6 +3226,8 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		<wp:post_id>108</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-23 09:56:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-23 09:56:18]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 18:45:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 18:45:49]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home]]></wp:post_name>
@@ -3163,7 +3295,7 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Sitemap</title>
+		<title><![CDATA[Sitemap]]></title>
 		<link>http://demobvbempty.local/sitemap/</link>
 		<pubDate>Wed, 24 Feb 2021 09:09:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3176,6 +3308,8 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		<wp:post_id>246</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 09:09:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 09:09:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 14:25:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 14:25:40]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[sitemap]]></wp:post_name>
@@ -3239,7 +3373,7 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Over de herkomst van groenten &amp; fruit</title>
+		<title><![CDATA[Over de herkomst van groenten & fruit]]></title>
 		<link>http://demobvbempty.local/over-de-herkomst-van-groenten-fruit/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3264,6 +3398,8 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		<wp:post_id>341</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 18:42:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 18:42:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[over-de-herkomst-van-groenten-fruit]]></wp:post_name>
@@ -3327,7 +3463,7 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Ons Team</title>
+		<title><![CDATA[Ons Team]]></title>
 		<link>http://demobvbempty.local/ons-team/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3392,6 +3528,8 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		<wp:post_id>342</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 18:48:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 18:48:54]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[ons-team]]></wp:post_name>
@@ -3455,7 +3593,7 @@ Amsterdam Nieuw-West: Daadkr8, President Allendelaan 417</p>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Partners</title>
+		<title><![CDATA[Partners]]></title>
 		<link>http://demobvbempty.local/partners/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3497,6 +3635,8 @@ Omnikassa</h2>
 		<wp:post_id>343</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 18:52:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 18:52:08]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[partners]]></wp:post_name>
@@ -3560,7 +3700,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Nieuwe locatie: Almere!</title>
+		<title><![CDATA[Nieuwe locatie: Almere!]]></title>
 		<link>http://demobvbempty.local/nieuwe-locatie-almere/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3587,6 +3727,8 @@ Omnikassa</h2>
 		<wp:post_id>345</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:07:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:07:28]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[nieuwe-locatie-almere]]></wp:post_name>
@@ -3650,7 +3792,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Media</title>
+		<title><![CDATA[Media]]></title>
 		<link>http://demobvbempty.local/media/</link>
 		<pubDate>Wed, 24 Feb 2021 12:16:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3678,6 +3820,8 @@ Omnikassa</h2>
 		<wp:post_id>346</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:16:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:16:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 19:33:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 19:33:09]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[media]]></wp:post_name>
@@ -3745,7 +3889,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Veelgestelde vragen</title>
+		<title><![CDATA[Veelgestelde vragen]]></title>
 		<link>http://demobvbempty.local/veelgestelde-vragen/</link>
 		<pubDate>Wed, 24 Feb 2021 12:17:20 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3807,6 +3951,8 @@ Omnikassa</h2>
 		<wp:post_id>357</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:17:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:17:20]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 20:41:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 20:41:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[veelgestelde-vragen]]></wp:post_name>
@@ -3870,7 +4016,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Vacatures</title>
+		<title><![CDATA[Vacatures]]></title>
 		<link>http://demobvbempty.local/vacatures/</link>
 		<pubDate>Wed, 24 Feb 2021 12:17:20 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3907,6 +4053,8 @@ Omnikassa</h2>
 		<wp:post_id>358</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:17:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:17:20]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:12:38]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:12:38]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[vacatures]]></wp:post_name>
@@ -3978,7 +4126,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Algemene Voorwaarden</title>
+		<title><![CDATA[Algemene Voorwaarden]]></title>
 		<link>http://demobvbempty.local/algemene-voorwaarden/</link>
 		<pubDate>Wed, 24 Feb 2021 12:32:34 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -3990,6 +4138,8 @@ Omnikassa</h2>
 		<wp:post_id>377</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 12:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 12:32:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 13:11:25]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-24 13:11:25]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[algemene-voorwaarden]]></wp:post_name>
@@ -4057,7 +4207,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Privacy- en Cookiebeleid</title>
+		<title><![CDATA[Privacy- en Cookiebeleid]]></title>
 		<link>http://demobvbempty.local/privacy-en-cookiebeleid/</link>
 		<pubDate>Wed, 24 Feb 2021 13:15:24 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4069,6 +4219,8 @@ Omnikassa</h2>
 		<wp:post_id>426</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 13:15:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 13:15:24]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-24 13:20:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-24 13:20:08]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[privacy-en-cookiebeleid]]></wp:post_name>
@@ -4136,7 +4288,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Winkel</title>
+		<title><![CDATA[Winkel]]></title>
 		<link>http://demobvbempty.local/shop/</link>
 		<pubDate>Wed, 24 Feb 2021 14:51:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4147,6 +4299,8 @@ Omnikassa</h2>
 		<wp:post_id>565</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 14:51:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 14:51:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 10:10:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 10:10:48]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[shop]]></wp:post_name>
@@ -4178,7 +4332,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Winkelmandje</title>
+		<title><![CDATA[Winkelmandje]]></title>
 		<link>http://demobvbempty.local/cart-winkelmanje/</link>
 		<pubDate>Wed, 24 Feb 2021 14:51:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4193,6 +4347,8 @@ Omnikassa</h2>
 		<wp:post_id>566</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 14:51:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 14:51:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:27:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:27:52]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[cart-winkelmanje]]></wp:post_name>
@@ -4252,7 +4408,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Betaalpagina</title>
+		<title><![CDATA[Betaalpagina]]></title>
 		<link>http://demobvbempty.local/checkout/</link>
 		<pubDate>Wed, 24 Feb 2021 14:51:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4263,6 +4419,8 @@ Omnikassa</h2>
 		<wp:post_id>567</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 14:51:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 14:51:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 10:10:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 10:10:20]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[checkout]]></wp:post_name>
@@ -4282,7 +4440,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title></title>
+		<title><![CDATA[]]></title>
 		<link>http://demobvbempty.local/1629/</link>
 		<pubDate>Thu, 25 Feb 2021 21:31:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4293,6 +4451,8 @@ Omnikassa</h2>
 		<wp:post_id>1629</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 21:31:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:32:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:32:12]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[1629]]></wp:post_name>
@@ -4337,8 +4497,8 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Inloggen</title>
-		<link>http://demobvbempty.local/mijn-account__trashed/</link>
+		<title><![CDATA[Inloggen]]></title>
+		<link>http://demobvbempty.local/?page_id=56</link>
 		<pubDate>Mon, 22 Feb 2021 14:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
 		<guid isPermaLink="false">http://demobvbempty.local/?page_id=56</guid>
@@ -4350,6 +4510,8 @@ Omnikassa</h2>
 		<wp:post_id>56</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-22 14:24:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-22 14:24:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:26:35]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:26:35]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[mijn-account__trashed]]></wp:post_name>
@@ -4425,7 +4587,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Mijn account</title>
+		<title><![CDATA[Mijn account]]></title>
 		<link>http://demobvbempty.local/my-account/</link>
 		<pubDate>Wed, 24 Feb 2021 14:51:16 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4440,6 +4602,8 @@ Omnikassa</h2>
 		<wp:post_id>568</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-24 14:51:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-24 14:51:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:26:58]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:26:58]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[my-account]]></wp:post_name>
@@ -4499,7 +4663,7 @@ Omnikassa</h2>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>5kg Groente &amp; Fruit</title>
+		<title><![CDATA[5kg Groente & Fruit]]></title>
 		<link>http://demobvbempty.local/product/5kg-groente-fruit/</link>
 		<pubDate>Thu, 25 Feb 2021 09:21:59 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4528,6 +4692,8 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		<wp:post_id>684</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 09:21:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 09:21:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 10:05:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 10:05:12]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[5kg-groente-fruit]]></wp:post_name>
@@ -4637,7 +4803,7 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>5kg Groente &amp; Fruit</title>
+		<title><![CDATA[5kg Groente & Fruit]]></title>
 		<link>http://demobvbempty.local/product/5kg-groente-fruit/</link>
 		<pubDate>Thu, 25 Feb 2021 09:55:53 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4648,6 +4814,8 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		<wp:post_id>691</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 09:55:53]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 09:55:53]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 09:56:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 09:56:40]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[5kg-groente-fruit]]></wp:post_name>
@@ -4743,7 +4911,7 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>PDF seizoen producten</title>
+		<title><![CDATA[PDF seizoen producten]]></title>
 		<link>http://demobvbempty.local/link-pdf-seizoen-producten/</link>
 		<pubDate>Thu, 25 Feb 2021 12:46:20 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4760,6 +4928,8 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		<wp:post_id>840</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 12:46:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 12:46:20]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:28:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:28:54]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[link-pdf-seizoen-producten]]></wp:post_name>
@@ -4811,7 +4981,7 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Doneer</title>
+		<title><![CDATA[Doneer]]></title>
 		<link>http://demobvbempty.local/doneer-pagina/</link>
 		<pubDate>Thu, 25 Feb 2021 14:21:56 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4824,6 +4994,8 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		<wp:post_id>941</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 14:21:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 14:21:56]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 15:41:06]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 15:41:06]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[doneer-pagina]]></wp:post_name>
@@ -4891,7 +5063,7 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>vacature open sollicitatie</title>
+		<title><![CDATA[vacature open sollicitatie]]></title>
 		<link>http://demobvbempty.local/elementor-1597/</link>
 		<pubDate>Thu, 25 Feb 2021 21:07:34 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -4912,6 +5084,8 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		<wp:post_id>1597</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 21:07:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 21:07:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 21:11:58]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 21:11:58]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[elementor-1597]]></wp:post_name>
@@ -4979,7 +5153,7 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Voor bedrijven</title>
+		<title><![CDATA[Voor bedrijven]]></title>
 		<link>http://demobvbempty.local/voor-bedrijven/</link>
 		<pubDate>Thu, 25 Feb 2021 21:31:32 +0000</pubDate>
 		<dc:creator><![CDATA[sharonh]]></dc:creator>
@@ -5012,6 +5186,8 @@ Dit is een doorlopende actie van Stadspas Amsterdam en Gemeente Almere!]]></exce
 		<wp:post_id>1626</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-25 21:31:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-02-25 21:31:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-02-25 22:02:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-02-25 22:02:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[voor-bedrijven]]></wp:post_name>
